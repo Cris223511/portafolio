@@ -16,7 +16,7 @@ const HeaderSocial = () => {
         <a href="https://www.instagram.com/cris223511" target="_blank"><BsInstagram/></a>
         <a href="https://www.facebook.com/cris223511" target="_blank"><BsFacebook/></a>
         <a href="https://www.youtube.com/channel/UC9CdEoE4egh0uHrHMn7J5lA" target="_blank"><BsYoutube/></a>
-        <a href="https://github.com/cris223511" target="_blank"><BiCode/></a>
+        <a href="https://github.com/cris223511/portafolio" target="_blank"><BiCode/></a>
     </div>
   )
 }
