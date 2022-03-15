@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+    #mostrar {display:none;}
+    #mostrar2 {display:none;}
+    #mostrar3 {display:none;}
+
+    #btn2 {display:none;}
+    #btn3 {display:none;}
+    </style>
+    
+    <article>
+        <a id="btn">ver mas 1</a>
+        <div id="mostrar">
+            ......................
+        </div>
+
+        <a id="btn2">ver mas 2</a>
+        <div id="mostrar2">
+            ......................
+        </div>
+
+        <a id="btn3">ver menos</a>
+    </article>
+    
+    <script>
+        document.getElementById("btn").addEventListener("click", function() {
+        document.getElementById("mostrar").style.display="block";
+        document.getElementById("btn2").style.display="block";
+        });
+        document.getElementById("btn2").addEventListener("click", function() {
+        document.getElementById("mostrar2").style.display="block";
+        document.getElementById("btn3").style.display="block";
+        });
+        document.getElementById("btn3").addEventListener("click", function() {
+        document.getElementById("mostrar").style.display="none";
+        document.getElementById("mostrar2").style.display="none";
+        document.getElementById("btn2").style.display="none";
+        document.getElementById("btn3").style.display="none";
+        });
+    </script>
+</body>
+</html>

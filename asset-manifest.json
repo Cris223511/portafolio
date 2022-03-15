@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portafolio/static/css/main.1a8edb7a.css",
+    "main.js": "/portafolio/static/js/main.da17aa82.js",
+    "static/media/CV_Christopher_Antonio_Pillihuaman_ES.pdf": "/portafolio/static/media/CV_Christopher_Antonio_Pillihuaman_ES.676da514e65654429235.pdf",
+    "static/media/me.png": "/portafolio/static/media/me.821ecddcb9953b46bf75.png",
+    "static/media/me-about.jpg": "/portafolio/static/media/me-about.fb4452e7f286d3636ef9.jpg",
+    "static/media/educacion3.jpeg": "/portafolio/static/media/educacion3.01bbb2e402ce6108ba3e.jpeg",
+    "static/media/educacion1.jpeg": "/portafolio/static/media/educacion1.bed8e9c56f2721062f2b.jpeg",
+    "static/media/portfolio3.png": "/portafolio/static/media/portfolio3.a82ae9a163c1ac5e3a07.png",
+    "static/media/educacion2.jpeg": "/portafolio/static/media/educacion2.ef6348e267ef80d65320.jpeg",
+    "static/media/educacion5.jpeg": "/portafolio/static/media/educacion5.07dce3166e9fb0dd1e4e.jpeg",
+    "static/media/portfolio2.jpg": "/portafolio/static/media/portfolio2.ae187bc4e43ae6dbc263.jpg",
+    "static/media/portfolio4.jpg": "/portafolio/static/media/portfolio4.72d1107e313049cf15a7.jpg",
+    "static/media/portfolio1.jpg": "/portafolio/static/media/portfolio1.f5e72352e5aa840702b8.jpg",
+    "static/media/educacion4.jpeg": "/portafolio/static/media/educacion4.8bb5ebcf182e49fd5abe.jpeg",
+    "index.html": "/portafolio/index.html",
+    "main.1a8edb7a.css.map": "/portafolio/static/css/main.1a8edb7a.css.map",
+    "main.da17aa82.js.map": "/portafolio/static/js/main.da17aa82.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a8edb7a.css",
+    "static/js/main.da17aa82.js"
+  ]
+}
