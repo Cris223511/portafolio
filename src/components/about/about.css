@@ -29,6 +29,11 @@
     transform: rotate(0);
 }
 
+.about__me-image img{
+    -webkit-user-select: none;
+    user-select: none;
+}
+
 .about__cards{
     display: grid;
     grid-template-columns: repeat(3, 1fr);

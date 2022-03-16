@@ -11,10 +11,10 @@ import {BiCode} from 'react-icons/bi'
 const Footer = () => {
   return (
     <footer>
-      <a href="/#" className='footer__logo'>Christopher PS</a>
+      <a href="#home" className='footer__logo'>Christopher PS</a>
 
       <ul className='permalinks'>
-        <li><a href="#">Inicio</a></li>
+        <li><a href="#home">Inicio</a></li>
         <li><a href="#about">Acerca de</a></li>
         <li><a href="#experience">Experiencia</a></li>
         <li><a href="#education">Educación</a></li>

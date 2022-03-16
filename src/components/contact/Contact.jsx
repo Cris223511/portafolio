@@ -13,6 +13,8 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs.sendForm('service_3y7hmil', 'template_ejc4td7', form.current, 'UmJNbx2HMtvY1-TGx')
+
+    e.target.reset()
   };
 
   return (
@@ -40,14 +42,14 @@ const Contact = () => {
             <BsWhatsapp className='contact__option-icon'/>
             <h4>WhatsApp</h4>
             <h5>+51 973 182 294</h5>
-            <a href="whatsapp://send?text=¡Hola!, mucho gusto 🤝, me llamó mucho la atención tu portafolio web ✨, quiero contactarme contigo 🙂.&phone=+51 973 182 294" target="_blank">Enviar un mensaje</a>
+            <a href="whatsapp://send?text=¡Hola!, mucho gusto 🤝, me llamó mucho la atención tu portafolio web, quiero contactarme contigo.&phone=+51 973 182 294" target="_blank">Enviar un mensaje</a>
           </article>
         </div>
 
         <form ref={form} onSubmit={sendEmail}>
           <input type="text" name='name' placeholder='¿Cuáles son tus nombres?' required/>
           <input type="email" name='email' placeholder='¿Cuál es tu correo electrónico?' required/>
-          <textarea name='message' rows="7" placeholder='Escribe tu mensaje.' required></textarea>
+          <textarea name='message' rows="7" placeholder='Escribe tu mensaje.' required minLength='20' maxLength='500'></textarea>
           <button type='submit' className='btn btn-primary'>Enviar Mensaje</button>
         </form>
       </div>

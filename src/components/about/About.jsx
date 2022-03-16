@@ -13,7 +13,7 @@ const About = () => {
       <div className='container about__container'>
         <div className='about__me'>
           <div className='about__me-image'>
-            <img src={ME} alt="About" />
+            <img unselectable='on' src={ME} alt="About" />
           </div>
         </div>
 
@@ -21,7 +21,7 @@ const About = () => {
           <div className='about__cards'>
            <article className='about__card'>
              <GiBrain className='about__icon'/>
-             <h5>Experiencia</h5>
+             <h5>Habilidades</h5>
              <small>4+ años programando</small>
            </article>
            <article className='about__card'>

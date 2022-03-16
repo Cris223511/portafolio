@@ -247,7 +247,7 @@ const Portfolio = () => {
       </div>
 
       <div className='ver__mas' id='btn3'>
-        <a className='btn btn-primary' onClick={()=>funcion3()}>Ver Menos</a>
+        <a href='#portfolio' className='btn btn-primary' onClick={()=>funcion3()}>Ver Menos</a>
       </div>
     </section>
   )
