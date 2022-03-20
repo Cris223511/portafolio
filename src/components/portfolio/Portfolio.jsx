@@ -176,6 +176,7 @@ const Portfolio = () => {
 
       <div className='ver__mas' id='btn2'>
         <a className='btn btn-primary' onClick={()=>funcion2()}>Ver Más Proyectos</a>
+        <a href='#portfolio' className='btn btn-primary' onClick={()=>funcion3()}>Ver Menos</a>
       </div>
 
       <div className='container portfolio__container' id='contenedor3'>
