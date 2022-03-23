@@ -32,6 +32,7 @@ const Portfolio = () => {
   return (
     <section id='portfolio'>
       <h5>¿Cuáles son mis proyectos?</h5>
+      <h5>Próximamente se irá actualizando esta sección</h5>
       <h2>Mis Proyectos</h2>
 
       <div className='container portfolio__container' id='contenedor1'>
