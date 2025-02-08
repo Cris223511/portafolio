@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portafolio/static/css/main.46b86755.css",
-    "main.js": "/portafolio/static/js/main.0a7ed3d1.js",
+    "main.js": "/portafolio/static/js/main.047686cd.js",
     "static/media/CV_Christopher_Antonio_Pillihuaman_ES.pdf": "/portafolio/static/media/CV_Christopher_Antonio_Pillihuaman_ES.e6cf13975b9c542b1b7c.pdf",
     "static/media/me.png": "/portafolio/static/media/me.133f9af054175e7f6677.png",
     "static/media/me-about.jpg": "/portafolio/static/media/me-about.a40abafb6123a1101907.jpg",
@@ -16,10 +16,10 @@
     "static/media/educacion4.jpeg": "/portafolio/static/media/educacion4.8bb5ebcf182e49fd5abe.jpeg",
     "index.html": "/portafolio/index.html",
     "main.46b86755.css.map": "/portafolio/static/css/main.46b86755.css.map",
-    "main.0a7ed3d1.js.map": "/portafolio/static/js/main.0a7ed3d1.js.map"
+    "main.047686cd.js.map": "/portafolio/static/js/main.047686cd.js.map"
   },
   "entrypoints": [
     "static/css/main.46b86755.css",
-    "static/js/main.0a7ed3d1.js"
+    "static/js/main.047686cd.js"
   ]
 }
