@@ -13,7 +13,7 @@
 ---
 
 <h2 align="center">Socials</h2></p>
-<i><p align="center">We invite you to visit my social networks, I would really appreciate it.</p></i>
+<i><p align="center">I invite you to visit my social media, I would really appreciate it.</p></i>
   
 <p align="center">
 <a href="https://fb.com/cris223511" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="cris223511" height="30" width="40" /></a>
