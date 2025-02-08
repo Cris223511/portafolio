@@ -1,12 +1,21 @@
+<p align="center">
+  <img width="120" src="https://user-images.githubusercontent.com/6661165/91657958-61b4fd00-eb00-11ea-9def-dc7ef5367e34.png" />
+  <h2 align="center">Portfolio</h2>
+</p>
+
+<i><p align="center">Here I will be updating all my repositories of the work that I will be doing day by day.</p></i>
+
+---
+
 <i><p aligh="justify">
-- En este repositorio está el proyecto de mi portafolio web personal, donde hay información sobre mí, mis proyectos realizados, datos de contacto y mucho más.
+- This repository contains my personal web portfolio project, where there is information about me, my completed projects, contact information and much more.
 - Si estás interesado en contactarme, hazlo en mi portafolio web, en la sección de contacto.
 
 ---
 
 <p align="center"><img width="120" src="https://user-images.githubusercontent.com/6661165/91657958-61b4fd00-eb00-11ea-9def-dc7ef5367e34.png" />
-<h2 align="center">Redes sociales</h2></p>
-<i><p align="center">Te invito a que pases por mis redes sociales, te lo agradecería bastante.</p></i>
+<h2 align="center">Socials</h2></p>
+<i><p align="center">We invite you to visit my social networks, I would really appreciate it.</p></i>
   
 <p align="center">
 <a href="https://fb.com/cris223511" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="cris223511" height="30" width="40" /></a>
