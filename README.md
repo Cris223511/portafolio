@@ -3,13 +3,12 @@
   <h2 align="center">Portfolio</h2>
 </p>
 
-<i><p align="center">Here I will be updating all my repositories of the work that I will be doing day by day.</p></i>
-
----
-
-<i><p aligh="justify">
-- This repository contains my personal web portfolio project, where there is information about me, my completed projects, contact information and much more.
-- Si estás interesado en contactarme, hazlo en mi portafolio web, en la sección de contacto.
+<i>
+    <p align="center">
+        This repository contains my personal web portfolio project, where there is information about me, my completed projects, contact information and much more.
+        If you are interested in contacting me, please do so in my web portfolio, in the contact section.
+    </p>
+</i>
 
 ---
 
