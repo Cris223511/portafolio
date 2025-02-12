@@ -1,4 +1,4 @@
-nav{
+nav {
     background: rgba(0, 0, 0, 0.3);
     width: max-content;
     display: block;
@@ -14,7 +14,7 @@ nav{
     backdrop-filter: blur(15px);
 }
 
-nav a{
+nav a {
     background: transparent;
     padding: 0.9rem;
     border-radius: 50%;

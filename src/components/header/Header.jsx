@@ -3,22 +3,23 @@ import './header.css'
 import CTA from './CTA'
 import ME from '../../assets/me.png'
 import HeaderSocial from './HeaderSocial'
+import { scrollToSection } from '../../utils/smoothScroll';
 
 const Header = () => {
   return (
     <header>
       <div id='header' className="container header__container">
-        <h5>Hola, mi nombre es</h5>
-        <h1>Christopher Pillihuamán</h1>
-        <h5 className="text-light">Ingeniería de Sistemas de la información</h5>
-        <CTA/>
-        <HeaderSocial/>
+        <h5 style={{ paddingTop: '30px' }}>Hola, mi nombre es</h5>
+        <h1>Christopher</h1>
+        <h5 className="text-light">Ingeniero de Sistemas de la Información</h5>
+        <CTA />
+        <HeaderSocial />
 
         <div className="me">
           <img unselectable='on' src={ME} alt="me" />
         </div>
 
-        <a href="#contact" className='scroll__down'>Ir abajo</a>
+        <a href="#footer" className='scroll__down' onClick={(e) => { e.preventDefault(); scrollToSection('footer'); }}>Ir abajo</a>
       </div>
     </header>
   )
