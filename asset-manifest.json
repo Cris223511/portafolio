@@ -1,25 +1,42 @@
 {
   "files": {
-    "main.css": "/portafolio/static/css/main.5001778c.css",
-    "main.js": "/portafolio/static/js/main.a828031f.js",
+    "main.css": "/portafolio/static/css/main.35c983d2.css",
+    "main.js": "/portafolio/static/js/main.9027ce73.js",
     "static/media/CV_Christopher_Antonio_Pillihuaman_ES.pdf": "/portafolio/static/media/CV_Christopher_Antonio_Pillihuaman_ES.e6cf13975b9c542b1b7c.pdf",
+    "static/media/proyect-19.jpg": "/portafolio/static/media/proyect-19.647656dbcf69373ecdcb.jpg",
+    "static/media/proyect-7.jpg": "/portafolio/static/media/proyect-7.6d196a1c6c08813325d6.jpg",
+    "static/media/proyect-5.jpg": "/portafolio/static/media/proyect-5.6a755d1e457051781ffa.jpg",
+    "static/media/proyect-3.jpg": "/portafolio/static/media/proyect-3.c208a380e146f0be58bb.jpg",
+    "static/media/proyect-9.jpg": "/portafolio/static/media/proyect-9.84aae53e069bd864b616.jpg",
+    "static/media/proyect-18.jpg": "/portafolio/static/media/proyect-18.3fcb5eafe88f7a1b234f.jpg",
+    "static/media/proyect-13.jpg": "/portafolio/static/media/proyect-13.51782326bc5fdc3cdc67.jpg",
+    "static/media/proyect-6.jpg": "/portafolio/static/media/proyect-6.d244d5b15ab368576990.jpg",
+    "static/media/proyect-12.jpg": "/portafolio/static/media/proyect-12.eac7429c7dba7ee19da7.jpg",
+    "static/media/proyect-10.jpg": "/portafolio/static/media/proyect-10.a237419166d418be51d5.jpg",
+    "static/media/proyect-17.jpg": "/portafolio/static/media/proyect-17.4b5fbeb787ef8bd5b924.jpg",
+    "static/media/proyect-1.jpg": "/portafolio/static/media/proyect-1.3cf76fa091f16761dd28.jpg",
+    "static/media/proyect-11.jpg": "/portafolio/static/media/proyect-11.9c214489ea0dbb3ce242.jpg",
+    "static/media/proyect-4.jpg": "/portafolio/static/media/proyect-4.578cc66554df10d09ce9.jpg",
+    "static/media/proyect-8.jpg": "/portafolio/static/media/proyect-8.e8da9586efa7fb9d3c28.jpg",
+    "static/media/proyect-20.jpg": "/portafolio/static/media/proyect-20.1bc909d35ce1f66c28db.jpg",
+    "static/media/proyect-2.jpg": "/portafolio/static/media/proyect-2.ee394d4315f41848ba52.jpg",
+    "static/media/proyect-16.jpg": "/portafolio/static/media/proyect-16.c938ca902d40fb99d7e9.jpg",
+    "static/media/proyect-14.jpg": "/portafolio/static/media/proyect-14.60880bf30363eebb61ad.jpg",
+    "static/media/proyect-15.jpg": "/portafolio/static/media/proyect-15.0e3d10d8fbfbe8429b48.jpg",
     "static/media/me.png": "/portafolio/static/media/me.133f9af054175e7f6677.png",
     "static/media/me-about.jpg": "/portafolio/static/media/me-about.a40abafb6123a1101907.jpg",
     "static/media/educacion3.jpeg": "/portafolio/static/media/educacion3.01bbb2e402ce6108ba3e.jpeg",
     "static/media/educacion1.jpeg": "/portafolio/static/media/educacion1.bed8e9c56f2721062f2b.jpeg",
-    "static/media/portfolio3.png": "/portafolio/static/media/portfolio3.a82ae9a163c1ac5e3a07.png",
     "static/media/educacion2.jpeg": "/portafolio/static/media/educacion2.ef6348e267ef80d65320.jpeg",
     "static/media/educacion5.jpeg": "/portafolio/static/media/educacion5.07dce3166e9fb0dd1e4e.jpeg",
-    "static/media/portfolio2.jpg": "/portafolio/static/media/portfolio2.ae187bc4e43ae6dbc263.jpg",
-    "static/media/portfolio4.jpg": "/portafolio/static/media/portfolio4.72d1107e313049cf15a7.jpg",
-    "static/media/portfolio1.jpg": "/portafolio/static/media/portfolio1.f5e72352e5aa840702b8.jpg",
+    "static/media/work.jpg": "/portafolio/static/media/work.20b9334c286adf637fde.jpg",
     "static/media/educacion4.jpeg": "/portafolio/static/media/educacion4.8bb5ebcf182e49fd5abe.jpeg",
     "index.html": "/portafolio/index.html",
-    "main.5001778c.css.map": "/portafolio/static/css/main.5001778c.css.map",
-    "main.a828031f.js.map": "/portafolio/static/js/main.a828031f.js.map"
+    "main.35c983d2.css.map": "/portafolio/static/css/main.35c983d2.css.map",
+    "main.9027ce73.js.map": "/portafolio/static/js/main.9027ce73.js.map"
   },
   "entrypoints": [
-    "static/css/main.5001778c.css",
-    "static/js/main.a828031f.js"
+    "static/css/main.35c983d2.css",
+    "static/js/main.9027ce73.js"
   ]
 }
