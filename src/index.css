@@ -115,6 +115,7 @@ a:hover {
     transition: var(--transition);
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
+    background-color: transparent;
 }
 
 .btn:hover {

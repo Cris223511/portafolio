@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 50% 35%;
     gap: 15%;
+    align-items: start;
 }
 
 .work__me {
@@ -11,6 +12,12 @@
     background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
     display: grid;
     place-items: center;
+    align-self: start;
+}
+
+.work__me.sticky {
+    position: sticky;
+    top: 50px;
 }
 
 .work__me-image {
@@ -29,7 +36,6 @@
     user-select: none;
 }
 
-/* Solución para evitar el retraso en la carga */
 .work__content {
     position: relative;
     opacity: 0;
@@ -45,7 +51,6 @@
     pointer-events: none;
 }
 
-/* Mejorando la transición de la expansión */
 .work__text {
     max-height: 275px;
     margin: 1rem 0;

@@ -37,6 +37,7 @@ const About = () => {
             </article>
           </div>
           <br />
+          <br />
           <h3>Mi biografía</h3>
           <p>
             Me llamo Christopher Antonio Pillihuamán Santiago, tengo 24 años y vivo en Lima, en el distrito de La Molina.

@@ -38,8 +38,8 @@ const Work = () => {
 
                         En el backend, desarrollamos APIs con <strong>Spring Boot</strong>, estructurando el código en capas: <strong>Controller</strong>, <strong>Service</strong>, <strong>
                         Repository</strong> y <strong>Model</strong>. Los controladores gestionaban las solicitudes HTTP provenientes del frontend, enviando los datos
-                        a la capa de servicio, donde se aplicaba la lógica de negocio. Desde allí, se interactuaba con la base de datos a través de <strong>Spring Data JPA</strong>
-                        y repositorios, permitiendo operaciones CRUD optimizadas sobre <strong>MySQL Workbench</strong>.
+                        a la capa de servicio, donde se aplicaba la lógica de negocio. Desde allí, se interactuaba con la base de datos a través de <strong>Spring Data JPA</strong> y
+                        repositorios, permitiendo operaciones CRUD optimizadas sobre <strong>MySQL Workbench</strong>.
 
                         <br /><br />
 
@@ -60,7 +60,7 @@ const Work = () => {
                     </div>
                 </div>
 
-                <div className='work__me'>
+                <div className={`work__me ${expanded ? 'sticky' : ''}`}>
                     <div className='work__me-image'>
                         <img unselectable='on' src={WORK} alt="Work" />
                     </div>

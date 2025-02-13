@@ -1,11 +1,8 @@
 import React from 'react'
 import './footer.css'
-import { BsLinkedin } from 'react-icons/bs'
-import { BsGithub } from 'react-icons/bs'
-import { BsTwitter } from 'react-icons/bs'
-import { BsInstagram } from 'react-icons/bs'
-import { BsFacebook } from 'react-icons/bs'
-import { BsYoutube } from 'react-icons/bs'
+import { BsLinkedin, BsGithub, BsTwitter, BsInstagram, BsFacebook, BsYoutube } from 'react-icons/bs'
+import { FaStackOverflow } from 'react-icons/fa'
+import { FaReact } from 'react-icons/fa';
 import { scrollToSection } from '../../utils/smoothScroll';
 
 const Footer = () => {
@@ -23,6 +20,7 @@ const Footer = () => {
       </ul>
 
       <div className='footer__socials'>
+        <a href="https://es.stackoverflow.com/users/262104/cris223511-dev" target="_blank" rel="noopener noreferrer"><FaStackOverflow /></a>
         <a href="https://www.linkedin.com/in/cris223511" target="_blank" rel="noopener noreferrer"><BsLinkedin /></a>
         <a href="https://github.com/cris223511" target="_blank" rel="noopener noreferrer"><BsGithub /></a>
         <a href="https://twitter.com/cris223511" target="_blank" rel="noopener noreferrer"><BsTwitter /></a>
@@ -32,7 +30,8 @@ const Footer = () => {
       </div>
 
       <div className='footer__copyright'>
-        <small>&copy; 2025. Hecho por Christopher PS, todos los derechos reservados.</small>
+        <small>&copy; 2025. Hecho por Christopher PS, desarrollado en React.</small>
+        <FaReact className="react-icon"/>
       </div>
     </footer>
   )

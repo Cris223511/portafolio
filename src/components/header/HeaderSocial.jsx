@@ -1,15 +1,12 @@
 import React from 'react'
-import { BsLinkedin } from 'react-icons/bs'
-import { BsGithub } from 'react-icons/bs'
-import { BsTwitter } from 'react-icons/bs'
-import { BsInstagram } from 'react-icons/bs'
-import { BsFacebook } from 'react-icons/bs'
-import { BsYoutube } from 'react-icons/bs'
+import { BsLinkedin, BsGithub, BsTwitter, BsInstagram, BsFacebook, BsYoutube } from 'react-icons/bs'
 import { BiCode } from 'react-icons/bi'
+import { FaStackOverflow } from 'react-icons/fa'
 
 const HeaderSocial = () => {
   return (
     <div className='header__socials'>
+      <a href="https://es.stackoverflow.com/users/262104/cris223511-dev" target="_blank" rel="noopener noreferrer"><FaStackOverflow /></a>
       <a href="https://www.linkedin.com/in/cris223511" target="_blank" rel="noopener noreferrer"><BsLinkedin /></a>
       <a href="https://github.com/cris223511" target="_blank" rel="noopener noreferrer"><BsGithub /></a>
       <a href="https://twitter.com/cris223511" target="_blank" rel="noopener noreferrer"><BsTwitter /></a>

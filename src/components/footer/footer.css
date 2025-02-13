@@ -31,6 +31,7 @@ footer a {
     gap: 0.5rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
+    flex-wrap: wrap;
 }
 
 .footer__socials a {
@@ -53,6 +54,21 @@ footer a {
     margin-top: 2.3rem;
     color: var(--color-bg);
     font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.footer__copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.react-icon {
+    font-size: 1.5rem;
+    color: var(--color-bg);
+    animation: spin 6s linear infinite;
 }
 
 /* ============= MEDIA QUERIES (SMALL DEVICES) ============= */
