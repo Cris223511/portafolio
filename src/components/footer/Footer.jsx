@@ -13,8 +13,9 @@ const Footer = () => {
       <ul className='permalinks'>
         <li><a href="#home" onClick={(e) => { e.preventDefault(); scrollToSection('home'); }}>Inicio</a></li>
         <li><a href="#about" onClick={(e) => { e.preventDefault(); scrollToSection('about'); }}>Acerca de</a></li>
-        <li><a href="#experience" onClick={(e) => { e.preventDefault(); scrollToSection('experience'); }}>Experiencia</a></li>
         <li><a href="#education" onClick={(e) => { e.preventDefault(); scrollToSection('education'); }}>Educación</a></li>
+        <li><a href="#experience" onClick={(e) => { e.preventDefault(); scrollToSection('experience'); }}>Habilidades</a></li>
+        <li><a href="#work" onClick={(e) => { e.preventDefault(); scrollToSection('work'); }}>Experiencia</a></li>
         <li><a href="#portfolio" onClick={(e) => { e.preventDefault(); scrollToSection('portfolio'); }}>Proyectos</a></li>
         <li><a href="#contact" onClick={(e) => { e.preventDefault(); scrollToSection('contact'); }}>Contacto</a></li>
       </ul>

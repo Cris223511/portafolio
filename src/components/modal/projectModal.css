@@ -55,7 +55,7 @@
     background: transparent;
     border: none;
     font-size: 1.4rem;
-    color: var(--color-white);
+    color: var(--color-white) !important;
     cursor: pointer;
 }
 
@@ -105,6 +105,7 @@
     font-weight: 300;
     font-style: italic;
     margin: 1rem 0;
+    margin-bottom: 0;
     overflow: hidden;
     position: relative;
     transition: max-height 0.6s ease-in-out, opacity 0.3s ease-in-out;
@@ -133,7 +134,6 @@
     list-style-type: disc !important;
     list-style-position: inside;
     padding-left: 0.6rem;
-    margin: 0 0 1rem 0;
     color: var(--color-white);
 }
 
@@ -153,7 +153,7 @@
 
 .modal-gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
     gap: 10px;
     padding-top: 10px;
 }
@@ -184,7 +184,7 @@
 
 .lg-outer .lg-thumb-item.active,
 .lg-outer .lg-thumb-item:hover {
-    border-color: #2c2c6c;
+    border-color: var(--color-primary);
 }
 
 /* ============= MEDIA QUERIES (MEDIUM DEVICES) ============= */
