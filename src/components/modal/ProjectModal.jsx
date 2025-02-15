@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import lightGallery from 'lightgallery';
+import lgZoom from 'lightgallery/plugins/zoom';
 import 'lightgallery/css/lightgallery.css';
 import 'lightgallery/css/lg-zoom.css';
 import 'lightgallery/css/lg-thumbnail.css';
@@ -31,10 +32,13 @@ const ProjectModal = ({ project, onClose }) => {
                 selector: '.gallery-item',
                 speed: 500,
                 download: false,
-                plugins: [lgThumbnail],
+                plugins: [lgThumbnail, lgZoom],
                 thumbnail: true,
                 animateThumb: true,
-                showThumbByDefault: true
+                showThumbByDefault: true,
+                zoom: true,
+                scale: 1.5,
+                actualSize: true
             });
         }
     }, [activeStep]);

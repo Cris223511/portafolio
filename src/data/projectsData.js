@@ -10,7 +10,7 @@ const projectsData = [
             developmentTools: ["Herramientas empleadas para el desarrollo y gestión del código fuente:", "VS Code", "GitHub / Git"]
         },
         image: require("../assets/proyect-5.jpg"),
-        gallery: ["subproyects/subproyect_1_1.png", "subproyects/subproyect_1_2.png", "subproyects/subproyect_1_3.png", "subproyects/subproyect_1_4.png", "subproyects/subproyect_1_5.png", "subproyects/subproyect_1_6.png", "subproyects/subproyect_1_7.png"]
+        gallery: ["subproyects/subproyect_1_1.png", "subproyects/subproyect_1_2.png", "subproyects/subproyect_1_3.png", "subproyects/subproyect_1_4.png", "subproyects/subproyect_1_5.png", "subproyects/subproyect_1_6.png", "subproyects/subproyect_1_7.png", "subproyects/subproyect_1_8.png", "subproyects/subproyect_1_9.png"]
     },
     {
         id: 12,
