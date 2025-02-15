@@ -48,7 +48,8 @@ const projectsData = [
             databases: ["Firebase fue utilizado como base de datos en tiempo real para almacenar la información de usuarios, postulaciones y datos de empleo:", "Firebase"],
             developmentTools: ["VS Code fue la herramienta principal de desarrollo, mientras que GitHub se utilizó para el control de versiones:", "VS Code", "GitHub / Git"]
         },
-        image: require('../assets/proyect-1.jpg')
+        image: require('../assets/proyect-1.jpg'),
+        gallery: ["subproyects/subproyect_4_1.png", "subproyects/subproyect_4_2.png", "subproyects/subproyect_4_3.png", "subproyects/subproyect_4_4.png", "subproyects/subproyect_4_5.png", "subproyects/subproyect_4_6.png"]
     },
     {
         id: 2,
@@ -60,7 +61,8 @@ const projectsData = [
             databases: ["Se implementó Firebase para almacenar y gestionar las reservas y la información de los clientes en tiempo real:", "Firebase"],
             developmentTools: ["Herramientas utilizadas para la gestión del código y pruebas de funcionalidad:", "VS Code", "GitHub / Git"]
         },
-        image: require('../assets/proyect-2.jpg')
+        image: require('../assets/proyect-2.jpg'),
+        gallery: ["subproyects/subproyect_6_1.png", "subproyects/subproyect_6_2.png", "subproyects/subproyect_6_3.png", "subproyects/subproyect_6_4.png", "subproyects/subproyect_6_5.png", "subproyects/subproyect_6_6.png"]
     },
     {
         id: 3,
@@ -72,7 +74,8 @@ const projectsData = [
             databases: ["Firebase sirvió para el almacenamiento de formularios enviados por los usuarios y otros datos dinámicos del sitio:", "Firebase"],
             developmentTools: ["VS Code fue el IDE principal, y GitHub se usó para el control de versiones:", "VS Code", "GitHub / Git"]
         },
-        image: require('../assets/proyect-3.jpg')
+        image: require('../assets/proyect-3.jpg'),
+        gallery: ["subproyects/subproyect_5_1.png", "subproyects/subproyect_5_2.png", "subproyects/subproyect_5_3.png", "subproyects/subproyect_5_4.png", "subproyects/subproyect_5_5.png"]
     },
     {
         id: 19,
