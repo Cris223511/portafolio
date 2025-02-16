@@ -87,7 +87,7 @@ const projectsData = [
             databases: [],
             developmentTools: ["Git y GitHub fueron utilizados para el control de versiones, junto con VS Code para el desarrollo:", "VS Code", "GitHub / Git"]
         },
-        image: require('../assets/proyect-19.jpg')
+        image: require('../assets/proyect-19.jpg'),
     },
     {
         id: 10,
@@ -99,7 +99,8 @@ const projectsData = [
             databases: ["El almacenamiento de datos fue gestionado con MySQL Workbench para poder asegurar la persistencia de información de monitoreo:", "MySQL Workbench"],
             developmentTools: ["VS Code fue la herramienta de desarrollo y Postman/JMeter se usaron para testear las API:", "VS Code", "Postman", "JMeter", "Postman", "GitHub / Git"]
         },
-        image: require('../assets/proyect-10.jpg')
+        image: require('../assets/proyect-10.jpg'),
+        gallery: ["subproyects/subproyect_8_1.png", "subproyects/subproyect_8_2.png", "subproyects/subproyect_8_3.png", "subproyects/subproyect_8_4.png", "subproyects/subproyect_8_5.png", "subproyects/subproyect_8_6.png", "subproyects/subproyect_8_7.png", "subproyects/subproyect_8_8.png", "subproyects/subproyect_8_9.png", "subproyects/subproyect_8_10.png", "subproyects/subproyect_8_11.png", "subproyects/subproyect_8_12.png", "subproyects/subproyect_8_13.png", "subproyects/subproyect_8_14.png", "subproyects/subproyect_8_15.png"]
     },
     {
         id: 11,
@@ -111,7 +112,7 @@ const projectsData = [
             databases: ["El almacenamiento de archivos se realizó en un entorno Debian 12, utilizando MySQL en phpMyAdmin y gestionado con Maven:", "Debian 12", "Linux", "MySQL (phpMyAdmin)", "Maven"],
             developmentTools: ["Se realizaron pruebas exhaustivas con Postman y JMeter para garantizar la estabilidad del sistema:", "VS Code", "Postman", "JMeter", "Postman", "GitHub / Git"]
         },
-        image: require('../assets/proyect-11.jpg')
+        image: require('../assets/proyect-11.jpg'),
     },
     {
         id: 13,
@@ -123,7 +124,8 @@ const projectsData = [
             databases: [],
             developmentTools: ["Git y GitHub fueron utilizados para el control de versiones y gestión del código:", "VS Code", "GitHub / Git"]
         },
-        image: require('../assets/proyect-13.jpg')
+        image: require('../assets/proyect-13.jpg'),
+        gallery: ["subproyects/subproyect_10_1.png", "subproyects/subproyect_10_2.png", "subproyects/subproyect_10_3.png", "subproyects/subproyect_10_4.png", "subproyects/subproyect_10_5.png", "subproyects/subproyect_10_6.png", "subproyects/subproyect_10_7.png", "subproyects/subproyect_10_8.png", "subproyects/subproyect_10_9.png", "subproyects/subproyect_10_10.png", "subproyects/subproyect_10_11.png", "subproyects/subproyect_10_12.png"]
     },
     {
         id: 4,
@@ -135,7 +137,8 @@ const projectsData = [
             databases: [],
             developmentTools: ["El proyecto fue desarrollado en VS Code y gestionado con GitHub para control de versiones:", "VS Code", "GitHub / Git"]
         },
-        image: require('../assets/proyect-4.jpg')
+        image: require('../assets/proyect-4.jpg'),
+        gallery: ["subproyects/subproyect_11_1.png", "subproyects/subproyect_11_2.png", "subproyects/subproyect_11_3.png", "subproyects/subproyect_11_4.png", "subproyects/subproyect_11_5.png", "subproyects/subproyect_11_6.png", "subproyects/subproyect_11_7.png", "subproyects/subproyect_11_8.png", "subproyects/subproyect_11_9.png", "subproyects/subproyect_11_10.png"]
     },
     {
         id: 7,
@@ -147,7 +150,8 @@ const projectsData = [
             databases: ["Para almacenar la información de las mascotas, usuarios y solicitudes de adopción, se utilizó:", "MySQL Workbench"],
             developmentTools: ["Para tener un control de versiones y pruebas de funcionamiento, se utilizó:", "NetBeans", "GitHub / Git"]
         },
-        image: require('../assets/proyect-7.jpg')
+        image: require('../assets/proyect-7.jpg'),
+        gallery: ["subproyects/subproyect_12_1.png", "subproyects/subproyect_12_2.png", "subproyects/subproyect_12_3.png", "subproyects/subproyect_12_4.png", "subproyects/subproyect_12_5.png", "subproyects/subproyect_12_6.png", "subproyects/subproyect_12_7.png", "subproyects/subproyect_12_8.png", "subproyects/subproyect_12_9.png", "subproyects/subproyect_12_10.png", "subproyects/subproyect_12_11.png"]
     },
     {
         id: 9,
@@ -159,7 +163,8 @@ const projectsData = [
             databases: ["Se utilizó Oracle como base de datos para almacenar la información de usuarios, mascotas y solicitudes de adopción:", "Oracle"],
             developmentTools: ["El desarrollo se realizó en Eclipse, con GitHub para el control de versiones y la colaboración en el código:", "Eclipse", "GitHub / Git"]
         },
-        image: require("../assets/proyect-9.jpg")
+        image: require("../assets/proyect-9.jpg"),
+        gallery: ["subproyects/subproyect_13_1.png", "subproyects/subproyect_13_2.png", "subproyects/subproyect_13_3.png", "subproyects/subproyect_13_4.png", "subproyects/subproyect_13_5.png", "subproyects/subproyect_13_6.png", "subproyects/subproyect_13_7.png", "subproyects/subproyect_13_8.png", "subproyects/subproyect_13_9.png", "subproyects/subproyect_13_10.png"]
     },
     {
         id: 8,
@@ -171,7 +176,8 @@ const projectsData = [
             databases: [],
             developmentTools: ["Para el diseño de circuitos y pruebas se emplearon herramientas de simulación como Tinkercad y Proteus, además de pruebas físicas con componentes electrónicos:", "Arduino IDE", "Tinkercad", "Proteus"]
         },
-        image: require('../assets/proyect-8.jpg')
+        image: require('../assets/proyect-8.jpg'),
+        gallery: ["subproyects/subproyect_14_1.png", "subproyects/subproyect_14_2.png", "subproyects/subproyect_14_3.png", "subproyects/subproyect_14_4.png", "subproyects/subproyect_14_5.png", "subproyects/subproyect_14_6.png", "subproyects/subproyect_14_7.png", "subproyects/subproyect_14_8.png", "subproyects/subproyect_14_9.png", "subproyects/subproyect_14_10.png", "subproyects/subproyect_14_11.png"]
     },
     {
         id: 15,
@@ -207,7 +213,7 @@ const projectsData = [
             databases: ["Los registros de pagos y transacciones se almacenan de manera estructurada:", "MySQL Workbench"],
             developmentTools: ["Se usaron herramientas para desarrollo, control de versiones y pruebas:", "VS Code", "GitHub / Git", "JMeter", "Postman"]
         },
-        image: require('../assets/proyect-17.jpg')
+        image: require('../assets/proyect-17.jpg'),
     },
     {
         id: 18,
@@ -219,7 +225,7 @@ const projectsData = [
             databases: ["Gestión centralizada de stock y movimientos de productos:", "MySQL Workbench"],
             developmentTools: ["Se usaron herramientas para optimizar desarrollo y pruebas de rendimiento:", "VS Code", "GitHub / Git", "JMeter", "Postman"]
         },
-        image: require('../assets/proyect-18.jpg')
+        image: require('../assets/proyect-18.jpg'),
     },
     {
         id: 20,
@@ -231,7 +237,7 @@ const projectsData = [
             databases: ["Los registros de ventas e inventarios se almacenan de forma estructurada:", "MySQL Server"],
             developmentTools: ["Herramientas para desarrollo, control de código y pruebas del sistema:", "VS Code", "GitHub / Git", "JMeter", "Postman"]
         },
-        image: require('../assets/proyect-20.jpg')
+        image: require('../assets/proyect-20.jpg'),
     },
     {
         id: 6,

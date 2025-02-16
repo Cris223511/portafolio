@@ -56,7 +56,6 @@ const ProjectModal = ({ project, onClose }) => {
             <div className="modal-container">
                 <button className="modal-close" onClick={handleClose}>✖</button>
                 <h2>{project.title}</h2>
-
                 <div className="modal-content">
                     <div className="modal-sidebar">
                         {defaultSteps.map((step) => (
