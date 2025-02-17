@@ -191,7 +191,8 @@ const projectsData = [
             databases: ["Los datos de productos, ventas y usuarios se estructuraron para optimizar consultas y garantizar integridad:", "MySQL Workbench"],
             developmentTools: ["Se utilizaron herramientas para desarrollo, control de versiones y pruebas de carga en las APIs:", "VS Code", "GitHub / Git", "JMeter", "Postman"]
         },
-        image: require("../assets/proyect-15.jpg")
+        image: require("../assets/proyect-15.jpg"),
+        gallery: ["subproyects/subproyect_15_1.png", "subproyects/subproyect_15_2.png", "subproyects/subproyect_15_3.png", "subproyects/subproyect_15_4.png", "subproyects/subproyect_15_5.png", "subproyects/subproyect_15_6.png", "subproyects/subproyect_15_7.png", "subproyects/subproyect_15_8.png", "subproyects/subproyect_15_9.png", "subproyects/subproyect_15_10.png", "subproyects/subproyect_15_11.png", "subproyects/subproyect_15_12.png", "subproyects/subproyect_15_13.png", "subproyects/subproyect_15_14.png", "subproyects/subproyect_15_15.png", "subproyects/subproyect_15_16.png", "subproyects/subproyect_15_17.png", "subproyects/subproyect_15_18.png", "subproyects/subproyect_15_19.png", "subproyects/subproyect_15_20.png", "subproyects/subproyect_15_21.png", "subproyects/subproyect_15_22.png"]
     },
     {
         id: 16,
@@ -203,7 +204,8 @@ const projectsData = [
             databases: ["Se estructuró la base de datos para almacenar y procesar información de ventas, productos y usuarios.", "MySQL Workbench"],
             developmentTools: ["Se utilizaron herramientas para el desarrollo, pruebas de API y control de versiones.", "VS Code", "GitHub / Git", "JMeter", "Postman"]
         },
-        image: require("../assets/proyect-16.jpg")
+        image: require("../assets/proyect-16.jpg"),
+        gallery: ["subproyects/subproyect_16_1.png", "subproyects/subproyect_16_2.png", "subproyects/subproyect_16_3.png", "subproyects/subproyect_16_4.png", "subproyects/subproyect_16_5.png", "subproyects/subproyect_16_6.png", "subproyects/subproyect_16_7.png", "subproyects/subproyect_16_8.png", "subproyects/subproyect_16_9.png", "subproyects/subproyect_16_10.png", "subproyects/subproyect_16_11.png", "subproyects/subproyect_16_12.png", "subproyects/subproyect_16_13.png", "subproyects/subproyect_16_14.png", "subproyects/subproyect_16_15.png", "subproyects/subproyect_16_16.png", "subproyects/subproyect_16_17.png", "subproyects/subproyect_16_18.png", "subproyects/subproyect_16_19.png", "subproyects/subproyect_16_20.png"]
     },
     {
         id: 17,
@@ -216,6 +218,7 @@ const projectsData = [
             developmentTools: ["Se usaron herramientas para desarrollo, control de versiones y pruebas:", "VS Code", "GitHub / Git", "JMeter", "Postman"]
         },
         image: require('../assets/proyect-17.jpg'),
+        gallery: ["subproyects/subproyect_17_1.png", "subproyects/subproyect_17_2.png", "subproyects/subproyect_17_3.png", "subproyects/subproyect_17_4.png", "subproyects/subproyect_17_5.png", "subproyects/subproyect_17_6.png", "subproyects/subproyect_17_7.png", "subproyects/subproyect_17_8.png", "subproyects/subproyect_17_9.png"]
     },
     {
         id: 18,
@@ -228,6 +231,7 @@ const projectsData = [
             developmentTools: ["Se usaron herramientas para optimizar desarrollo y pruebas de rendimiento:", "VS Code", "GitHub / Git", "JMeter", "Postman"]
         },
         image: require('../assets/proyect-18.jpg'),
+        gallery: ["subproyects/subproyect_18_1.png", "subproyects/subproyect_18_2.png", "subproyects/subproyect_18_3.png", "subproyects/subproyect_18_4.png", "subproyects/subproyect_18_5.png", "subproyects/subproyect_18_6.png", "subproyects/subproyect_18_7.png", "subproyects/subproyect_18_8.png", "subproyects/subproyect_18_9.png", "subproyects/subproyect_18_10.png", "subproyects/subproyect_18_11.png"]
     },
     {
         id: 20,
@@ -240,6 +244,7 @@ const projectsData = [
             developmentTools: ["Herramientas para desarrollo, control de código y pruebas del sistema:", "VS Code", "GitHub / Git", "JMeter", "Postman"]
         },
         image: require('../assets/proyect-20.jpg'),
+        gallery: ["subproyects/subproyect_19_1.png", "subproyects/subproyect_19_2.png", "subproyects/subproyect_19_3.png", "subproyects/subproyect_19_4.png", "subproyects/subproyect_19_5.png", "subproyects/subproyect_19_6.png", "subproyects/subproyect_19_7.png", "subproyects/subproyect_19_8.png", "subproyects/subproyect_19_9.png", "subproyects/subproyect_19_10.png", "subproyects/subproyect_19_11.png", "subproyects/subproyect_19_12.png", "subproyects/subproyect_19_13.png", "subproyects/subproyect_19_14.png", "subproyects/subproyect_19_15.png", "subproyects/subproyect_19_16.png", "subproyects/subproyect_19_17.png", "subproyects/subproyect_19_18.png"]
     },
     {
         id: 6,
