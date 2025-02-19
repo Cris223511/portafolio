@@ -17,6 +17,7 @@ const Footer = () => {
         <li><a href="#experience" onClick={(e) => { e.preventDefault(); scrollToSection('experience'); }}>Habilidades</a></li>
         <li><a href="#work" onClick={(e) => { e.preventDefault(); scrollToSection('work'); }}>Experiencia</a></li>
         <li><a href="#portfolio" onClick={(e) => { e.preventDefault(); scrollToSection('portfolio'); }}>Proyectos</a></li>
+        <li><a href="#conferences" onClick={(e) => { e.preventDefault(); scrollToSection('conferences'); }}>Conferencias</a></li>
         <li><a href="#contact" onClick={(e) => { e.preventDefault(); scrollToSection('contact'); }}>Contacto</a></li>
       </ul>
 

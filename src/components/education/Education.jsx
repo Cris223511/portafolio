@@ -28,7 +28,7 @@ const Education = () => {
           <ul className='service__list'>
             <li>
               <FaCalendarAlt className='service__list-icon' />
-              <p>05/03/12 - 19/12/17</p>
+              <p>05/03/12 - 19/12/2017</p>
             </li>
             <li>
               <MdLocationOn className='service__list-icon' />
@@ -58,7 +58,7 @@ const Education = () => {
           <ul className='service__list'>
             <li>
               <FaCalendarAlt className='service__list-icon' />
-              <p>20/03/18 - 19/07/21</p>
+              <p>20/03/18 - 19/07/2021</p>
             </li>
             <li>
               <MdLocationOn className='service__list-icon' />
@@ -84,7 +84,7 @@ const Education = () => {
           <ul className='service__list'>
             <li>
               <FaCalendarAlt className='service__list-icon' />
-              <p>24/01/20 - 26/09/20</p>
+              <p>24/01/20 - 26/09/2020</p>
             </li>
             <li>
               <MdLocationOn className='service__list-icon' />
@@ -110,7 +110,7 @@ const Education = () => {
           <ul className='service__list'>
             <li>
               <FaCalendarAlt className='service__list-icon' />
-              <p>14/10/21 - 01/03/22</p>
+              <p>14/10/21 - 01/03/2022</p>
             </li>
             <li>
               <FaLaptopCode className='service__list-icon' />
@@ -152,7 +152,7 @@ const Education = () => {
             </li>
             <li>
               <ImTrophy className='service__list-icon' />
-              <p>Certificación de Bachiller en Ingeniería de Sistemas.</p>
+              <p>Certificación de Bachillerato en Ingeniería de Sistemas.</p>
             </li>
           </ul>
         </article>

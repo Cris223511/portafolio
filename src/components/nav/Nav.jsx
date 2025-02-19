@@ -5,6 +5,7 @@ import { BiBookBookmark, BiMessageSquareDetail } from 'react-icons/bi';
 import { RiServiceLine } from 'react-icons/ri';
 import { FaToolbox } from 'react-icons/fa';
 import { MdWork } from 'react-icons/md';
+import { GiCapitol } from 'react-icons/gi';
 import { scrollToSection } from '../../utils/smoothScroll';
 
 const Nav = () => {
@@ -18,6 +19,7 @@ const Nav = () => {
       <a href="#experience" onClick={(e) => { e.preventDefault(); setActiveNav('#experience'); scrollToSection('experience'); }} className={activeNav === '#experience' ? 'active' : ''}><RiServiceLine /></a>
       <a href="#work" onClick={(e) => { e.preventDefault(); setActiveNav('#work'); scrollToSection('work'); }} className={activeNav === '#work' ? 'active' : ''}><MdWork /></a>
       <a href="#portfolio" onClick={(e) => { e.preventDefault(); setActiveNav('#portfolio'); scrollToSection('portfolio'); }} className={activeNav === '#portfolio' ? 'active' : ''}><FaToolbox /></a>
+      <a href="#conferences" onClick={(e) => { e.preventDefault(); setActiveNav('#conferences'); scrollToSection('conferences'); }} className={activeNav === '#conferences' ? 'active' : ''}><GiCapitol /></a>
       <a href="#contact" onClick={(e) => { e.preventDefault(); setActiveNav('#contact'); scrollToSection('contact'); }} className={activeNav === '#contact' ? 'active' : ''}><BiMessageSquareDetail /></a>
     </nav>
   );

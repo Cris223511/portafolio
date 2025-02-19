@@ -6,6 +6,7 @@ import Experience from './components/experience/Experience';
 import Education from './components/education/Education';
 import Work from './components/work/Work';
 import Portfolio from './components/portfolio/Portfolio';
+import Conferences from './components/conferences/Conferences';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import Loader from './components/loader/Loader';
@@ -35,6 +36,7 @@ const App = () => {
         <Experience />
         <Work />
         <Portfolio />
+        <Conferences />
         <Contact />
         <Footer />
       </div>

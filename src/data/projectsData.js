@@ -258,7 +258,23 @@ const projectsData = [
         },
         image: require('../assets/proyect-6.jpg'),
         gallery: ["subproyects/subproyect_20_1.png", "subproyects/subproyect_20_2.png", "subproyects/subproyect_20_3.png", "subproyects/subproyect_20_4.png", "subproyects/subproyect_20_5.png"]
+    },
+    {
+        id: 21,
+        title: 'Child’s Play - Plataforma Solidaria para Niños',
+        description: "Child’s Play es una plataforma solidaria diseñada para brindar apoyo a hospitales infantiles a través de la tecnología y los videojuegos. El sitio web ofrece información sobre su misión, productos solidarios y cómo las donaciones ayudan a mejorar la calidad de vida de los niños hospitalizados.<br><br>El desarrollo incluyó una tienda en línea con productos temáticos para permitir a los usuarios explorar y conocer cómo pueden contribuir. También se implementó un formulario de contacto donde los interesados pueden obtener más información sobre la iniciativa.<br><br>La optimización visual y la navegación intuitiva garantizan una experiencia fluida, asegurando que los visitantes comprendan el impacto del proyecto y se sientan motivados a colaborar.",
+        technologies: {
+            frontend: ["El sitio web fue desarrollado con tecnologías enfocadas en la accesibilidad y rendimiento:", "HTML", "CSS", "JavaScript", "Bootstrap 5"],
+            backend: [],
+            databases: [],
+            developmentTools: ["Se emplearon herramientas de desarrollo y control de versiones para la gestión eficiente del código:", "VS Code", "Git", "GitHub"]
+        },
+        image: require('../assets/proyect-21.jpg'),
+        gallery: [
+            "subproyects/subproyect_21_1.png", "subproyects/subproyect_21_2.png", "subproyects/subproyect_21_3.png", "subproyects/subproyect_21_4.png", "subproyects/subproyect_21_5.png", "subproyects/subproyect_21_6.png", "subproyects/subproyect_21_7.png", "subproyects/subproyect_21_8.png", "subproyects/subproyect_21_9.png", "subproyects/subproyect_21_10.png", "subproyects/subproyect_21_11.png", "subproyects/subproyect_21_12.png", "subproyects/subproyect_21_13.png",
+        ]
     }
+
 ];
 
 export default projectsData;
