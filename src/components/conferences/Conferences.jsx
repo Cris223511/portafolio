@@ -49,9 +49,9 @@ const Conferences = () => {
 
   return (
     <section id='conferences'>
-      <h5 style={{ paddingTop: '30px !important' }}>Algunas</h5>
-      <h2 style={{ marginBottom: "8px !important" }}>Conferencias y Eventos</h2>
-      <h5 style={{ marginBottom: "3rem !important" }}>donde he asistido</h5>
+      <h5 style={{ paddingTop: '30px' }}>Algunas</h5>
+      <h2 style={{ marginBottom: "8px" }}>Conferencias y Eventos</h2>
+      <h5 style={{ marginBottom: "3rem" }}>donde he asistido</h5>
       <div className='container conferences__container'>
 
         {/* galería para LightGallery */}
