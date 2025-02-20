@@ -10,7 +10,7 @@ const About = () => {
   return (
     <section id='about'>
       <h5 style={{ paddingTop: '30px' }}>Vamos a saber</h5>
-      <h2>Acerca de mi</h2>
+      <h2>Acerca de Mí</h2>
       <div className='container about__container'>
         <div className='about__me'>
           <div className='about__me-image'>

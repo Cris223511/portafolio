@@ -15,7 +15,7 @@ const Education = () => {
   return (
     <section id='education'>
       <h5 style={{ paddingTop: '30px' }}>Todo sobre</h5>
-      <h2>Mis educaciones</h2>
+      <h2>Mis Educaciones</h2>
 
       <div className='container services__container'>
         <article className='service'>

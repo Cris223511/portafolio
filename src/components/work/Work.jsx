@@ -15,7 +15,7 @@ const Work = () => {
 
     return (
         <section id='work' className={isVisible ? 'visible' : 'hidden'}>
-            <h5 style={{ paddingTop: '30px' }}>Mi Trayectoria</h5>
+            <h5 style={{ paddingTop: '30px' }}>Mi trayectoria</h5>
             <h2>Experiencia Laboral</h2>
             <div className='container work__container'>
                 <div className='work__content'>
