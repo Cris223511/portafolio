@@ -14,7 +14,7 @@ const Portfolio = () => {
 
   return (
     <section id='portfolio'>
-      <h5 style={{ paddingTop: '30px' }}>¿Cuáles son mis proyectos?</h5>
+      <h5 style={{ paddingTop: '30px' }}>Presentación de</h5>
       <h2>Mis Proyectos</h2>
 
       <div className='container portfolio__container'>
