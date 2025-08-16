@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portafolio/static/css/main.b8110829.css",
-    "main.js": "/portafolio/static/js/main.90d1781b.js",
+    "main.js": "/portafolio/static/js/main.3d676dd8.js",
     "static/media/logo-template.ai": "/portafolio/static/media/logo-template.fc76e34ccb6dd7c95030.ai",
     "static/media/subproyect_2_9.png": "/portafolio/static/media/subproyect_2_9.0a47d451b8fdbf348d8f.png",
     "static/media/CV_Christopher_Antonio_Pillihuaman_ES.pdf": "/portafolio/static/media/CV_Christopher_Antonio_Pillihuaman_ES.15e24421b89c24f6cbe9.pdf",
@@ -370,6 +370,6 @@
   },
   "entrypoints": [
     "static/css/main.b8110829.css",
-    "static/js/main.90d1781b.js"
+    "static/js/main.3d676dd8.js"
   ]
 }
