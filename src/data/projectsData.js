@@ -91,6 +91,19 @@ const projectsData = [
         gallery: ["subproyects/subproyect_5_1.png", "subproyects/subproyect_5_2.png", "subproyects/subproyect_5_3.png", "subproyects/subproyect_5_4.png", "subproyects/subproyect_5_5.png"]
     },
     {
+        id: 22,
+        title: 'Agenda Deportiva Perú - Portal de Noticias Deportivas',
+        description: "Plataforma web desarrollada para la gestión y publicación de noticias deportivas a nivel nacional. El sistema cuenta con un panel administrativo completo que permite gestionar usuarios, categorías deportivas y noticias con contenido estructurado en secciones dinámicas.<br><br>La aplicación implementa un sistema de autenticación seguro con bcrypt para el cifrado de contraseñas y roles diferenciados (administrador y usuario). El módulo de noticias permite crear contenido multimedia con imágenes optimizadas, múltiples secciones de texto personalizables y enlaces a redes sociales integrados.<br><br>El frontend público presenta las noticias de forma atractiva con filtros por categoría, sistema de visualizaciones, noticias relacionadas y diseño responsive. Se implementó un sistema de slugs amigables para SEO y validaciones robustas tanto en cliente como servidor para garantizar la integridad de los datos.<br><br>Demo: <a href='https://agendadeportivaperu.hstn.me/' target='_blank'>agendadeportivaperu.hstn.me</a>",
+        technologies: {
+            frontend: ["Se desarrolló una interfaz moderna y responsive utilizando tecnologías web estándar y librerías especializadas:", "HTML5", "CSS3", "Sass", "JavaScript", "jQuery", "Bootstrap 5", "Font Awesome", "DataTables", "SweetAlert2"],
+            backend: ["El backend se construyó con PHP nativo siguiendo arquitectura MVC y programación orientada a objetos:", "PHP 8", "Arquitectura MVC", "POO (Programación Orientada a Objetos)"],
+            databases: ["Base de datos relacional para el almacenamiento estructurado de usuarios, categorías y noticias:", "MySQL"],
+            developmentTools: ["Herramientas utilizadas para el desarrollo y gestión del proyecto:", "VS Code", "XAMPP", "GitHub / Git", "Hostinger (Hosting)"]
+        },
+        image: require('../assets/proyect-22.jpg'),
+        gallery: ["subproyects/subproyect_22_1.png", "subproyects/subproyect_22_2.png", "subproyects/subproyect_22_3.png", "subproyects/subproyect_22_4.png", "subproyects/subproyect_22_5.png", "subproyects/subproyect_22_6.png", "subproyects/subproyect_22_7.png", "subproyects/subproyect_22_8.png", "subproyects/subproyect_22_9.png", "subproyects/subproyect_22_10.png", "subproyects/subproyect_22_11.png", "subproyects/subproyect_22_12.png", "subproyects/subproyect_22_13.png", "subproyects/subproyect_22_14.png", "subproyects/subproyect_22_15.png"]
+    },
+    {
         id: 19,
         title: 'Municipalidad Provincial de Tumbes - Plataforma Informativa',
         description: "Con el fin de mejorar la comunicación con la ciudadanía, una municipalidad provincial requería un portal digital que centralizara información sobre la gestión pública y los servicios municipales. La plataforma permite acceder a noticias, eventos y normativas locales.<br><br>El sitio cuenta con un diseño intuitivo y fácil de navegar, con secciones dedicadas a la historia del municipio, proyectos en desarrollo y programas gubernamentales. Se implementó un módulo de denuncias y sugerencias para que los ciudadanos puedan reportar problemas y enviar solicitudes.<br><br>También se incorporó un espacio para comunicados oficiales y anuncios de interés general. La integración con redes sociales amplió el alcance de la información y fortaleció la interacción con la comunidad.",
