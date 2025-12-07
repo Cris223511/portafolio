@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/portafolio/static/css/main.b8110829.css",
-    "main.js": "/portafolio/static/js/main.decb0b0e.js",
+    "main.js": "/portafolio/static/js/main.5b82ae2a.js",
+    "static/media/Christopher_Antonio_Pillihuamán_Santiago_CV.pdf": "/portafolio/static/media/Christopher_Antonio_Pillihuamán_Santiago_CV.010599d9fe9ffb782a1f.pdf",
     "static/media/subproyect_2_9.png": "/portafolio/static/media/subproyect_2_9.0a47d451b8fdbf348d8f.png",
     "static/media/logo-template.ai": "/portafolio/static/media/logo-template.72f9636cc7db8ebc81ca.ai",
-    "static/media/CV_Christopher_Antonio_Pillihuaman_ES.pdf": "/portafolio/static/media/CV_Christopher_Antonio_Pillihuaman_ES.15e24421b89c24f6cbe9.pdf",
     "static/media/subproyect_12_8.png": "/portafolio/static/media/subproyect_12_8.533b8edd711b01b3e9f2.png",
     "static/media/subproyect_2_10.png": "/portafolio/static/media/subproyect_2_10.f94b481fceef87eb680b.png",
     "static/media/subproyect_20_5.png": "/portafolio/static/media/subproyect_20_5.c6ba1e38abc0d3860aaf.png",
@@ -386,6 +386,6 @@
   },
   "entrypoints": [
     "static/css/main.b8110829.css",
-    "static/js/main.decb0b0e.js"
+    "static/js/main.5b82ae2a.js"
   ]
 }
