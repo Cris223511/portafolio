@@ -23,7 +23,7 @@ const About = () => {
             <article className='about__card'>
               <GiBrain className='about__icon' />
               <h5>Habilidades</h5>
-              <small>7+ años programando</small>
+              <small>8+ años programando</small>
             </article>
             <article className='about__card'>
               <FaAward className='about__icon' />
@@ -40,15 +40,14 @@ const About = () => {
           <br />
           <h3>Mi biografía</h3>
           <p>
-            Me llamo Christopher Antonio Pillihuamán Santiago, tengo 24 años y vivo en Lima, en el distrito de La Molina. Desde pequeño, la tecnología me ha llamado la atención, especialmente la forma en que los sistemas pueden transformar ideas en soluciones reales. Al principio, la programación me parecía compleja, pero con el tiempo descubrí que, con paciencia y dedicación, cada línea de código era un paso más hacia el dominio de esta disciplina. Ese interés me motivó a profundizar en el mundo del desarrollo de software y a buscar constantemente nuevos retos.<br></br><br></br>
-            En 2018, comencé mis estudios en ISIL, donde obtuve el título de Técnico en Sistemas en 2021. Con el deseo de seguir creciendo profesionalmente, continué mi formación en la Universidad San Ignacio de Loyola (USIL), donde completé la carrera de Ingeniería de Sistemas de la Información en diciembre de 2024. Durante este tiempo, también trabajé como Analista de Software en Lidera Software S.A.C. (2022–2023), participando en el desarrollo de un sistema contable para la empresa.<br></br><br></br>
-            En julio de 2025 obtuve el grado de bachiller en Ingeniería de Sistemas de la Información y actualmente estoy desarrollando mi tesis para obtener el título profesional. Me apasiona el aprendizaje continuo, el desarrollo web y la exploración de nuevas tecnologías, siempre buscando mejorar y aportar soluciones innovadoras en el mundo digital.
+            Me llamo Christopher Antonio Pillihuamán Santiago, tengo 24 años y vivo en Lima, en el distrito de La Molina. Desde pequeño, la tecnología me ha llamado la atención, especialmente la forma en que los sistemas transforman ideas en soluciones reales. Al principio, la programación me parecía compleja, pero con el tiempo descubrí que, con paciencia y dedicación, pude entender cómo funciona realmente el desarrollo de software.<br></br><br></br>
+            En 2018 comencé mis estudios en ISIL, donde obtuve el título de Técnico en Sistemas en 2021. Luego continué mi formación en la Universidad San Ignacio de Loyola (USIL) y completé la carrera de Ingeniería de Sistemas de la Información en diciembre de 2024. Durante ese tiempo trabajé como Analista Programador en Lidera Software S.A.C. (2022–2023), donde participé en el desarrollo de un sistema contable empresarial.<br></br><br></br>
+            En 2023 fundé <a href="https://www.coderesolutions.com" target="_blank" rel="noopener noreferrer">Code Resolutions</a>, mi proyecto freelance de desarrollo de software, donde ofrezco soluciones tecnológicas personalizadas a clientes que buscan llevar sus ideas al mundo digital. Desde entonces, he trabajado en proyectos web, sistemas administrativos y aplicaciones móviles, siempre enfocado en entregar productos de calidad.<br></br><br></br>
+            En julio de 2025 obtuve el grado de bachiller en Ingeniería de Sistemas de la Información y actualmente trabajo en mi tesis para obtener el título profesional. Me apasiona el aprendizaje continuo y siempre busco mejorar mis habilidades técnicas.
           </p>
-
           <h3>Mi Objetivo profesional</h3>
           <p>
-            Aspiro a desarrollarme como un profesional competente en el mundo de la tecnología, contribuyendo con soluciones innovadoras
-            en el área de desarrollo de software y explorando nuevas tecnologías para seguir creciendo en mi carrera.
+            Quiero crecer como profesional en el mundo de la tecnología y aportar soluciones innovadoras en el desarrollo de software. Me interesa trabajar con nuevas tecnologías y seguir aprendiendo cada día.
           </p>
 
           <a href="#contact" className='btn btn-primary' onClick={(e) => { e.preventDefault(); scrollToSection('contact'); }}>Contáctame</a>

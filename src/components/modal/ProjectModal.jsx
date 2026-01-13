@@ -83,15 +83,15 @@ const ProjectModal = ({ project, onClose }) => {
                                     values.length > 0 && (
                                         <div key={key} className="technology-section">
                                             <h4 className="technology-title">
-                                                {key === "frontend" ? "FrontEnd:" :
-                                                    key === "backend" ? "BackEnd:" :
-                                                        key === "databases" ? "DataBases:" :
-                                                            key === "developmentTools" ? "Development Tools:" :
-                                                                key.charAt(0).toUpperCase() + key.slice(1)}
+                                                {key === "frontend" ? "Frontend:" :
+                                                    key === "backend" ? "Backend:" :
+                                                        key === "databases" ? "Databases:" :
+                                                            key === "devops" ? "DevOps & Cloud:" :
+                                                                key === "otros" ? "Otros:" :
+                                                                    key.charAt(0).toUpperCase() + key.slice(1)}
                                             </h4>
-                                            <p className="technology-description">{values[0]}</p>
                                             <ul className="technology-list">
-                                                {values.slice(1).map((tech, index) => (
+                                                {values.map((tech, index) => (
                                                     <li key={index}>{tech}</li>
                                                 ))}
                                             </ul>

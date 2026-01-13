@@ -5,6 +5,13 @@
     align-items: start;
 }
 
+.work__period {
+    color: var(--color-light);
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+    font-style: italic;
+}
+
 .work__me {
     width: 100%;
     aspect-ratio: 1/1;

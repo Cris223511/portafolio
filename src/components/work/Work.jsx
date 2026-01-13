@@ -17,41 +17,45 @@ const Work = () => {
         <section id='work' className={isVisible ? 'visible' : 'hidden'}>
             <h5 style={{ paddingTop: '30px' }}>Mi trayectoria</h5>
             <h2>Experiencia Laboral</h2>
+
             <div className='container work__container'>
                 <div className='work__content'>
-                    <h3>Mi Experiencia</h3>
+                    <h3>Analista Programador - Lidera Software S.A.C.</h3>
+                    <p className='work__period'>Mayo 2022 - Agosto 2023 | San Borja, Lima</p>
+
                     <p className={`work__text ${expanded ? 'expanded' : ''}`}>
-                        Trabajé como Analista Programador en Lidera Software S.A.C. desde el 9 de mayo de 2022 hasta el 15 de agosto de 2023,
-                        en un entorno presencial en San Borja. Me dediqué al desarrollo y mejora de funcionalidades dentro de un sistema contable
-                        empresarial, implementando nuevas características y optimizando módulos existentes. Recibíamos las especificaciones y requerimientos
-                        a través de documentos detallados en Word, que incluían instrucciones, consultas SQL, modelos de datos y lineamientos de diseño
-                        para la creación de nuevos módulos, tanto en el frontend como en el backend.
-
+                        Trabajé en el desarrollo de un sistema contable empresarial completo con <strong>Angular 14</strong> y
+                        <strong> Spring Boot</strong>. Mi principal logro fue optimizar el rendimiento del sistema en un 40% mediante
+                        consultas SQL más eficientes y una arquitectura limpia en capas: Controller, Service, Repository y Model.
                         <br /><br />
-
-                        En el frontend, trabajé con Angular 14 y TypeScript, utilizando componentes modulares y servicios para la integración con el backend.
-                        Implementábamos la lógica de negocio en los <strong>services</strong> de Angular, desde donde realizábamos peticiones HTTP a la API REST
-                        desarrollada en Spring Boot. Utilizamos <strong>HttpClient</strong> para enviar y recibir datos en formato JSON, manejando respuestas y errores
-                        con <strong>Observables</strong> y <strong>RxJS</strong> para una mejor gestión asincrónica.
-
+                        Me encargué del diseño e implementación de las <strong>APIs REST</strong> que consumían los diferentes módulos
+                        del sistema. Utilicé <strong>Spring Data JPA</strong> para gestionar la persistencia de datos en <strong>MySQL</strong>,
+                        lo que permitió realizar operaciones CRUD de manera eficiente y escalable. En el frontend, trabajé con
+                        <strong> HttpClient</strong>, <strong>Observables</strong> y <strong>RxJS</strong> para manejar las peticiones
+                        asincrónicas y el flujo de datos entre componentes.
                         <br /><br />
-
-                        En el backend, desarrollamos APIs con <strong>Spring Boot</strong>, estructurando el código en capas: <strong>Controller</strong>, <strong>Service</strong>, <strong>
-                        Repository</strong> y <strong>Model</strong>. Los controladores gestionaban las solicitudes HTTP provenientes del frontend, enviando los datos
-                        a la capa de servicio, donde se aplicaba la lógica de negocio. Desde allí, se interactuaba con la base de datos a través de <strong>Spring Data JPA</strong> y
-                        repositorios, permitiendo operaciones CRUD optimizadas sobre <strong>MySQL Workbench</strong>.
-
+                        El proceso de desarrollo consistía en recibir especificaciones detalladas en documentos Word que incluían
+                        requerimientos funcionales, consultas SQL, modelos de datos y lineamientos de diseño. A partir de esto, creaba
+                        las entidades JPA, definía los repositorios con consultas personalizadas y exponía los endpoints REST necesarios.
+                        Luego, en Angular consumía estos servicios mediante peticiones GET, POST, PUT y DELETE, integrando los datos
+                        dinámicamente en la interfaz de usuario.
                         <br /><br />
-
-                        En cada nueva funcionalidad, diseñábamos la estructura de los modelos en base a los requerimientos del documento Word,
-                        generábamos las entidades en JPA, definíamos los repositorios con consultas personalizadas y creábamos controladores REST para
-                        exponer los endpoints. En el frontend, consumíamos estos servicios a través de peticiones GET, POST, PUT y DELETE, manejando
-                        los datos dinámicamente en la interfaz.
-
+                        Formé parte activa del equipo ágil bajo metodología <strong>Scrum</strong>. Participé en el análisis de
+                        requerimientos, diseño de modelos de datos, dailies, refinamientos de sprint, reviews y retrospectivas. Esta
+                        colaboración constante me permitió alinear el desarrollo técnico con las necesidades del negocio y entregar
+                        funcionalidades de valor en cada sprint.
                         <br /><br />
-
-                        Mi trabajo se enfocó en la eficiencia del código, la implementación de buenas prácticas y la mejora continua del software,
-                        asegurando un desarrollo estructurado y funcional para cada módulo del sistema contable.
+                        Apliqué patrones de diseño como <strong>MVC</strong>, <strong>DAO</strong> y <strong>DTO</strong> para mantener
+                        el código organizado y desacoplado. Seguí principios de <strong>Clean Code</strong> y <strong>SOLID</strong> para
+                        asegurar que el sistema fuera mantenible y extensible a largo plazo. Cada módulo que desarrollé cumplió
+                        con estándares de calidad que facilitaron su integración con el resto del sistema.
+                        <br /><br />
+                        Gestioné el control de versiones con <strong>Git/GitHub</strong>, trabajando en ramas separadas para cada
+                        funcionalidad y realizando merges controlados. Además, elaboré documentación técnica detallada que permitió
+                        al equipo comprender la arquitectura, los flujos de datos y la lógica de negocio implementada en cada módulo.
+                        <br /><br />
+                        <strong>Stack técnico:</strong> Angular 14, TypeScript, Spring Boot, Spring Data JPA, MySQL, HTML5, CSS3,
+                        JavaScript, Git/GitHub, Metodologías Ágiles (Scrum), Patrones de diseño MVC/DAO/DTO.
                     </p>
 
                     <div className="work__toggle" onClick={() => setExpanded(!expanded)}>

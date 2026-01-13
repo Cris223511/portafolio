@@ -1,208 +1,91 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './experience.css'
 import { BsFillPatchCheckFill } from 'react-icons/bs'
+import { IoChevronBack, IoChevronForward } from 'react-icons/io5'
 
 const Experience = () => {
+  const [currentIndex, setCurrentIndex] = useState(0)
+
+  const skillCategories = [
+    {
+      title: 'Lenguajes de Programación',
+      skills: ['Java', 'JavaScript', 'TypeScript', 'PHP', 'Python', 'C#', 'Go', 'C++', 'C', 'HTML5', 'CSS3']
+    },
+    {
+      title: 'Backend Development',
+      skills: ['Spring Boot', 'Laravel', 'Node.js', '.NET Core', 'FastAPI', 'Gin Framework', 'API REST', 'Spring Data JPA']
+    },
+    {
+      title: 'Frontend Development',
+      skills: ['Angular', 'React', 'Vue', 'Next.js', 'TypeScript', 'Bootstrap', 'Tailwind CSS', 'Sass', 'jQuery']
+    },
+    {
+      title: 'Databases',
+      skills: ['MySQL', 'PostgreSQL', 'MongoDB', 'SQL Server', 'Oracle', 'Firebase', 'Redis']
+    },
+    {
+      title: 'Cloud & DevOps',
+      skills: ['AWS', 'Azure', 'Google Cloud', 'Docker', 'Git', 'CI/CD']
+    },
+    {
+      title: 'Development Tools',
+      skills: ['Postman', 'Figma', 'IntelliJ IDEA', 'VS Code', 'NetBeans', 'Eclipse', 'JMeter', 'SonarQube']
+    },
+    {
+      title: 'Metodologías & Arquitecturas',
+      skills: ['Scrum', 'Kanban', 'MVC', 'SOLID', 'Clean Code', 'Microservicios']
+    }
+  ]
+
+  const nextSlide = () => {
+    setCurrentIndex((prev) => (prev + 1) % skillCategories.length)
+  }
+
+  const prevSlide = () => {
+    setCurrentIndex((prev) => (prev - 1 + skillCategories.length) % skillCategories.length)
+  }
+
+  const goToSlide = (index) => {
+    setCurrentIndex(index)
+  }
+
   return (
     <section id='experience'>
       <h5 style={{ paddingTop: '30px' }}>¿Qué habilidades tengo?</h5>
       <h2>Mis Habilidades</h2>
 
-      {/*======== FRONT END ========*/}
-      <div className='container experience__container'>
-        <div className='experience__frontend'>
-          <h3>FrontEnd Development</h3>
-          <div className='experience__content'>
-            <article className='experience__details'>
-              <BsFillPatchCheckFill className='experience__details-icon' />
-              <h4>HTML</h4>
-            </article>
-            <article className='experience__details'>
-              <BsFillPatchCheckFill className='experience__details-icon' />
-              <h4>CSS</h4>
-            </article>
-            <article className='experience__details'>
-              <BsFillPatchCheckFill className='experience__details-icon' />
-              <h4>JavaScript</h4>
-            </article>
-            <article className='experience__details'>
-              <BsFillPatchCheckFill className='experience__details-icon' />
-              <h4>TypeScript</h4>
-            </article>
-            <article className='experience__details'>
-              <BsFillPatchCheckFill className='experience__details-icon' />
-              <h4>ReactJS</h4>
-            </article>
-            <article className='experience__details'>
-              <BsFillPatchCheckFill className='experience__details-icon' />
-              <h4>VueJS</h4>
-            </article>
-            <article className='experience__details'>
-              <BsFillPatchCheckFill className='experience__details-icon' />
-              <h4>Angular</h4>
-            </article>
-            <article className='experience__details'>
-              <BsFillPatchCheckFill className='experience__details-icon' />
-              <h4>Bootstrap</h4>
-            </article>
-            <article className='experience__details'>
-              <BsFillPatchCheckFill className='experience__details-icon' />
-              <h4>Tailwind</h4>
-            </article>
-            <article className='experience__details'>
-              <BsFillPatchCheckFill className='experience__details-icon' />
-              <h4>SASS</h4>
-            </article>
-            <article className='experience__details'>
-              <BsFillPatchCheckFill className='experience__details-icon' />
-              <h4>JQuery</h4>
-            </article>
-            <article className='experience__details'>
-              <BsFillPatchCheckFill className='experience__details-icon' />
-              <h4>AJAX</h4>
-            </article>
+      <div className='container experience__carousel-container'>
+        <button className='carousel__btn carousel__btn--prev' onClick={prevSlide} aria-label='Anterior'>
+          <IoChevronBack />
+        </button>
+
+        <div className='carousel__track'>
+          <div className='carousel__card'>
+            <h3>{skillCategories[currentIndex].title}</h3>
+            <div className='experience__content'>
+              {skillCategories[currentIndex].skills.map((skill, idx) => (
+                <article key={idx} className='experience__details'>
+                  <BsFillPatchCheckFill className='experience__details-icon' />
+                  <h4>{skill}</h4>
+                </article>
+              ))}
+            </div>
           </div>
         </div>
 
-        {/*======== BACK END ========*/}
-        <div className='experience__backend'>
-          <h3>BackEnd Development</h3>
-          <div className='experience__content'>
-            <article className='experience__details'>
-              <BsFillPatchCheckFill className='experience__details-icon' />
-              <h4>NodeJS</h4>
-            </article>
-            <article className='experience__details'>
-              <BsFillPatchCheckFill className='experience__details-icon' />
-              <h4>SpringBoot</h4>
-            </article>
-            <article className='experience__details'>
-              <BsFillPatchCheckFill className='experience__details-icon' />
-              <h4>PHP</h4>
-            </article>
-            <article className='experience__details'>
-              <BsFillPatchCheckFill className='experience__details-icon' />
-              <h4>Laravel</h4>
-            </article>
-            <article className='experience__details'>
-              <BsFillPatchCheckFill className='experience__details-icon' />
-              <h4>JavaWeb</h4>
-            </article>
-            <article className='experience__details'>
-              <BsFillPatchCheckFill className='experience__details-icon' />
-              <h4>API rest</h4>
-            </article>
-            <article className='experience__details'>
-              <BsFillPatchCheckFill className='experience__details-icon' />
-              <h4>Servlet</h4>
-            </article>
-            <article className='experience__details'>
-              <BsFillPatchCheckFill className='experience__details-icon' />
-              <h4>Python</h4>
-            </article>
-            <article className='experience__details'>
-              <BsFillPatchCheckFill className='experience__details-icon' />
-              <h4>C++</h4>
-            </article>
-            <article className='experience__details'>
-              <BsFillPatchCheckFill className='experience__details-icon' />
-              <h4>C</h4>
-            </article>
-            <article className='experience__details'>
-              <BsFillPatchCheckFill className='experience__details-icon' />
-              <h4>C#</h4>
-            </article>
-          </div>
-        </div>
+        <button className='carousel__btn carousel__btn--next' onClick={nextSlide} aria-label='Siguiente'>
+          <IoChevronForward />
+        </button>
 
-        {/*======== BASES DE DATOS ========*/}
-        <div className='experience__backend'>
-          <h3>DataBases Development</h3>
-          <div className='experience__content'>
-            <article className='experience__details'>
-              <BsFillPatchCheckFill className='experience__details-icon' />
-              <h4>MySQL</h4>
-            </article>
-            <article className='experience__details'>
-              <BsFillPatchCheckFill className='experience__details-icon' />
-              <h4>SQLServer</h4>
-            </article>
-            <article className='experience__details'>
-              <BsFillPatchCheckFill className='experience__details-icon' />
-              <h4>PostgreSQL</h4>
-            </article>
-            <article className='experience__details'>
-              <BsFillPatchCheckFill className='experience__details-icon' />
-              <h4>Oracle DB</h4>
-            </article>
-            <article className='experience__details'>
-              <BsFillPatchCheckFill className='experience__details-icon' />
-              <h4>Maria DB</h4>
-            </article>
-            <article className='experience__details'>
-              <BsFillPatchCheckFill className='experience__details-icon' />
-              <h4>HeidiSQL</h4>
-            </article>
-            <article className='experience__details'>
-              <BsFillPatchCheckFill className='experience__details-icon' />
-              <h4>Amazon RDS</h4>
-            </article>
-            <article className='experience__details'>
-              <BsFillPatchCheckFill className='experience__details-icon' />
-              <h4>Dynamo DB</h4>
-            </article>
-            <article className='experience__details'>
-              <BsFillPatchCheckFill className='experience__details-icon' />
-              <h4>Firebase</h4>
-            </article>
-          </div>
-        </div>
-
-        {/*======== HERRAMIENTAS DE DESARROLLO ========*/}
-        <div className='experience__backend'>
-          <h3>Development Tools</h3>
-          <div className='experience__content'>
-            <article className='experience__details'>
-              <BsFillPatchCheckFill className='experience__details-icon' />
-              <h4>VS Code</h4>
-            </article>
-            <article className='experience__details'>
-              <BsFillPatchCheckFill className='experience__details-icon' />
-              <h4>Netbeans</h4>
-            </article>
-            <article className='experience__details'>
-              <BsFillPatchCheckFill className='experience__details-icon' />
-              <h4>Intellij Idea</h4>
-            </article>
-            <article className='experience__details'>
-              <BsFillPatchCheckFill className='experience__details-icon' />
-              <h4>Visual Studio</h4>
-            </article>
-            <article className='experience__details'>
-              <BsFillPatchCheckFill className='experience__details-icon' />
-              <h4>Eclipse</h4>
-            </article>
-            <article className='experience__details'>
-              <BsFillPatchCheckFill className='experience__details-icon' />
-              <h4>GitHub / Git</h4>
-            </article>
-            <article className='experience__details'>
-              <BsFillPatchCheckFill className='experience__details-icon' />
-              <h4>Postman</h4>
-            </article>
-            <article className='experience__details'>
-              <BsFillPatchCheckFill className='experience__details-icon' />
-              <h4>Maven</h4>
-            </article>
-            <article className='experience__details'>
-              <BsFillPatchCheckFill className='experience__details-icon' />
-              <h4>JMeter</h4>
-            </article>
-            <article className='experience__details'>
-              <BsFillPatchCheckFill className='experience__details-icon' />
-              <h4>SonarQube</h4>
-            </article>
-          </div>
+        <div className='carousel__dots'>
+          {skillCategories.map((_, index) => (
+            <button
+              key={index}
+              className={`carousel__dot ${index === currentIndex ? 'active' : ''}`}
+              onClick={() => goToSlide(index)}
+              aria-label={`Ir a slide ${index + 1}`}
+            />
+          ))}
         </div>
       </div>
     </section>
