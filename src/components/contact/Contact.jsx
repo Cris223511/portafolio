@@ -1,8 +1,7 @@
 import React, { useRef, useState } from 'react';
 import './contact.css';
 import { MdOutlineEmail } from 'react-icons/md';
-import { RiMessengerLine } from 'react-icons/ri';
-import { BsWhatsapp } from 'react-icons/bs';
+import { BsLinkedin, BsWhatsapp } from 'react-icons/bs';
 import emailjs from 'emailjs-com';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -11,7 +10,6 @@ const Contact = () => {
   const form = useRef();
   const [loading, setLoading] = useState(false);
 
-  // Configurar estilos personalizados para los Toast
   const toastStyle = {
     background: "#212143",
     color: "#fff",
@@ -19,7 +17,6 @@ const Contact = () => {
     fontWeight: "bold",
   };
 
-  // Enviar correo con EmailJS
   const sendEmail = async (e) => {
     e.preventDefault();
     setLoading(true);
@@ -29,10 +26,10 @@ const Contact = () => {
 
     try {
       await emailjs.sendForm(
-        'service_bauta8m', // ID del servicio de EmailJS
-        'template_qehixcb', // ID de la plantilla en EmailJS
+        'service_bauta8m',
+        'template_qehixcb',
         form.current,
-        'UmJNbx2HMtvY1-TGx' // Public Key de EmailJS
+        'UmJNbx2HMtvY1-TGx'
       );
 
       toast.success(`¡Éxito! Mensaje enviado desde ${senderEmail}.`, {
@@ -69,17 +66,17 @@ const Contact = () => {
           </article>
 
           <article className='contact__option'>
-            <RiMessengerLine className='contact__option-icon' />
-            <h4>Messenger</h4>
-            <h5>Christopher PS</h5>
-            <a href="https://m.me/cris223511" target="_blank" rel="noopener noreferrer">Enviar un mensaje</a>
+            <BsLinkedin className='contact__option-icon' />
+            <h4>LinkedIn</h4>
+            <h5>Christopher Pillihuamán</h5>
+            <a href="https://www.linkedin.com/in/cris223511/" target="_blank" rel="noopener noreferrer">Enviar un mensaje</a>
           </article>
 
           <article className='contact__option'>
             <BsWhatsapp className='contact__option-icon' />
             <h4>WhatsApp</h4>
             <h5>+51 973 182 294</h5>
-            <a href="whatsapp://send?text=¡Hola!, mucho gusto 🤝, me llamó mucho la atención tu portafolio web, quiero contactarme contigo.&phone=+51 973 182 294" target="_blank" rel="noopener noreferrer">Enviar un mensaje</a>
+            <a href="https://wa.me/51973182294?text=¡Hola!%2C%20mucho%20gusto%20🤝%2C%20me%20llamó%20mucho%20la%20atención%20tu%20portafolio%20web%2C%20quiero%20contactarme%20contigo." target="_blank" rel="noopener noreferrer">Enviar un mensaje</a>
           </article>
         </div>
 
