@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/portafolio/static/css/main.b8110829.css",
-    "main.js": "/portafolio/static/js/main.5b82ae2a.js",
-    "static/media/Christopher_Antonio_Pillihuamán_Santiago_CV.pdf": "/portafolio/static/media/Christopher_Antonio_Pillihuamán_Santiago_CV.010599d9fe9ffb782a1f.pdf",
+    "main.css": "/portafolio/static/css/main.b335a2d4.css",
+    "main.js": "/portafolio/static/js/main.fe57a6ac.js",
     "static/media/subproyect_2_9.png": "/portafolio/static/media/subproyect_2_9.0a47d451b8fdbf348d8f.png",
     "static/media/logo-template.ai": "/portafolio/static/media/logo-template.72f9636cc7db8ebc81ca.ai",
     "static/media/subproyect_12_8.png": "/portafolio/static/media/subproyect_12_8.533b8edd711b01b3e9f2.png",
@@ -226,6 +225,7 @@
     "static/media/subproyect_9_17.png": "/portafolio/static/media/subproyect_9_17.349d90bdda8cfc9daabb.png",
     "static/media/subproyect_7_11.png": "/portafolio/static/media/subproyect_7_11.915ec4615f338fd26c62.png",
     "static/media/subproyect_15_4.png": "/portafolio/static/media/subproyect_15_4.fb8c219ab3e0149c2ddc.png",
+    "static/media/Christopher_Antonio_Pillihuamán_Santiago_CV.pdf": "/portafolio/static/media/Christopher_Antonio_Pillihuamán_Santiago_CV.52b1bff17c43a557496d.pdf",
     "static/media/subproyect_0_34.png": "/portafolio/static/media/subproyect_0_34.597faf3a8a5807a8f22e.png",
     "static/media/subproyect_0_29.png": "/portafolio/static/media/subproyect_0_29.4a9abca10da47d932567.png",
     "static/media/subproyect_4_6.png": "/portafolio/static/media/subproyect_4_6.538b21ff63081a0b7c24.png",
@@ -258,6 +258,7 @@
     "static/media/subproyect_0_4.png": "/portafolio/static/media/subproyect_0_4.47709a78dc6d55aac0af.png",
     "static/media/subproyect_16_2.png": "/portafolio/static/media/subproyect_16_2.db50ef6978e49bc3c125.png",
     "static/media/subproyect_13_1.png": "/portafolio/static/media/subproyect_13_1.3a8104554b415a025e98.png",
+    "static/media/subproyect_23_5.png": "/portafolio/static/media/subproyect_23_5.e86d7de70f587b6d8962.png",
     "static/media/subproyect_9_5.png": "/portafolio/static/media/subproyect_9_5.48974a04a6f7c89fd925.png",
     "static/media/subproyect_19_11.png": "/portafolio/static/media/subproyect_19_11.07d14e84db0411da592d.png",
     "static/media/subproyect_0_7.png": "/portafolio/static/media/subproyect_0_7.f16a5e242343ed22dc63.png",
@@ -291,8 +292,10 @@
     "static/media/subproyect_15_8.png": "/portafolio/static/media/subproyect_15_8.6ba445a3920ea5ce9efd.png",
     "static/media/subproyect_0_3.png": "/portafolio/static/media/subproyect_0_3.109cba94d94f681263cd.png",
     "static/media/subproyect_5_3.png": "/portafolio/static/media/subproyect_5_3.2ac976a12f5804ebb5ca.png",
+    "static/media/subproyect_23_2.png": "/portafolio/static/media/subproyect_23_2.3d92d8b01d6716a12f0c.png",
     "static/media/subproyect_15_22.png": "/portafolio/static/media/subproyect_15_22.c72f0a3de84262468ffb.png",
     "static/media/subproyect_15_9.png": "/portafolio/static/media/subproyect_15_9.903784cbc154f6c48436.png",
+    "static/media/subproyect_23_4.png": "/portafolio/static/media/subproyect_23_4.e1e92c6a07798da8aa8e.png",
     "static/media/subproyect_19_14.png": "/portafolio/static/media/subproyect_19_14.e6a45ce5f0479ed13e37.png",
     "static/media/educacion3.jpeg": "/portafolio/static/media/educacion3.01bbb2e402ce6108ba3e.jpeg",
     "static/media/subproyect_7_2.png": "/portafolio/static/media/subproyect_7_2.fa0889945cd6c3747a51.png",
@@ -342,6 +345,8 @@
     "static/media/subproyect_21_3.png": "/portafolio/static/media/subproyect_21_3.847f155e6d209ffcbe57.png",
     "static/media/subproyect_15_10.png": "/portafolio/static/media/subproyect_15_10.3158dcb7c3f720665cc9.png",
     "static/media/subproyect_22_5.png": "/portafolio/static/media/subproyect_22_5.06d5debcc20e97083ef6.png",
+    "static/media/subproyect_23_1.png": "/portafolio/static/media/subproyect_23_1.ceddf40a4dea5a6f74a4.png",
+    "static/media/subproyect_23_3.png": "/portafolio/static/media/subproyect_23_3.749a1bce252f6e6cc284.png",
     "static/media/subproyect_19_18.png": "/portafolio/static/media/subproyect_19_18.d8b1b141f6ca85a32b17.png",
     "static/media/subproyect_10_10.png": "/portafolio/static/media/subproyect_10_10.50c135bb4591409897a8.png",
     "static/media/subproyect_19_17.png": "/portafolio/static/media/subproyect_19_17.7eb7cfd706f222420734.png",
@@ -378,6 +383,7 @@
     "static/media/conference_05.jpg": "/portafolio/static/media/conference_05.269c07d2e14ce254a51b.jpg",
     "static/media/educacion4.jpeg": "/portafolio/static/media/educacion4.8bb5ebcf182e49fd5abe.jpeg",
     "static/media/conference_06.jpg": "/portafolio/static/media/conference_06.cb3f71497b2450787696.jpg",
+    "static/media/proyect-23.jpg": "/portafolio/static/media/proyect-23.08117b1c32b4bf534622.jpg",
     "static/media/lg.svg?io9a6k": "/portafolio/static/media/lg.09cd8e9be7081f216644.svg",
     "static/media/lg.woff?io9a6k": "/portafolio/static/media/lg.356a0e9cb064c7a196c6.woff",
     "static/media/lg.ttf?io9a6k": "/portafolio/static/media/lg.747d038541bfc6bb8ea9.ttf",
@@ -385,7 +391,7 @@
     "index.html": "/portafolio/index.html"
   },
   "entrypoints": [
-    "static/css/main.b8110829.css",
-    "static/js/main.5b82ae2a.js"
+    "static/css/main.b335a2d4.css",
+    "static/js/main.fe57a6ac.js"
   ]
 }
