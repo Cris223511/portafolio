@@ -16,16 +16,16 @@ const projectsData = [
     {
         id: 5,
         title: "Code Resolutions - Desarrollo de Proyectos Digitales",
-        description: "Empresa de desarrollo de software fundada para ofrecer soluciones tecnológicas end-to-end a clientes corporativos. Especializada en desarrollo web personalizado, sistemas administrativos, apps móviles (Android/iOS), despliegues cloud (AWS, Azure, Google Cloud) y soluciones con inteligencia artificial. Gestión completa de proyectos desde levantamiento de requerimientos hasta despliegue en producción.<br><br>La plataforma presenta los servicios disponibles, proyectos realizados y opciones de contacto para clientes interesados. Cuenta con versiones en español e inglés para facilitar el acceso a una audiencia global. También incluye recursos y demostraciones de sistemas previamente desarrollados, brindando una visión clara de las soluciones que pueden implementarse según cada necesidad.<br><br>Como parte de su compromiso con la educación tecnológica, se organizaron sesiones en línea mediante Zoom y Google Meet, donde se impartieron fundamentos de programación en diferentes fechas programadas a través de las redes sociales.",
+        description: "Code Resolutions S.A.C. es una empresa fundada en 2023 que ofrece soluciones tecnológicas a clientes nacionales e internacionales. Se especializa en desarrollo web personalizado, sistemas administrativos, aplicaciones móviles y despliegues en la nube, acompañando cada proyecto desde la idea inicial hasta su lanzamiento final.<br><br>El sitio web muestra información sobre la empresa, el equipo de desarrollo, los servicios que ofrecemos, proyectos que hemos realizado, blogs sobre tecnología y opciones para contactarnos. También incluye nuestra misión, visión, valores y testimonios de clientes que han confiado en nuestro trabajo. Detrás del sitio hay un panel administrativo donde gestionamos los blogs, proyectos, testimonios y mensajes que recibimos.<br><br>Este fue un proyecto freelance que desarrollé para establecer la presencia digital de mi empresa y mostrar nuestro trabajo de forma profesional. Se implementó optimización para buscadores, diseño que funciona en cualquier dispositivo y una navegación intuitiva para que los visitantes encuentren lo que necesitan sin complicaciones.<br><br>Demo: <a href='https://coderesolutions.com/' target='_blank'>coderesolutions.com</a>",
         technologies: {
-            frontend: ["HTML5", "CSS3", "JavaScript", "Bootstrap 5"],
-            backend: [],
-            databases: [],
-            devops: [],
+            frontend: ["HTML5", "CSS3", "JavaScript", "Bootstrap 5", "Sass"],
+            backend: ["PHP"],
+            databases: ["MySQL"],
+            devops: ["Docker"],
             otros: []
         },
         image: require("../assets/proyect-5.jpg"),
-        gallery: ["subproyects/subproyect_1_1.png", "subproyects/subproyect_1_2.png", "subproyects/subproyect_1_3.png", "subproyects/subproyect_1_4.png", "subproyects/subproyect_1_5.png", "subproyects/subproyect_1_6.png", "subproyects/subproyect_1_7.png", "subproyects/subproyect_1_8.png", "subproyects/subproyect_1_9.png"]
+        gallery: ["subproyects/subproyect_1_1.png", "subproyects/subproyect_1_2.png", "subproyects/subproyect_1_3.png", "subproyects/subproyect_1_4.png", "subproyects/subproyect_1_5.png", "subproyects/subproyect_1_6.png", "subproyects/subproyect_1_7.png", "subproyects/subproyect_1_8.png", "subproyects/subproyect_1_9.png", "subproyects/subproyect_1_10.png", "subproyects/subproyect_1_11.png", "subproyects/subproyect_1_12.png", "subproyects/subproyect_1_13.png", "subproyects/subproyect_1_14.png", "subproyects/subproyect_1_15.png", "subproyects/subproyect_1_16.png", "subproyects/subproyect_1_17.png", "subproyects/subproyect_1_18.png", "subproyects/subproyect_1_19.png", "subproyects/subproyect_1_20.png", "subproyects/subproyect_1_21.png", "subproyects/subproyect_1_22.png", "subproyects/subproyect_1_23.png", "subproyects/subproyect_1_24.png", "subproyects/subproyect_1_25.png", "subproyects/subproyect_1_26.png", "subproyects/subproyect_1_27.png", "subproyects/subproyect_1_28.png", "subproyects/subproyect_1_29.png", "subproyects/subproyect_1_30.png", "subproyects/subproyect_1_31.png", "subproyects/subproyect_1_32.png", "subproyects/subproyect_1_33.png", "subproyects/subproyect_1_34.png"]
     },
     {
         id: 12,
@@ -97,7 +97,7 @@ const projectsData = [
         image: require('../assets/proyect-3.jpg'),
         gallery: ["subproyects/subproyect_5_1.png", "subproyects/subproyect_5_2.png", "subproyects/subproyect_5_3.png", "subproyects/subproyect_5_4.png", "subproyects/subproyect_5_5.png"]
     },
-        {
+    {
         id: 23,
         title: 'Trigo Technologies - Soluciones Tecnológicas',
         description: "Sitio web corporativo para empresa chilena con más de 15 años de experiencia en desarrollo de software, integración de hardware, kioscos interactivos y cartelería digital para empresas latinoamericanas. Empresa chilena con más de 15 años de trayectoria brindando soluciones tecnológicas a empresas de Chile y Latinoamérica. Se especializan en desarrollo de software a medida, integración de hardware, kioscos interactivos y sistemas de cartelería digital para la automatización y digitalización de procesos empresariales.<br><br>El sitio web fue diseñado para posicionar a la empresa como un socio tecnológico estratégico, transmitiendo experiencia y profesionalismo. La estructura incluye video corporativo en la portada, sección institucional que destaca su visión y metodología de trabajo, presentación detallada de cada solución tecnológica y un portafolio con los clientes más destacados que han confiado en sus servicios.<br><br>Se implementó un formulario de contacto completo que permite a potenciales clientes enviar consultas especificando nombre, email, teléfono, asunto y mensaje. El diseño minimalista y moderno refleja la innovación tecnológica de la empresa, con animaciones sutiles y navegación intuitiva que garantizan una experiencia de usuario óptima en cualquier dispositivo.<br><br>Demo: <a href='https://www.trigo.cl/' target='_blank'>www.trigo.cl</a>",
