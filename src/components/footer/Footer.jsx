@@ -32,7 +32,7 @@ const Footer = () => {
       </div>
 
       <div className='footer__copyright'>
-        <small>&copy; 2025. Hecho por Christopher PS, desarrollado en React.</small>
+        <small>&copy; 2026. Hecho por Christopher PS, desarrollado en React.</small>
         <FaReact className="react-icon"/>
       </div>
     </footer>
