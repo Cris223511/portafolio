@@ -17,7 +17,7 @@ const Conferences = () => {
   const { t, i18n } = useTranslation();
   const galleryRef = useRef(null);
   const swiperRef = useRef(null);
-  const [lgInstance, setLgInstance] = useState(null);
+  const lgInstanceRef = useRef(null);
 
   // Cargar las conferencias desde el JSON de traducciones
   const conferences = t('conferences.events', { returnObjects: true });
@@ -32,33 +32,44 @@ const Conferences = () => {
     { src: require("../../assets/conference_07.jpg"), title: conferences[6] }
   ];
 
-  // Inicializar LightGallery solo cuando cambia el idioma
+  // Inicializar LightGallery
   useEffect(() => {
-    if (galleryRef.current) {
-      // Destruir instancia anterior si existe
-      if (lgInstance) {
-        lgInstance.destroy();
+    // Destruir instancia anterior si existe
+    if (lgInstanceRef.current) {
+      try {
+        lgInstanceRef.current.destroy();
+        lgInstanceRef.current = null;
+      } catch (error) {
+        console.warn('Error al destruir LightGallery:', error);
       }
-
-      // Crear nueva instancia
-      const instance = lightGallery(galleryRef.current, {
-        selector: '.gallery-item',
-        plugins: [lgThumbnail, lgZoom],
-        thumbnail: true,
-        zoom: true,
-        download: false
-      });
-
-      setLgInstance(instance);
     }
 
-    // Cleanup al desmontar o cambiar idioma
+    // Crear nueva instancia después de un pequeño delay
+    const timer = setTimeout(() => {
+      if (galleryRef.current) {
+        lgInstanceRef.current = lightGallery(galleryRef.current, {
+          selector: '.gallery-item',
+          plugins: [lgThumbnail, lgZoom],
+          thumbnail: true,
+          zoom: true,
+          download: false
+        });
+      }
+    }, 100);
+
+    // Cleanup
     return () => {
-      if (lgInstance) {
-        lgInstance.destroy();
+      clearTimeout(timer);
+      if (lgInstanceRef.current) {
+        try {
+          lgInstanceRef.current.destroy();
+          lgInstanceRef.current = null;
+        } catch (error) {
+          console.warn('Error en cleanup:', error);
+        }
       }
     };
-  }, [i18n.language]); // Solo cuando cambia el idioma
+  }, [i18n.language]);
 
   return (
     <section id='conferences'>
