@@ -1,0 +1,263 @@
+{
+    "loader": {
+        "text": "Cargando..."
+    },
+    "cta": {
+        "downloadCV": "Descargar CV",
+        "contact": "Contáctame"
+    },
+    "nav": {
+        "home": "Inicio",
+        "about": "Sobre mí",
+        "education": "Educación",
+        "experience": "Experiencia",
+        "work": "Trabajo",
+        "portfolio": "Portafolio",
+        "conferences": "Conferencias",
+        "contact": "Contacto"
+    },
+    "header": {
+        "greeting": "Hola, mi nombre es",
+        "name": "Christopher",
+        "title": "Ingeniero de Sistemas de la Información",
+        "subtitle": "Full Stack Developer con experiencia en desarrollo de sistemas empresariales y aplicaciones web, con enfoque en backend y arquitecturas escalables.",
+        "scrollDown": "Ir abajo"
+    },
+    "about": {
+        "subtitle": "Vamos a saber",
+        "title": "Acerca de Mí",
+        "cards": {
+            "experience": "Habilidades",
+            "experienceValue": "8+ años programando",
+            "diplomas": "Diplomas",
+            "diplomasValue": "10+ diplomas recibidos",
+            "projects": "Proyectos",
+            "projectsValue": "20+ proyectos realizados"
+        },
+        "bioTitle": "Mi biografía",
+        "bio1": "Me llamo Christopher Antonio Pillihuamán Santiago, tengo 24 años y vivo en Lima, en el distrito de La Molina. Desde pequeño, la tecnología me ha llamado la atención, especialmente la forma en que los sistemas transforman ideas en soluciones reales. Al principio, la programación me parecía compleja, pero con el tiempo descubrí que, con paciencia y dedicación, pude entender cómo funciona realmente el desarrollo de software.",
+        "bio2": "En 2018 comencé mis estudios en ISIL, donde obtuve el título de Técnico en Sistemas en 2021. Luego continué mi formación en la Universidad San Ignacio de Loyola (USIL) y completé la carrera de Ingeniería de Sistemas de la Información en diciembre de 2024. Durante ese tiempo trabajé como Analista Programador en Lidera Software S.A.C. (2022–2023), donde participé en el desarrollo de un sistema contable empresarial.",
+        "bio3": "En 2023 fundé Code Resolutions, mi proyecto freelance de desarrollo de software, donde ofrezco soluciones tecnológicas personalizadas a clientes que buscan llevar sus ideas al mundo digital. Desde entonces, he trabajado en proyectos web, sistemas administrativos y aplicaciones móviles, siempre enfocado en entregar productos de calidad.",
+        "bio4": "En julio de 2025 obtuve el grado de bachiller en Ingeniería de Sistemas de la Información y actualmente trabajo en mi tesis para obtener el título profesional. Me apasiona el aprendizaje continuo y siempre busco mejorar mis habilidades técnicas.",
+        "objectiveTitle": "Mi Objetivo profesional",
+        "objective": "Quiero crecer como profesional en el mundo de la tecnología y aportar soluciones innovadoras en el desarrollo de software. Me interesa trabajar con nuevas tecnologías y seguir aprendiendo cada día."
+    },
+    "education": {
+        "subtitle": "Mi formación académica",
+        "title": "Educación",
+        "institutions": [
+            {
+                "name": "Colegio Redentorista San Alfonso",
+                "shortName": "Colegio San Alfonso",
+                "period": "Marzo 2012 - Diciembre 2017",
+                "location": "Santa Clara, Ate - Lima",
+                "degree": "Educación Secundaria Completa",
+                "achievements": [
+                    "Formación básica en computación e informática",
+                    "Certificado de estudios secundarios"
+                ]
+            },
+            {
+                "name": "Instituto San Ignacio de Loyola (ISIL)",
+                "shortName": "ISIL",
+                "period": "Marzo 2018 - Julio 2021",
+                "location": "La Molina, Lima",
+                "degree": "Técnico en Ingeniería de Sistemas de la Información",
+                "achievements": [
+                    "Título Técnico obtenido en julio 2021",
+                    "Certificación por participación en talleres de tecnología"
+                ]
+            },
+            {
+                "name": "Universidad San Ignacio de Loyola (USIL)",
+                "shortName": "USIL",
+                "period": "Agosto 2021 - Diciembre 2024",
+                "location": "La Molina, Lima",
+                "degree": "Ingeniería de Sistemas de la Información",
+                "achievements": [
+                    "Egresado en diciembre 2024",
+                    "Bachiller obtenido en julio 2025",
+                    "Tesis en desarrollo para título profesional"
+                ]
+            }
+        ]
+    },
+    "experience": {
+        "subtitle": "¿Qué habilidades tengo?",
+        "title": "Mis Habilidades",
+        "prev": "Anterior",
+        "next": "Siguiente",
+        "goToSlide": "Ir a slide",
+        "categories": [
+            {
+                "title": "Lenguajes de Programación",
+                "skills": [
+                    "Java",
+                    "JavaScript",
+                    "TypeScript",
+                    "PHP",
+                    "Python",
+                    "C#",
+                    "Go",
+                    "C++",
+                    "C",
+                    "HTML5",
+                    "CSS3"
+                ]
+            },
+            {
+                "title": "Backend Development",
+                "skills": [
+                    "Spring Boot",
+                    "Laravel",
+                    "Node.js",
+                    ".NET Core",
+                    "FastAPI",
+                    "Gin Framework",
+                    "API REST",
+                    "Spring Data JPA"
+                ]
+            },
+            {
+                "title": "Frontend Development",
+                "skills": [
+                    "Angular",
+                    "React",
+                    "Vue",
+                    "Next.js",
+                    "TypeScript",
+                    "Bootstrap",
+                    "Tailwind CSS",
+                    "Sass",
+                    "jQuery"
+                ]
+            },
+            {
+                "title": "Databases",
+                "skills": [
+                    "MySQL",
+                    "PostgreSQL",
+                    "MongoDB",
+                    "SQL Server",
+                    "Oracle",
+                    "Firebase",
+                    "Redis"
+                ]
+            },
+            {
+                "title": "Cloud & DevOps",
+                "skills": [
+                    "AWS",
+                    "Azure",
+                    "Google Cloud",
+                    "Docker",
+                    "Git",
+                    "CI/CD"
+                ]
+            },
+            {
+                "title": "Development Tools",
+                "skills": [
+                    "Postman",
+                    "Figma",
+                    "IntelliJ IDEA",
+                    "VS Code",
+                    "NetBeans",
+                    "Eclipse",
+                    "JMeter",
+                    "SonarQube"
+                ]
+            },
+            {
+                "title": "Metodologías & Arquitecturas",
+                "skills": [
+                    "Scrum",
+                    "Kanban",
+                    "MVC",
+                    "SOLID",
+                    "Clean Code",
+                    "Microservicios"
+                ]
+            }
+        ]
+    },
+    "work": {
+        "subtitle": "Mi trayectoria",
+        "title": "Experiencia Laboral",
+        "jobs": [
+            {
+                "position": "Analista Programador - Lidera Software S.A.C.",
+                "period": "Mayo 2022 - Agosto 2023 | San Borja, Lima",
+                "description": "Trabajé en el desarrollo de un sistema contable empresarial completo con Angular 14 y Spring Boot. Mi principal logro fue optimizar el rendimiento del sistema en un 40% mediante consultas SQL más eficientes y una arquitectura limpia en capas: Controller, Service, Repository y Model.\n\nMe encargué del diseño e implementación de las APIs REST que consumían los diferentes módulos del sistema. Utilicé Spring Data JPA para gestionar la persistencia de datos en MySQL, lo que permitió realizar operaciones CRUD de manera eficiente y escalable. En el frontend, trabajé con HttpClient, Observables y RxJS para manejar las peticiones asincrónicas y el flujo de datos entre componentes.\n\nEl proceso de desarrollo consistía en recibir especificaciones detalladas en documentos Word que incluían requerimientos funcionales, consultas SQL, modelos de datos y lineamientos de diseño. A partir de esto, creaba las entidades JPA, definía los repositorios con consultas personalizadas y exponía los endpoints REST necesarios. Luego, en Angular consumía estos servicios mediante peticiones GET, POST, PUT y DELETE, integrando los datos dinámicamente en la interfaz de usuario.\n\nFormé parte activa del equipo ágil bajo metodología Scrum. Participé en el análisis de requerimientos, diseño de modelos de datos, dailies, refinamientos de sprint, reviews y retrospectivas. Esta colaboración constante me permitió alinear el desarrollo técnico con las necesidades del negocio y entregar funcionalidades de valor en cada sprint.\n\nApliqué patrones de diseño como MVC, DAO y DTO para mantener el código organizado y desacoplado. Seguí principios de Clean Code y SOLID para asegurar que el sistema fuera mantenible y extensible a largo plazo. Cada módulo que desarrollé cumplió con estándares de calidad que facilitaron su integración con el resto del sistema.\n\nGestioné el control de versiones con Git/GitHub, trabajando en ramas separadas para cada funcionalidad y realizando merges controlados. Además, elaboré documentación técnica detallada que permitió al equipo comprender la arquitectura, los flujos de datos y la lógica de negocio implementada en cada módulo.\n\nStack técnico: Angular 14, TypeScript, Spring Boot, Spring Data JPA, MySQL, HTML5, CSS3, JavaScript, Git/GitHub, Metodologías Ágiles (Scrum), Patrones de diseño MVC/DAO/DTO.",
+                "showMore": "Ver más",
+                "showLess": "Ver menos"
+            }
+        ]
+    },
+    "portfolio": {
+        "subtitle": "Presentación de",
+        "title": "Mis Proyectos",
+        "viewMore": "Ver más",
+        "showMore": "Ver Más Proyectos",
+        "showLess": "Ver Menos"
+    },
+    "modal": {
+        "description": "Descripción",
+        "technologies": "Tecnologías",
+        "images": "Imágenes",
+        "image": "Imagen",
+        "frontend": "Frontend:",
+        "backend": "Backend:",
+        "databases": "Databases:",
+        "devops": "DevOps & Cloud:",
+        "otros": "Otros:",
+        "noTech": "No hay tecnologías registradas.",
+        "noDescription": "No hay descripción disponible."
+    },
+    "conferences": {
+        "subtitle": "Algunas",
+        "title": "Conferencias y Eventos",
+        "subtitle2": "donde he asistido",
+        "events": [
+            "AWS Security Community LATAM - Ciberseguridad y mejores prácticas en la nube",
+            "The Founder Story GCP - Historias de éxito y estrategias en tecnología",
+            "Gobierno de Datos con Microsoft Purview - Gestión y seguridad de la información empresarial",
+            "Transformación Digital en Microsoft - Implementación de soluciones en la nube",
+            "CAMP 2023 - Innovación y estrategias en marketing digital",
+            "CAMP 2023 - Liderazgo y evolución en la era digital",
+            "Microsoft Build Colombia - Desarrollo y ecosistema de tecnología en LATAM"
+        ]
+    },
+    "contact": {
+        "subtitle": "Ponte en contacto conmigo",
+        "title": "Contacto",
+        "email": "Email",
+        "linkedin": "LinkedIn",
+        "whatsapp": "WhatsApp",
+        "sendMessage": "Enviar un mensaje",
+        "form": {
+            "namePlaceholder": "¿Cuáles son tus nombres?",
+            "emailPlaceholder": "¿Cuál es tu correo electrónico?",
+            "messagePlaceholder": "Escribe tu mensaje.",
+            "submit": "Enviar Mensaje",
+            "sending": "Enviando..."
+        },
+        "toast": {
+            "success": "¡Éxito! Mensaje enviado desde {{email}}.",
+            "error": "Error al enviar el correo. Inténtalo nuevamente."
+        }
+    },
+    "footer": {
+        "nav": {
+            "home": "Inicio",
+            "about": "Acerca de",
+            "education": "Educación",
+            "experience": "Habilidades",
+            "work": "Experiencia",
+            "portfolio": "Proyectos",
+            "conferences": "Conferencias",
+            "contact": "Contacto"
+        },
+        "copyright": "© 2026. Hecho por Christopher PS, desarrollado en React."
+    }
+}

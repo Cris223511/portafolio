@@ -1,0 +1,263 @@
+{
+    "loader": {
+        "text": "Loading..."
+    },
+    "cta": {
+        "downloadCV": "Download CV",
+        "contact": "Contact Me"
+    },
+    "nav": {
+        "home": "Home",
+        "about": "About",
+        "education": "Education",
+        "experience": "Experience",
+        "work": "Work",
+        "portfolio": "Portfolio",
+        "conferences": "Conferences",
+        "contact": "Contact"
+    },
+    "header": {
+        "greeting": "Hello, my name is",
+        "name": "Christopher",
+        "title": "Information Systems Engineer",
+        "subtitle": "Full Stack Developer with experience in enterprise systems development and web applications, focused on backend and scalable architectures.",
+        "scrollDown": "Scroll down"
+    },
+    "about": {
+        "subtitle": "Let's get to know",
+        "title": "About Me",
+        "cards": {
+            "experience": "Skills",
+            "experienceValue": "8+ years programming",
+            "diplomas": "Diplomas",
+            "diplomasValue": "10+ diplomas received",
+            "projects": "Projects",
+            "projectsValue": "20+ projects completed"
+        },
+        "bioTitle": "My biography",
+        "bio1": "My name is Christopher Antonio Pillihuamán Santiago, I am 24 years old and I live in Lima, in the district of La Molina. Since I was a child, technology has caught my attention, especially the way systems transform ideas into real solutions. At first, programming seemed complex to me, but over time I discovered that, with patience and dedication, I was able to understand how software development really works.",
+        "bio2": "In 2018 I began my studies at ISIL, where I obtained the title of Systems Technician in 2021. I then continued my education at the San Ignacio de Loyola University (USIL) and completed the Information Systems Engineering degree in December 2024. During that time I worked as a Programmer Analyst at Lidera Software S.A.C. (2022–2023), where I participated in the development of an enterprise accounting system.",
+        "bio3": "In 2023 I founded Code Resolutions, my freelance software development project, where I offer personalized technological solutions to clients looking to bring their ideas to the digital world. Since then, I have worked on web projects, administrative systems and mobile applications, always focused on delivering quality products.",
+        "bio4": "In July 2025 I obtained my bachelor's degree in Information Systems Engineering and I am currently working on my thesis to obtain my professional degree. I am passionate about continuous learning and always seek to improve my technical skills.",
+        "objectiveTitle": "My professional goal",
+        "objective": "I want to grow as a professional in the world of technology and provide innovative solutions in software development. I am interested in working with new technologies and continuing to learn every day."
+    },
+    "education": {
+        "subtitle": "My academic background",
+        "title": "Education",
+        "institutions": [
+            {
+                "name": "Redemptorist School San Alfonso",
+                "shortName": "San Alfonso School",
+                "period": "March 2012 - December 2017",
+                "location": "Santa Clara, Ate - Lima",
+                "degree": "Complete Secondary Education",
+                "achievements": [
+                    "Basic training in computing and informatics",
+                    "High school certificate"
+                ]
+            },
+            {
+                "name": "San Ignacio de Loyola Institute (ISIL)",
+                "shortName": "ISIL",
+                "period": "March 2018 - July 2021",
+                "location": "La Molina, Lima",
+                "degree": "Technician in Information Systems Engineering",
+                "achievements": [
+                    "Technical degree obtained in July 2021",
+                    "Certification for participation in technology workshops"
+                ]
+            },
+            {
+                "name": "San Ignacio de Loyola University (USIL)",
+                "shortName": "USIL",
+                "period": "August 2021 - December 2024",
+                "location": "La Molina, Lima",
+                "degree": "Information Systems Engineering",
+                "achievements": [
+                    "Graduated in December 2024",
+                    "Bachelor's degree obtained in July 2025",
+                    "Thesis in development for professional degree"
+                ]
+            }
+        ]
+    },
+    "experience": {
+        "subtitle": "What skills do I have?",
+        "title": "My Skills",
+        "prev": "Previous",
+        "next": "Next",
+        "goToSlide": "Go to slide",
+        "categories": [
+            {
+                "title": "Programming Languages",
+                "skills": [
+                    "Java",
+                    "JavaScript",
+                    "TypeScript",
+                    "PHP",
+                    "Python",
+                    "C#",
+                    "Go",
+                    "C++",
+                    "C",
+                    "HTML5",
+                    "CSS3"
+                ]
+            },
+            {
+                "title": "Backend Development",
+                "skills": [
+                    "Spring Boot",
+                    "Laravel",
+                    "Node.js",
+                    ".NET Core",
+                    "FastAPI",
+                    "Gin Framework",
+                    "REST API",
+                    "Spring Data JPA"
+                ]
+            },
+            {
+                "title": "Frontend Development",
+                "skills": [
+                    "Angular",
+                    "React",
+                    "Vue",
+                    "Next.js",
+                    "TypeScript",
+                    "Bootstrap",
+                    "Tailwind CSS",
+                    "Sass",
+                    "jQuery"
+                ]
+            },
+            {
+                "title": "Databases",
+                "skills": [
+                    "MySQL",
+                    "PostgreSQL",
+                    "MongoDB",
+                    "SQL Server",
+                    "Oracle",
+                    "Firebase",
+                    "Redis"
+                ]
+            },
+            {
+                "title": "Cloud & DevOps",
+                "skills": [
+                    "AWS",
+                    "Azure",
+                    "Google Cloud",
+                    "Docker",
+                    "Git",
+                    "CI/CD"
+                ]
+            },
+            {
+                "title": "Development Tools",
+                "skills": [
+                    "Postman",
+                    "Figma",
+                    "IntelliJ IDEA",
+                    "VS Code",
+                    "NetBeans",
+                    "Eclipse",
+                    "JMeter",
+                    "SonarQube"
+                ]
+            },
+            {
+                "title": "Methodologies & Architectures",
+                "skills": [
+                    "Scrum",
+                    "Kanban",
+                    "MVC",
+                    "SOLID",
+                    "Clean Code",
+                    "Microservices"
+                ]
+            }
+        ]
+    },
+    "work": {
+        "subtitle": "My career path",
+        "title": "Work Experience",
+        "jobs": [
+            {
+                "position": "Programmer Analyst - Lidera Software S.A.C.",
+                "period": "May 2022 - August 2023 | San Borja, Lima",
+                "description": "I worked on developing a complete enterprise accounting system with Angular 14 and Spring Boot. My main achievement was optimizing system performance by 40% through more efficient SQL queries and a clean layered architecture: Controller, Service, Repository and Model.\n\nI was in charge of designing and implementing the REST APIs consumed by the different system modules. I used Spring Data JPA to manage data persistence in MySQL, which allowed efficient and scalable CRUD operations. On the frontend, I worked with HttpClient, Observables and RxJS to handle asynchronous requests and data flow between components.\n\nThe development process consisted of receiving detailed specifications in Word documents that included functional requirements, SQL queries, data models and design guidelines. From this, I created JPA entities, defined repositories with custom queries and exposed the necessary REST endpoints. Then, in Angular I consumed these services through GET, POST, PUT and DELETE requests, dynamically integrating the data into the user interface.\n\nI was an active part of the agile team under the Scrum methodology. I participated in requirements analysis, data model design, dailies, sprint refinements, reviews and retrospectives. This constant collaboration allowed me to align technical development with business needs and deliver value features in each sprint.\n\nI applied design patterns such as MVC, DAO and DTO to keep the code organized and decoupled. I followed Clean Code and SOLID principles to ensure that the system was maintainable and extensible in the long term. Each module I developed met quality standards that facilitated its integration with the rest of the system.\n\nI managed version control with Git/GitHub, working on separate branches for each functionality and performing controlled merges. In addition, I prepared detailed technical documentation that allowed the team to understand the architecture, data flows and business logic implemented in each module.\n\nTech stack: Angular 14, TypeScript, Spring Boot, Spring Data JPA, MySQL, HTML5, CSS3, JavaScript, Git/GitHub, Agile Methodologies (Scrum), MVC/DAO/DTO design patterns.",
+                "showMore": "Show more",
+                "showLess": "Show less"
+            }
+        ]
+    },
+    "portfolio": {
+        "subtitle": "Presentation of",
+        "title": "My Projects",
+        "viewMore": "View more",
+        "showMore": "Show More Projects",
+        "showLess": "Show Less"
+    },
+    "modal": {
+        "description": "Description",
+        "technologies": "Technologies",
+        "images": "Images",
+        "image": "Image",
+        "frontend": "Frontend:",
+        "backend": "Backend:",
+        "databases": "Databases:",
+        "devops": "DevOps & Cloud:",
+        "otros": "Others:",
+        "noTech": "No technologies registered.",
+        "noDescription": "No description available."
+    },
+    "conferences": {
+        "subtitle": "Some",
+        "title": "Conferences and Events",
+        "subtitle2": "I have attended",
+        "events": [
+            "AWS Security Community LATAM - Cybersecurity and best practices in the cloud",
+            "The Founder Story GCP - Success stories and strategies in technology",
+            "Data Governance with Microsoft Purview - Management and security of business information",
+            "Digital Transformation at Microsoft - Implementation of cloud solutions",
+            "CAMP 2023 - Innovation and strategies in digital marketing",
+            "CAMP 2023 - Leadership and evolution in the digital age",
+            "Microsoft Build Colombia - Development and technology ecosystem in LATAM"
+        ]
+    },
+    "contact": {
+        "subtitle": "Get in touch with me",
+        "title": "Contact",
+        "email": "Email",
+        "linkedin": "LinkedIn",
+        "whatsapp": "WhatsApp",
+        "sendMessage": "Send a message",
+        "form": {
+            "namePlaceholder": "What's your name?",
+            "emailPlaceholder": "What's your email?",
+            "messagePlaceholder": "Write your message.",
+            "submit": "Send Message",
+            "sending": "Sending..."
+        },
+        "toast": {
+            "success": "Success! Message sent from {{email}}.",
+            "error": "Error sending email. Please try again."
+        }
+    },
+    "footer": {
+        "nav": {
+            "home": "Home",
+            "about": "About",
+            "education": "Education",
+            "experience": "Skills",
+            "work": "Work",
+            "portfolio": "Projects",
+            "conferences": "Conferences",
+            "contact": "Contact"
+        },
+        "copyright": "© 2026. Made by Christopher PS, developed in React."
+    }
+}

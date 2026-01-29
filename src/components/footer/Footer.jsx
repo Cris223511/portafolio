@@ -1,24 +1,28 @@
-import React from 'react'
-import './footer.css'
-import { BsLinkedin, BsGithub, BsTwitter, BsInstagram, BsFacebook, BsYoutube } from 'react-icons/bs'
-import { FaStackOverflow } from 'react-icons/fa'
-import { FaReact } from 'react-icons/fa';
+import React from 'react';
+import { useTranslation } from 'react-i18next';
+import './footer.css';
+import { BsLinkedin, BsGithub, BsTwitter, BsInstagram, BsFacebook, BsYoutube } from 'react-icons/bs';
+import { FaStackOverflow, FaReact } from 'react-icons/fa';
 import { scrollToSection } from '../../utils/smoothScroll';
 
 const Footer = () => {
+  const { t } = useTranslation();
+
   return (
     <footer id='footer'>
-      <a href="#home" className='footer__logo' onClick={(e) => { e.preventDefault(); scrollToSection('home'); }}>Christopher PS</a>
+      <a href="#home" className='footer__logo' onClick={(e) => { e.preventDefault(); scrollToSection('home'); }}>
+        Christopher PS
+      </a>
 
       <ul className='permalinks'>
-        <li><a href="#home" onClick={(e) => { e.preventDefault(); scrollToSection('home'); }}>Inicio</a></li>
-        <li><a href="#about" onClick={(e) => { e.preventDefault(); scrollToSection('about'); }}>Acerca de</a></li>
-        <li><a href="#education" onClick={(e) => { e.preventDefault(); scrollToSection('education'); }}>Educación</a></li>
-        <li><a href="#experience" onClick={(e) => { e.preventDefault(); scrollToSection('experience'); }}>Habilidades</a></li>
-        <li><a href="#work" onClick={(e) => { e.preventDefault(); scrollToSection('work'); }}>Experiencia</a></li>
-        <li><a href="#portfolio" onClick={(e) => { e.preventDefault(); scrollToSection('portfolio'); }}>Proyectos</a></li>
-        <li><a href="#conferences" onClick={(e) => { e.preventDefault(); scrollToSection('conferences'); }}>Conferencias</a></li>
-        <li><a href="#contact" onClick={(e) => { e.preventDefault(); scrollToSection('contact'); }}>Contacto</a></li>
+        <li><a href="#home" onClick={(e) => { e.preventDefault(); scrollToSection('home'); }}>{t('footer.nav.home')}</a></li>
+        <li><a href="#about" onClick={(e) => { e.preventDefault(); scrollToSection('about'); }}>{t('footer.nav.about')}</a></li>
+        <li><a href="#education" onClick={(e) => { e.preventDefault(); scrollToSection('education'); }}>{t('footer.nav.education')}</a></li>
+        <li><a href="#experience" onClick={(e) => { e.preventDefault(); scrollToSection('experience'); }}>{t('footer.nav.experience')}</a></li>
+        <li><a href="#work" onClick={(e) => { e.preventDefault(); scrollToSection('work'); }}>{t('footer.nav.work')}</a></li>
+        <li><a href="#portfolio" onClick={(e) => { e.preventDefault(); scrollToSection('portfolio'); }}>{t('footer.nav.portfolio')}</a></li>
+        <li><a href="#conferences" onClick={(e) => { e.preventDefault(); scrollToSection('conferences'); }}>{t('footer.nav.conferences')}</a></li>
+        <li><a href="#contact" onClick={(e) => { e.preventDefault(); scrollToSection('contact'); }}>{t('footer.nav.contact')}</a></li>
       </ul>
 
       <div className='footer__socials'>
@@ -32,11 +36,11 @@ const Footer = () => {
       </div>
 
       <div className='footer__copyright'>
-        <small>&copy; 2026. Hecho por Christopher PS, desarrollado en React.</small>
-        <FaReact className="react-icon"/>
+        <small>{t('footer.copyright')}</small>
+        <FaReact className="react-icon" />
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { useTranslation } from 'react-i18next';
 import lightGallery from 'lightgallery';
 import lgZoom from 'lightgallery/plugins/zoom';
 import 'lightgallery/css/lightgallery.css';
@@ -7,16 +8,17 @@ import 'lightgallery/css/lg-thumbnail.css';
 import lgThumbnail from 'lightgallery/plugins/thumbnail';
 import './projectModal.css';
 
-const defaultSteps = [
-    { step: 1, title: 'Descripción' },
-    { step: 2, title: 'Tecnologías' },
-    { step: 3, title: 'Imágenes' }
-];
-
 const ProjectModal = ({ project, onClose }) => {
+    const { t } = useTranslation();
     const [activeStep, setActiveStep] = useState(1);
     const [isVisible, setIsVisible] = useState(false);
     const galleryRef = useRef(null);
+
+    const defaultSteps = [
+        { step: 1, title: t('modal.description') },
+        { step: 2, title: t('modal.technologies') },
+        { step: 3, title: t('modal.images') }
+    ];
 
     useEffect(() => {
         if (project) {
@@ -70,26 +72,17 @@ const ProjectModal = ({ project, onClose }) => {
                     </div>
                     <div className="modal-main">
                         <h3>{defaultSteps.find((step) => step.step === activeStep).title}</h3>
-
                         {/* Paso 1: Descripción */}
                         {activeStep === 1 && (
-                            <p dangerouslySetInnerHTML={{ __html: project.description || 'No hay descripción disponible.' }} />
+                            <p dangerouslySetInnerHTML={{ __html: project.description || t('modal.noDescription') }} />
                         )}
-
                         {/* Paso 2: Tecnologías */}
                         {activeStep === 2 && (
                             <div>
                                 {Object.entries(project.technologies).map(([key, values]) =>
                                     values.length > 0 && (
                                         <div key={key} className="technology-section">
-                                            <h4 className="technology-title">
-                                                {key === "frontend" ? "Frontend:" :
-                                                    key === "backend" ? "Backend:" :
-                                                        key === "databases" ? "Databases:" :
-                                                            key === "devops" ? "DevOps & Cloud:" :
-                                                                key === "otros" ? "Otros:" :
-                                                                    key.charAt(0).toUpperCase() + key.slice(1)}
-                                            </h4>
+                                            <h4 className="technology-title">{t(`modal.${key}`)}</h4>
                                             <ul className="technology-list">
                                                 {values.map((tech, index) => (
                                                     <li key={index}>{tech}</li>
@@ -99,17 +92,16 @@ const ProjectModal = ({ project, onClose }) => {
                                     )
                                 )}
                                 {Object.values(project.technologies).every(arr => arr.length === 0) && (
-                                    <p>No hay tecnologías registradas.</p>
+                                    <p>{t('modal.noTech')}</p>
                                 )}
                             </div>
                         )}
-
                         {/* Paso 3: Imágenes */}
                         {activeStep === 3 && (
                             <div ref={galleryRef} className="modal-gallery">
                                 {project.gallery?.map((img, index) => (
                                     <a key={index} href={require(`../../assets/${img}`)} className="gallery-item">
-                                        <img src={require(`../../assets/${img}`)} alt={`Imagen ${index + 1}`} />
+                                        <img src={require(`../../assets/${img}`)} alt={`${t('modal.image')} ${index + 1}`} />
                                     </a>
                                 ))}
                             </div>

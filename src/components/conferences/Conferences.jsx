@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
 import lightGallery from 'lightgallery';
@@ -12,29 +13,34 @@ import 'lightgallery/css/lg-thumbnail.css';
 import './conferences.css';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 
-const conferenceData = [
-  { src: require("../../assets/conference_01.jpg"), title: "AWS Security Community LATAM - Ciberseguridad y mejores prácticas en la nube" },
-  { src: require("../../assets/conference_02.jpg"), title: "The Founder Story GCP - Historias de éxito y estrategias en tecnología" },
-  { src: require("../../assets/conference_03.jpg"), title: "Gobierno de Datos con Microsoft Purview - Gestión y seguridad de la información empresarial" },
-  { src: require("../../assets/conference_04.jpg"), title: "Transformación Digital en Microsoft - Implementación de soluciones en la nube" },
-  { src: require("../../assets/conference_05.jpg"), title: "CAMP 2023 - Innovación y estrategias en marketing digital" },
-  { src: require("../../assets/conference_06.jpg"), title: "CAMP 2023 - Liderazgo y evolución en la era digital" },
-  { src: require("../../assets/conference_07.jpg"), title: "Microsoft Build Colombia - Desarrollo y ecosistema de tecnología en LATAM" }
-];
-
 const Conferences = () => {
+  const { t, i18n } = useTranslation();
   const galleryRef = useRef(null);
   const swiperRef = useRef(null);
   const [lgInstance, setLgInstance] = useState(null);
 
-  // inicializo LightGallery primero
+  // Cargar las conferencias desde el JSON de traducciones
+  const conferences = t('conferences.events', { returnObjects: true });
+
+  const conferenceData = [
+    { src: require("../../assets/conference_01.jpg"), title: conferences[0] },
+    { src: require("../../assets/conference_02.jpg"), title: conferences[1] },
+    { src: require("../../assets/conference_03.jpg"), title: conferences[2] },
+    { src: require("../../assets/conference_04.jpg"), title: conferences[3] },
+    { src: require("../../assets/conference_05.jpg"), title: conferences[4] },
+    { src: require("../../assets/conference_06.jpg"), title: conferences[5] },
+    { src: require("../../assets/conference_07.jpg"), title: conferences[6] }
+  ];
+
+  // Inicializar LightGallery solo cuando cambia el idioma
   useEffect(() => {
     if (galleryRef.current) {
-      // si ya existe una instancia, la destruimos antes de inicializar una nueva
+      // Destruir instancia anterior si existe
       if (lgInstance) {
         lgInstance.destroy();
       }
 
+      // Crear nueva instancia
       const instance = lightGallery(galleryRef.current, {
         selector: '.gallery-item',
         plugins: [lgThumbnail, lgZoom],
@@ -45,15 +51,21 @@ const Conferences = () => {
 
       setLgInstance(instance);
     }
-  }, []);
+
+    // Cleanup al desmontar o cambiar idioma
+    return () => {
+      if (lgInstance) {
+        lgInstance.destroy();
+      }
+    };
+  }, [i18n.language]); // Solo cuando cambia el idioma
 
   return (
     <section id='conferences'>
-      <h5 style={{ paddingTop: '30px' }}>Algunas</h5>
-      <h2 style={{ marginBottom: "8px" }}>Conferencias y Eventos</h2>
-      <h5 style={{ marginBottom: "3rem" }}>donde he asistido</h5>
+      <h5 style={{ paddingTop: '30px' }}>{t('conferences.subtitle')}</h5>
+      <h2 style={{ marginBottom: "8px" }}>{t('conferences.title')}</h2>
+      <h5 style={{ marginBottom: "3rem" }}>{t('conferences.subtitle2')}</h5>
       <div className='container conferences__container'>
-
         {/* galería para LightGallery */}
         <div ref={galleryRef} className='gallery'>
           <Swiper
@@ -81,7 +93,6 @@ const Conferences = () => {
             ))}
           </Swiper>
         </div>
-
         {/* botones de navegación */}
         <button className='carousel__btn left'>
           <FaChevronLeft />

@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
+import './i18n';
 import Header from './components/header/Header';
 import Nav from './components/nav/Nav';
+import LanguageToggle from './components/nav/LanguageToggle';
 import About from './components/about/About';
 import Experience from './components/experience/Experience';
 import Education from './components/education/Education';
@@ -31,6 +33,7 @@ const App = () => {
       <div className={`app-container ${isLoading ? 'fade-out' : 'fade-in'}`}>
         <Header />
         <Nav />
+        <LanguageToggle />
         <About />
         <Education />
         <Experience />
