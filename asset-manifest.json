@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portafolio/static/css/main.655ec6ec.css",
-    "main.js": "/portafolio/static/js/main.94d54c79.js",
+    "main.css": "/portafolio/static/css/main.f605b0ea.css",
+    "main.js": "/portafolio/static/js/main.899d058e.js",
     "static/media/subproyect_2_9.png": "/portafolio/static/media/subproyect_2_9.0a47d451b8fdbf348d8f.png",
     "static/media/logo-template.ai": "/portafolio/static/media/logo-template.72f9636cc7db8ebc81ca.ai",
     "static/media/subproyect_12_8.png": "/portafolio/static/media/subproyect_12_8.533b8edd711b01b3e9f2.png",
@@ -217,11 +217,12 @@
     "static/media/subproyect_9_17.png": "/portafolio/static/media/subproyect_9_17.349d90bdda8cfc9daabb.png",
     "static/media/subproyect_7_11.png": "/portafolio/static/media/subproyect_7_11.915ec4615f338fd26c62.png",
     "static/media/subproyect_15_4.png": "/portafolio/static/media/subproyect_15_4.fb8c219ab3e0149c2ddc.png",
-    "static/media/Christopher_Antonio_Pillihuamán_Santiago_CV.pdf": "/portafolio/static/media/Christopher_Antonio_Pillihuamán_Santiago_CV.52b1bff17c43a557496d.pdf",
+    "static/media/Christopher_Antonio_Pillihuamán_Santiago_CV_ES.pdf": "/portafolio/static/media/Christopher_Antonio_Pillihuamán_Santiago_CV_ES.52b1bff17c43a557496d.pdf",
     "static/media/subproyect_0_34.png": "/portafolio/static/media/subproyect_0_34.597faf3a8a5807a8f22e.png",
     "static/media/subproyect_0_29.png": "/portafolio/static/media/subproyect_0_29.4a9abca10da47d932567.png",
     "static/media/subproyect_4_6.png": "/portafolio/static/media/subproyect_4_6.538b21ff63081a0b7c24.png",
     "static/media/subproyect_5_2.png": "/portafolio/static/media/subproyect_5_2.975ec6c881a9935069d6.png",
+    "static/media/Christopher_Antonio_Pillihuamán_Santiago_CV_EN.pdf": "/portafolio/static/media/Christopher_Antonio_Pillihuamán_Santiago_CV_EN.1c1fc7ef177e5a0da8c9.pdf",
     "static/media/subproyect_17_8.png": "/portafolio/static/media/subproyect_17_8.451969df6c0632bbe986.png",
     "static/media/subproyect_10_1.png": "/portafolio/static/media/subproyect_10_1.921bf9b3804d95f6f8ca.png",
     "static/media/subproyect_0_9.png": "/portafolio/static/media/subproyect_0_9.d3730086c73f67ad50af.png",
@@ -399,11 +400,12 @@
     "static/media/subproyect_1_32.png": "/portafolio/static/media/subproyect_1_32.df80a64465b2df8f526f.png",
     "static/media/subproyect_22_7.png": "/portafolio/static/media/subproyect_22_7.44ba0b707629c618df92.png",
     "static/media/proyect-5.jpg": "/portafolio/static/media/proyect-5.fbc5aa4edbd0926df29d.jpg",
+    "static/media/work_2.jpg": "/portafolio/static/media/work_2.fbc5aa4edbd0926df29d.jpg",
     "static/media/subproyect_20_3.png": "/portafolio/static/media/subproyect_20_3.23339216266b9bed679f.png",
     "static/media/portfolio1.jpg": "/portafolio/static/media/portfolio1.f5e72352e5aa840702b8.jpg",
     "static/media/subproyect_20_2.png": "/portafolio/static/media/subproyect_20_2.ebc54e9e503250598428.png",
     "static/media/subproyect_1_9.png": "/portafolio/static/media/subproyect_1_9.d7d33b0c9600c45d1e6e.png",
-    "static/media/work.jpg": "/portafolio/static/media/work.20b9334c286adf637fde.jpg",
+    "static/media/work_1.jpg": "/portafolio/static/media/work_1.20b9334c286adf637fde.jpg",
     "static/media/proyect-22.jpg": "/portafolio/static/media/proyect-22.0e2d00e2cce88d526b90.jpg",
     "static/media/conference_05.jpg": "/portafolio/static/media/conference_05.269c07d2e14ce254a51b.jpg",
     "static/media/educacion4.jpeg": "/portafolio/static/media/educacion4.8bb5ebcf182e49fd5abe.jpeg",
@@ -416,7 +418,7 @@
     "index.html": "/portafolio/index.html"
   },
   "entrypoints": [
-    "static/css/main.655ec6ec.css",
-    "static/js/main.94d54c79.js"
+    "static/css/main.f605b0ea.css",
+    "static/js/main.899d058e.js"
   ]
 }
