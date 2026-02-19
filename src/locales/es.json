@@ -35,10 +35,9 @@
             "projectsValue": "20+ proyectos realizados"
         },
         "bioTitle": "Mi biografía",
-        "bio1": "Me llamo Christopher Antonio Pillihuamán Santiago, tengo 24 años y vivo en Lima, en el distrito de La Molina. Desde pequeño, la tecnología me ha llamado la atención, especialmente la forma en que los sistemas transforman ideas en soluciones reales. Al principio, la programación me parecía compleja, pero con el tiempo descubrí que, con paciencia y dedicación, pude entender cómo funciona realmente el desarrollo de software.",
-        "bio2": "En 2018 comencé mis estudios en ISIL, donde obtuve el título de Técnico en Sistemas en 2021. Luego continué mi formación en la Universidad San Ignacio de Loyola (USIL) y completé la carrera de Ingeniería de Sistemas de la Información en diciembre de 2024. Durante ese tiempo trabajé como Analista Programador en Lidera Software S.A.C. (2022–2023), donde participé en el desarrollo de un sistema contable empresarial.",
-        "bio3": "En 2023 fundé Code Resolutions, mi proyecto freelance de desarrollo de software, donde ofrezco soluciones tecnológicas personalizadas a clientes que buscan llevar sus ideas al mundo digital. Desde entonces, he trabajado en proyectos web, sistemas administrativos y aplicaciones móviles, siempre enfocado en entregar productos de calidad.",
-        "bio4": "En julio de 2025 obtuve el grado de bachiller en Ingeniería de Sistemas de la Información y actualmente trabajo en mi tesis para obtener el título profesional. Me apasiona el aprendizaje continuo y siempre busco mejorar mis habilidades técnicas.",
+        "bio1": "Me llamo Christopher Antonio Pillihuamán Santiago, tengo 24 años y vivo en Lima. Desde pequeño me ha interesado entender cómo funcionan las cosas y encontrar formas de mejorarlas. La tecnología siempre llamó mi atención, especialmente la forma en que los sistemas transforman ideas en soluciones reales. El desarrollo de software me permite hacer exactamente eso, crear herramientas que faciliten la vida de las personas y resuelvan problemas concretos.",
+        "bio2": "Inicié mis estudios en ISIL en 2018 y al principio conceptos que hoy parecen simples me resultaban confusos. Con práctica constante y ganas de entender cada detalle logré avanzar con más claridad. En 2021 continué en la USIL donde consolidé mis conocimientos desarrollando páginas web, sistemas administrativos y aplicaciones. Durante ese tiempo trabajé como Analista Programador en Lidera Software donde participé en el desarrollo de un sistema contable empresarial completo con Angular y Spring Boot.",
+        "bio3": "En 2023 fundé Code Resolutions, una empresa freelance de desarrollo de software donde ofrezco soluciones tecnológicas personalizadas a clientes que buscan llevar sus ideas al mundo digital. En julio de 2025 obtuve el grado de bachiller en Ingeniería de Sistemas de la Información y actualmente trabajo en mi tesis para obtener el título profesional. Cada proyecto me enseña algo nuevo y me acerca más a crear soluciones que realmente aporten valor.",
         "objectiveTitle": "Mi Objetivo profesional",
         "objective": "Quiero crecer como profesional en el mundo de la tecnología y aportar soluciones innovadoras en el desarrollo de software. Me interesa trabajar con nuevas tecnologías y seguir aprendiendo cada día."
     },
@@ -184,22 +183,36 @@
     "work": {
         "subtitle": "Mi trayectoria",
         "title": "Experiencia Laboral",
-        "jobs": [
-            {
-                "position": "Analista Programador - Lidera Software S.A.C.",
-                "period": "Mayo 2022 - Agosto 2023 | San Borja, Lima",
-                "description": "Trabajé en el desarrollo de un sistema contable empresarial completo con Angular 14 y Spring Boot. Mi principal logro fue optimizar el rendimiento del sistema en un 40% mediante consultas SQL más eficientes y una arquitectura limpia en capas: Controller, Service, Repository y Model.\n\nMe encargué del diseño e implementación de las APIs REST que consumían los diferentes módulos del sistema. Utilicé Spring Data JPA para gestionar la persistencia de datos en MySQL, lo que permitió realizar operaciones CRUD de manera eficiente y escalable. En el frontend, trabajé con HttpClient, Observables y RxJS para manejar las peticiones asincrónicas y el flujo de datos entre componentes.\n\nEl proceso de desarrollo consistía en recibir especificaciones detalladas en documentos Word que incluían requerimientos funcionales, consultas SQL, modelos de datos y lineamientos de diseño. A partir de esto, creaba las entidades JPA, definía los repositorios con consultas personalizadas y exponía los endpoints REST necesarios. Luego, en Angular consumía estos servicios mediante peticiones GET, POST, PUT y DELETE, integrando los datos dinámicamente en la interfaz de usuario.\n\nFormé parte activa del equipo ágil bajo metodología Scrum. Participé en el análisis de requerimientos, diseño de modelos de datos, dailies, refinamientos de sprint, reviews y retrospectivas. Esta colaboración constante me permitió alinear el desarrollo técnico con las necesidades del negocio y entregar funcionalidades de valor en cada sprint.\n\nApliqué patrones de diseño como MVC, DAO y DTO para mantener el código organizado y desacoplado. Seguí principios de Clean Code y SOLID para asegurar que el sistema fuera mantenible y extensible a largo plazo. Cada módulo que desarrollé cumplió con estándares de calidad que facilitaron su integración con el resto del sistema.\n\nGestioné el control de versiones con Git/GitHub, trabajando en ramas separadas para cada funcionalidad y realizando merges controlados. Además, elaboré documentación técnica detallada que permitió al equipo comprender la arquitectura, los flujos de datos y la lógica de negocio implementada en cada módulo.\n\nStack técnico: Angular 14, TypeScript, Spring Boot, Spring Data JPA, MySQL, HTML5, CSS3, JavaScript, Git/GitHub, Metodologías Ágiles (Scrum), Patrones de diseño MVC/DAO/DTO.",
-                "showMore": "Ver más",
-                "showLess": "Ver menos"
-            }
-        ]
+        "viewMore": "Ver más",
+        "visitWebsite": "Visitar sitio web"
+    },
+    "workModal": {
+        "description": "Descripción completa",
+        "technologies": "Tecnologías utilizadas"
     },
     "portfolio": {
         "subtitle": "Presentación de",
         "title": "Mis Proyectos",
         "viewMore": "Ver más",
         "showMore": "Ver Más Proyectos",
-        "showLess": "Ver Menos"
+        "showLess": "Ver Menos",
+        "filters": {
+            "searchPlaceholder": "Buscar proyectos...",
+            "selected": "seleccionadas",
+            "allTech": "Filtrar por...",
+            "searchTech": "Buscar tecnología...",
+            "allProjects": "Todos",
+            "withDemo": "Con demo",
+            "sortRecent": "Más recientes",
+            "sortAZ": "A - Z",
+            "sortZA": "Z - A",
+            "clearFilters": "Limpiar filtros",
+            "showing": "Mostrando",
+            "of": "de",
+            "projects": "proyectos",
+            "noResults": "No se encontraron proyectos",
+            "tryAdjusting": "Intenta ajustar los filtros de búsqueda"
+        }
     },
     "modal": {
         "description": "Descripción",

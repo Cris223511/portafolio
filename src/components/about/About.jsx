@@ -45,8 +45,7 @@ const About = () => {
           <p>
             {t('about.bio1')}<br /><br />
             {t('about.bio2')}<br /><br />
-            {t('about.bio3')}<br /><br />
-            {t('about.bio4')}
+            {t('about.bio3')}
           </p>
           <h3>{t('about.objectiveTitle')}</h3>
           <p>
