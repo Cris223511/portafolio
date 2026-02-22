@@ -126,6 +126,62 @@ const projectsData = [
         gallery: ["subproyects/subproyect_22_1.png", "subproyects/subproyect_22_2.png", "subproyects/subproyect_22_3.png", "subproyects/subproyect_22_4.png", "subproyects/subproyect_22_5.png", "subproyects/subproyect_22_6.png", "subproyects/subproyect_22_7.png", "subproyects/subproyect_22_8.png", "subproyects/subproyect_22_9.png", "subproyects/subproyect_22_10.png", "subproyects/subproyect_22_11.png", "subproyects/subproyect_22_12.png", "subproyects/subproyect_22_13.png", "subproyects/subproyect_22_14.png", "subproyects/subproyect_22_15.png"]
     },
     {
+        id: 24,
+        title: "VideoTranscribe - Plataforma de Transcripción de Video con IA",
+        description: "Plataforma de transcripción de video impulsada por inteligencia artificial desarrollada para la Universidad Nacional de Tumbes. El sistema permite a los usuarios subir archivos de video o audio, pegar URLs de YouTube, Vimeo, SoundCloud y Spotify, o grabar audio directamente desde el navegador. Procesa el contenido a través de un motor de transcripción con IA y entrega resultados de texto precisos con soporte de selección de idioma para español e inglés.<br><br>La plataforma sigue un flujo guiado de cuatro pasos: subir contenido (archivo, URL o grabación), seleccionar el segmento específico del video a transcribir mediante una línea de tiempo visual con controles de tiempo de inicio y fin y ajuste de velocidad de reproducción, configurar los ajustes de transcripción incluyendo selección de idioma y generación opcional de resumen automático, y finalmente visualizar la transcripción completa con opciones para copiar el texto o generar un resumen impulsado por IA con puntos clave y descripción general.<br><br>Los resultados de transcripción muestran el texto completo con función de copiar al portapapeles, y el módulo de resumen desglosa el contenido en una descripción general y puntos clave extraídos mediante análisis de IA. Los usuarios pueden iniciar una nueva transcripción en cualquier momento o seguir refinando resultados. La interfaz incluye modo oscuro, selector de idioma y diseño responsivo en todos los dispositivos.<br><br>Desarrollado como proyecto por encargo para la Universidad Nacional de Tumbes con el fin de apoyar las necesidades de transcripción académica y administrativa, proporcionando una herramienta práctica para convertir clases en video, reuniones y contenido institucional en texto buscable y compartible.",
+        technologies: {
+            frontend: ["Angular 19", "TypeScript", "Sass"],
+            backend: ["Python 3.12"],
+            databases: ["PostgreSQL", "Redis"],
+            devops: ["Docker", "Render"],
+            otros: []
+        },
+        image: require("../assets/proyect-24.jpg"),
+        gallery: ["subproyects/subproyect_24_1.png", "subproyects/subproyect_24_2.png", "subproyects/subproyect_24_3.png", "subproyects/subproyect_24_4.png", "subproyects/subproyect_24_5.png", "subproyects/subproyect_24_6.png", "subproyects/subproyect_24_7.png", "subproyects/subproyect_24_8.png", "subproyects/subproyect_24_9.png", "subproyects/subproyect_24_10.png", "subproyects/subproyect_24_11.png", "subproyects/subproyect_24_12.png", "subproyects/subproyect_24_13.png"]
+    },
+    {
+        id: 25,
+        title: "PRISM-PR Review - Análisis Semántico de Pull Requests",
+        description: "Aplicación integrada con GitHub que realiza análisis semántico de Pull Requests antes del merge, explicando qué cambia realmente en el código, dónde está el riesgo y por qué importa. Soporta más de 12 lenguajes de programación incluyendo TypeScript, JavaScript, Java, Go, C#, Rust, Dart, Python, Ruby, PHP, Swift y Kotlin, entregando reportes detallados en formato Markdown directamente dentro de GitHub.<br><br>La plataforma ofrece cuatro tipos de análisis: seguridad (detección de vulnerabilidades, secretos hardcodeados, SQL injection, XSS), rendimiento (cuellos de botella, memory leaks, algoritmos ineficientes), calidad de código (code smells, convenciones de nombres, código no utilizado) y métricas (complejidad ciclomática, índice de mantenibilidad, deuda técnica). Incluye una sección interactiva \"Try It Live\" donde los usuarios pueden pegar código y obtener análisis en tiempo real con los resultados de issues encontrados.<br><br>El flujo de trabajo es simple: se activa PRISM en los repositorios de GitHub con un clic, se abre un Pull Request como de costumbre y se recibe automáticamente un reporte de análisis detallado con puntuación de riesgo y problemas categorizados por severidad. Se construyó siguiendo principios de Arquitectura Limpia, con caché LRU con TTL para rendimiento optimizado y procesamiento concurrente con límites configurables.<br><br>Demo: <a href='https://prisms-app.onrender.com/' target='_blank'>prisms-app.onrender.com</a>",
+        technologies: {
+            frontend: ["HTML5", "CSS3", "JavaScript", "TypeScript"],
+            backend: ["Node.js", "Express.js", "TypeScript"],
+            databases: [],
+            devops: ["Docker", "Render", "GitHub Pages"],
+            otros: ["GitHub API", "GitHub Webhooks", "Vitest"]
+        },
+        image: require("../assets/proyect-25.jpg"),
+        gallery: ["subproyects/subproyect_25_1.png", "subproyects/subproyect_25_2.png", "subproyects/subproyect_25_3.png", "subproyects/subproyect_25_4.png", "subproyects/subproyect_25_5.png", "subproyects/subproyect_25_6.png", "subproyects/subproyect_25_7.png"]
+    },
+    {
+        id: 26,
+        title: "NEXUS - Estudio de Diseño Digital",
+        description: "Página web informativa de un estudio de diseño digital que combina múltiples tecnologías y librerías para lograr una experiencia visual inmersiva. Se implementaron efectos de glassmorphism, escenas 3D interactivas con Three.js, animaciones sincronizadas con el scroll, parallax dinámico y un sistema de carga asíncrona de dependencias desde CDN con barra de progreso real vinculada a la carga de las librerías.<br><br>El sitio incluye secciones de portafolio con proyectos destacados, catálogo de servicios (diseño de producto digital, desarrollo full-stack, estrategia de marca, arquitectura de software, inteligencia artificial y consultoría técnica), metodología de trabajo en tres fases (inmersión y estrategia, diseño y prototipado, desarrollo y lanzamiento), contadores animados de estadísticas, galería horizontal con efecto parallax, texto de manifiesto que se revela palabra por palabra al hacer scroll, marquee infinito bidireccional y formulario de contacto con estilos glass.<br><br>La arquitectura sigue un enfoque modular basado en clases ES6+ donde cada funcionalidad está encapsulada en su propia clase: escena 3D principal, mini escenas 3D independientes dentro de cada card del showcase, figuras parallax, galería parallax, texto manifiesto y animador de estadísticas. Se optimizó el rendimiento limitando el pixel ratio a 2x para WebGL, aplicando will-change solo en elementos animados, lazy loading nativo en imágenes e IntersectionObserver para activar animaciones únicamente cuando son visibles. Diseño completamente responsive para desktop, tablet y móvil.<br><br>Demo: <a href='https://cris223511.github.io/nexus-parallax/' target='_blank'>cris223511.github.io/nexus-parallax</a>",
+        technologies: {
+            frontend: ["HTML5", "CSS3", "JavaScript ES6+"],
+            backend: [],
+            databases: [],
+            devops: ["GitHub Pages"],
+            otros: ["Three.js", "Anime.js", "Lenis", "WebGL", "Google Fonts"]
+        },
+        image: require("../assets/proyect-26.jpg"),
+        gallery: ["subproyects/subproyect_26_1.png", "subproyects/subproyect_26_2.png", "subproyects/subproyect_26_3.png", "subproyects/subproyect_26_4.png", "subproyects/subproyect_26_5.png", "subproyects/subproyect_26_6.png", "subproyects/subproyect_26_7.png", "subproyects/subproyect_26_8.png", "subproyects/subproyect_26_9.png", "subproyects/subproyect_26_10.png", "subproyects/subproyect_26_11.png"]
+    },
+    {
+        id: 27,
+        title: "GeoPortal Tumbes - Sistema Nacional Geoespacial",
+        description: "Plataforma geoespacial desarrollada para la región de Tumbes en coordinación con el Ministerio del Ambiente, inspirada en la Plataforma Nacional de Datos Georreferenciados Geo Perú. El sistema transforma big data territorial en insights accionables, permitiendo explorar el territorio peruano mediante un visor de mapas interactivo con soporte para capas temáticas como límites departamentales, límites provinciales, red vial nacional, zonas de riesgo sísmico, eventos históricos y áreas naturales protegidas. El visor ofrece tres tipos de mapa base (vector, satélite y topográfico) con controles de opacidad por capa, herramientas de dibujo (marcadores, líneas, polígonos), ubicación en tiempo real y coordenadas dinámicas de latitud y longitud.<br><br>La plataforma cuenta con una landing page institucional que presenta el catálogo de datos geoespaciales con más de 1,250 capas disponibles, 450 TB de datos geoespaciales y cobertura en las 24 regiones del país, además de una sección de servicios y herramientas para la gestión territorial. El sistema incluye autenticación con credenciales institucionales, verificación de correo electrónico mediante código de 6 dígitos con temporizador de expiración de 5 minutos y opción de reenvío de código.<br><br>El panel administrativo ofrece un dashboard completo con métricas en tiempo real: usuarios activos, capas geoespaciales publicadas, consultas diarias y almacenamiento utilizado. También muestra actividad reciente del sistema, estado de los servicios (servidor de mapas, base de datos PostGIS, servicios WMS/WFS, API de geoservicios), gráficas de consultas de los últimos 7 días y ranking de las capas más consultadas. Se desarrolló como un sistema enfocado en monitoreo de desastres naturales mediante información satelital para la región de Tumbes.",
+        technologies: {
+            frontend: ["Angular 18", "TypeScript", "Sass"],
+            backend: ["Java 24", "Spring Boot 3.4"],
+            databases: ["PostgreSQL", "PostGIS"],
+            devops: ["Azure", "On-Premise"],
+            otros: ["OpenLayers", "WMS/WFS"]
+        },
+        image: require("../assets/proyect-27.jpg"),
+        gallery: ["subproyects/subproyect_27_1.png", "subproyects/subproyect_27_2.png", "subproyects/subproyect_27_3.png", "subproyects/subproyect_27_4.png", "subproyects/subproyect_27_5.png", "subproyects/subproyect_27_6.png", "subproyects/subproyect_27_7.png", "subproyects/subproyect_27_8.png", "subproyects/subproyect_27_9.png"]
+    },
+    {
         id: 19,
         title: 'Municipalidad Provincial de Tumbes - Portal Institucional',
         description: "Portal web institucional para la Municipalidad Provincial de Tumbes que centraliza información de gestión pública, noticias, eventos, normativas y servicios municipales para la ciudadanía. La municipalidad contaba con un portal web desactualizado y con un diseño que dificultaba la navegación de los ciudadanos. Ofrecimos nuestros servicios de rediseño web y fuimos seleccionados para desarrollar un nuevo portal institucional moderno que mejorara la comunicación entre el gobierno local y la comunidad tumbesina.<br><br>El nuevo portal presenta un diseño intuitivo y responsive con secciones claramente organizadas: noticias de la gestión municipal, calendario de eventos, normativas y ordenanzas locales, proyectos en desarrollo y programas gubernamentales. Se incluyó una sección dedicada a la historia del municipio, autoridades actuales y estructura organizacional, fortaleciendo la identidad institucional y la transparencia de la gestión pública.<br><br>Se implementó un módulo de denuncias y sugerencias que permite a los ciudadanos reportar problemas de infraestructura, servicios públicos o seguridad, así como enviar propuestas para mejorar la ciudad. El espacio de comunicados oficiales mantiene informada a la población sobre anuncios importantes y actividades del alcalde. La integración con redes sociales como Facebook y Twitter amplía el alcance de la información y facilita la interacción directa con la comunidad.",
