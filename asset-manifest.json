@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portafolio/static/css/main.f605b0ea.css",
-    "main.js": "/portafolio/static/js/main.c2b2e02c.js",
-    "static/media/logo-template.ai": "/portafolio/static/media/logo-template.7e716ad3a7b9e8186725.ai",
+    "main.js": "/portafolio/static/js/main.606ab3e4.js",
+    "static/media/logo-template.ai": "/portafolio/static/media/logo-template.2dcb06334481da3afcb4.ai",
     "static/media/subproyect_2_9.png": "/portafolio/static/media/subproyect_2_9.0a47d451b8fdbf348d8f.png",
     "static/media/subproyect_12_8.png": "/portafolio/static/media/subproyect_12_8.533b8edd711b01b3e9f2.png",
     "static/media/subproyect_2_10.png": "/portafolio/static/media/subproyect_2_10.f94b481fceef87eb680b.png",
@@ -446,15 +446,15 @@
     "static/media/work_1.jpg": "/portafolio/static/media/work_1.20b9334c286adf637fde.jpg",
     "static/media/subproyect_25_7.png": "/portafolio/static/media/subproyect_25_7.876775a83597602da053.png",
     "static/media/subproyect_26_1.png": "/portafolio/static/media/subproyect_26_1.ae4c82991a7fac193d66.png",
-    "static/media/proyect-22.jpg": "/portafolio/static/media/proyect-22.0e2d00e2cce88d526b90.jpg",
+    "static/media/proyect-26.jpg": "/portafolio/static/media/proyect-26.d3daa877f8aca3e995b4.jpg",
     "static/media/conference_05.jpg": "/portafolio/static/media/conference_05.269c07d2e14ce254a51b.jpg",
     "static/media/educacion4.jpeg": "/portafolio/static/media/educacion4.8bb5ebcf182e49fd5abe.jpeg",
+    "static/media/proyect-22.jpg": "/portafolio/static/media/proyect-22.929af296561a41536be2.jpg",
     "static/media/proyect-24.jpg": "/portafolio/static/media/proyect-24.933192cbd8facc012097.jpg",
     "static/media/conference_06.jpg": "/portafolio/static/media/conference_06.cb3f71497b2450787696.jpg",
     "static/media/proyect-25.jpg": "/portafolio/static/media/proyect-25.1ebb5936861cf97b4167.jpg",
     "static/media/proyect-27.jpg": "/portafolio/static/media/proyect-27.f050ce570faa8fcb4fc5.jpg",
     "static/media/proyect-23.jpg": "/portafolio/static/media/proyect-23.08117b1c32b4bf534622.jpg",
-    "static/media/proyect-26.jpg": "/portafolio/static/media/proyect-26.a7bd82f6edf4f5c40c2c.jpg",
     "static/media/lg.svg?io9a6k": "/portafolio/static/media/lg.09cd8e9be7081f216644.svg",
     "static/media/lg.woff?io9a6k": "/portafolio/static/media/lg.356a0e9cb064c7a196c6.woff",
     "static/media/lg.ttf?io9a6k": "/portafolio/static/media/lg.747d038541bfc6bb8ea9.ttf",
@@ -463,6 +463,6 @@
   },
   "entrypoints": [
     "static/css/main.f605b0ea.css",
-    "static/js/main.c2b2e02c.js"
+    "static/js/main.606ab3e4.js"
   ]
 }
