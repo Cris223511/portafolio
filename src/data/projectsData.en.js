@@ -168,11 +168,25 @@ const projectsDataEN = [
         gallery: ["subproyects/subproyect_27_1.png", "subproyects/subproyect_27_2.png", "subproyects/subproyect_27_3.png", "subproyects/subproyect_27_4.png", "subproyects/subproyect_27_5.png", "subproyects/subproyect_27_6.png", "subproyects/subproyect_27_7.png", "subproyects/subproyect_27_8.png", "subproyects/subproyect_27_9.png"]
     },
     {
+        id: 28,
+        title: "AURORA - Estudio Creativo Digital",
+        description: "Página web informativa de un estudio creativo de tecnología y diseño inmersivo que combina una estética light/minimal con múltiples tecnologías para lograr una experiencia visual sofisticada. Se implementó una escena 3D procedural con 18 ribbons orgánicos generados con CatmullRomCurve3 y TubeGeometry que se regeneran cada frame, y 25 esferas translúcidas con pulsación y movimiento orbital usando Three.js, donde toda la escena reacciona al cursor y al scroll con interpolación suave.<br><br>El sitio incluye una sección de proyectos destacados con videos que se muestran en blanco y negro pausados y al hacer hover se colorean y reproducen automáticamente sin sonido, sección de filosofía con cards de citas y card invertida accent, catálogo de servicios (diseño de producto, desarrollo full-stack, experiencias 3D, inteligencia artificial, estrategia digital y consultoría técnica), galería mosaico asimétrica con items tall y wide que abren modales tipo wizard con blur backdrop, badge, tags de tecnología, estadísticas del proyecto y CTA, metodología de trabajo en cuatro fases, contadores animados y formulario de contacto.<br><br>La arquitectura sigue un enfoque modular basado en clases ES6+ con carga asíncrona de librerías desde CDN con barra de progreso y porcentaje en tiempo real. Se optimizó el rendimiento con pixel ratio limitado a 2x para WebGL, videos con preload metadata, geometrías de ribbons regeneradas por frame con dispose para evitar memory leaks, interpolación lerp en cámara y cursor, IntersectionObserver para activar animaciones solo cuando son visibles y lazy loading nativo. Diseño completamente responsive con paleta light/minimal y secciones dark para showcase y contacto.<br><br>Demo: <a href='https://cris223511.github.io/aurora-parallax/' target='_blank'>cris223511.github.io/aurora-parallax</a>",
+        technologies: {
+            frontend: ["HTML5", "CSS3", "JavaScript"],
+            backend: [],
+            databases: [],
+            devops: ["GitHub Pages"],
+            otros: ["Three.js", "Anime.js", "Lenis", "WebGL", "Boxicons", "Google Fonts"]
+        },
+        image: require("../assets/proyect-28.jpg"),
+        gallery: ["subproyects/subproyect_28_1.png", "subproyects/subproyect_28_2.png", "subproyects/subproyect_28_3.png", "subproyects/subproyect_28_4.png", "subproyects/subproyect_28_5.png", "subproyects/subproyect_28_6.png", "subproyects/subproyect_28_7.png", "subproyects/subproyect_28_8.png", "subproyects/subproyect_28_9.png", "subproyects/subproyect_28_10.png"]
+    },
+    {
         id: 26,
         title: "NEXUS - Digital Design Studio",
         description: "Informational website for a digital design studio that combines multiple technologies and libraries to deliver an immersive visual experience. Glassmorphism effects, interactive 3D scenes with Three.js, scroll-synchronized animations, dynamic parallax and an asynchronous dependency loading system from CDN with a real progress bar linked to library loading were implemented.<br><br>The site includes portfolio sections with featured projects, service catalog (digital product design, full-stack development, brand strategy, software architecture, artificial intelligence and technical consulting), three-phase work methodology (immersion and strategy, design and prototyping, development and launch), animated statistics counters, horizontal gallery with parallax effect, manifesto text that reveals word by word on scroll, bidirectional infinite marquee and a contact form with glass styles.<br><br>The architecture follows a modular approach based on ES6+ classes where each functionality is encapsulated in its own class. Independent modules were created for the main 3D scene, the mini 3D scenes inside each showcase card, the parallax figures, the parallax gallery, the manifesto text and the statistics animator. Performance was optimized with pixel ratio limited to 2x for WebGL, will-change only on animated elements, native lazy loading on images and IntersectionObserver to trigger animations only when visible. Fully responsive design for desktop, tablet and mobile.<br><br>Demo: <a href='https://cris223511.github.io/nexus-parallax/' target='_blank'>cris223511.github.io/nexus-parallax</a>",
         technologies: {
-            frontend: ["HTML5", "CSS3", "JavaScript ES6+"],
+            frontend: ["HTML5", "CSS3", "JavaScript"],
             backend: [],
             databases: [],
             devops: ["GitHub Pages"],
