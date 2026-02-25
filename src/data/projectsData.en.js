@@ -178,7 +178,7 @@ const projectsDataEN = [
             devops: ["GitHub Pages"],
             otros: ["Three.js", "Anime.js", "Lenis", "WebGL", "Boxicons", "Google Fonts"]
         },
-        image: require("../assets/proyect-28.jpg"),
+        image: require("../assets/proyect-28.jpeg"),
         gallery: ["subproyects/subproyect_28_1.png", "subproyects/subproyect_28_2.png", "subproyects/subproyect_28_3.png", "subproyects/subproyect_28_4.png", "subproyects/subproyect_28_5.png", "subproyects/subproyect_28_6.png", "subproyects/subproyect_28_7.png", "subproyects/subproyect_28_8.png", "subproyects/subproyect_28_9.png", "subproyects/subproyect_28_10.png"]
     },
     {
