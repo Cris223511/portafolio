@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portafolio/static/css/main.f605b0ea.css",
-    "main.js": "/portafolio/static/js/main.bfb343f7.js",
-    "static/media/logo-template.ai": "/portafolio/static/media/logo-template.2dcb06334481da3afcb4.ai",
+    "main.js": "/portafolio/static/js/main.15b61958.js",
+    "static/media/logo-template.ai": "/portafolio/static/media/logo-template.71e32dad21868b2e730e.ai",
     "static/media/subproyect_2_9.png": "/portafolio/static/media/subproyect_2_9.0a47d451b8fdbf348d8f.png",
     "static/media/subproyect_12_8.png": "/portafolio/static/media/subproyect_12_8.533b8edd711b01b3e9f2.png",
     "static/media/subproyect_2_10.png": "/portafolio/static/media/subproyect_2_10.f94b481fceef87eb680b.png",
@@ -442,7 +442,6 @@
     "static/media/subproyect_1_13.png": "/portafolio/static/media/subproyect_1_13.41a7d1d5b8b4b8807ead.png",
     "static/media/subproyect_1_14.png": "/portafolio/static/media/subproyect_1_14.4f4adaf0a6a7348c2eb5.png",
     "static/media/conference_07.jpg": "/portafolio/static/media/conference_07.7176802a7dc293aceb08.jpg",
-    "static/media/proyect-28.jpg": "/portafolio/static/media/proyect-28.895493e68db6a7d5abf3.jpg",
     "static/media/subproyect_22_6.png": "/portafolio/static/media/subproyect_22_6.ff845442d1aae1a53a31.png",
     "static/media/subproyect_1_32.png": "/portafolio/static/media/subproyect_1_32.df80a64465b2df8f526f.png",
     "static/media/subproyect_22_7.png": "/portafolio/static/media/subproyect_22_7.44ba0b707629c618df92.png",
@@ -458,6 +457,7 @@
     "static/media/subproyect_26_1.png": "/portafolio/static/media/subproyect_26_1.ae4c82991a7fac193d66.png",
     "static/media/proyect-26.jpg": "/portafolio/static/media/proyect-26.d3daa877f8aca3e995b4.jpg",
     "static/media/subproyect_28_1.png": "/portafolio/static/media/subproyect_28_1.c81b290f8a834555f139.png",
+    "static/media/proyect-28.jpg": "/portafolio/static/media/proyect-28.8f8c85eeb840cc8fadbd.jpg",
     "static/media/conference_05.jpg": "/portafolio/static/media/conference_05.269c07d2e14ce254a51b.jpg",
     "static/media/educacion4.jpeg": "/portafolio/static/media/educacion4.8bb5ebcf182e49fd5abe.jpeg",
     "static/media/proyect-22.jpg": "/portafolio/static/media/proyect-22.929af296561a41536be2.jpg",
@@ -474,6 +474,6 @@
   },
   "entrypoints": [
     "static/css/main.f605b0ea.css",
-    "static/js/main.bfb343f7.js"
+    "static/js/main.15b61958.js"
   ]
 }
