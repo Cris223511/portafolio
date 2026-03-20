@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portafolio/static/css/main.f605b0ea.css",
-    "main.js": "/portafolio/static/js/main.1fd927b1.js",
+    "main.js": "/portafolio/static/js/main.822194c6.js",
     "static/media/logo-template.ai": "/portafolio/static/media/logo-template.71e32dad21868b2e730e.ai",
     "static/media/subproyect_2_9.png": "/portafolio/static/media/subproyect_2_9.0a47d451b8fdbf348d8f.png",
     "static/media/subproyect_12_8.png": "/portafolio/static/media/subproyect_12_8.533b8edd711b01b3e9f2.png",
@@ -221,16 +221,16 @@
     "static/media/subproyect_0_18.png": "/portafolio/static/media/subproyect_0_18.e596ee26672467cf8d62.png",
     "static/media/subproyect_6_2.png": "/portafolio/static/media/subproyect_6_2.508cff2b380e73553685.png",
     "static/media/subproyect_19_4.png": "/portafolio/static/media/subproyect_19_4.5b677c606804fd35cabd.png",
+    "static/media/Christopher_Antonio_Pillihuamán_Santiago_CV_ES.pdf": "/portafolio/static/media/Christopher_Antonio_Pillihuamán_Santiago_CV_ES.24ddeb9bcc28d903d8f6.pdf",
     "static/media/subproyect_0_5.png": "/portafolio/static/media/subproyect_0_5.60fd05b6cb262c723d66.png",
     "static/media/subproyect_9_17.png": "/portafolio/static/media/subproyect_9_17.349d90bdda8cfc9daabb.png",
     "static/media/subproyect_7_11.png": "/portafolio/static/media/subproyect_7_11.915ec4615f338fd26c62.png",
+    "static/media/Christopher_Antonio_Pillihuamán_Santiago_CV_EN.pdf": "/portafolio/static/media/Christopher_Antonio_Pillihuamán_Santiago_CV_EN.46a1828d4606c9ae0fd2.pdf",
     "static/media/subproyect_15_4.png": "/portafolio/static/media/subproyect_15_4.fb8c219ab3e0149c2ddc.png",
-    "static/media/Christopher_Antonio_Pillihuamán_Santiago_CV_ES.pdf": "/portafolio/static/media/Christopher_Antonio_Pillihuamán_Santiago_CV_ES.52b1bff17c43a557496d.pdf",
     "static/media/subproyect_0_34.png": "/portafolio/static/media/subproyect_0_34.597faf3a8a5807a8f22e.png",
     "static/media/subproyect_0_29.png": "/portafolio/static/media/subproyect_0_29.4a9abca10da47d932567.png",
     "static/media/subproyect_4_6.png": "/portafolio/static/media/subproyect_4_6.538b21ff63081a0b7c24.png",
     "static/media/subproyect_5_2.png": "/portafolio/static/media/subproyect_5_2.975ec6c881a9935069d6.png",
-    "static/media/Christopher_Antonio_Pillihuamán_Santiago_CV_EN.pdf": "/portafolio/static/media/Christopher_Antonio_Pillihuamán_Santiago_CV_EN.1c1fc7ef177e5a0da8c9.pdf",
     "static/media/subproyect_17_8.png": "/portafolio/static/media/subproyect_17_8.451969df6c0632bbe986.png",
     "static/media/subproyect_10_1.png": "/portafolio/static/media/subproyect_10_1.921bf9b3804d95f6f8ca.png",
     "static/media/subproyect_26_10.png": "/portafolio/static/media/subproyect_26_10.ad1c1d5976e7d9b850a1.png",
@@ -474,6 +474,6 @@
   },
   "entrypoints": [
     "static/css/main.f605b0ea.css",
-    "static/js/main.1fd927b1.js"
+    "static/js/main.822194c6.js"
   ]
 }
