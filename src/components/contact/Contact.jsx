@@ -81,8 +81,8 @@ const Contact = () => {
           <article className='contact__option'>
             <BsWhatsapp className='contact__option-icon' />
             <h4>{t('contact.whatsapp')}</h4>
-            <h5>+51 973 182 294</h5>
-            <a href="https://wa.me/51973182294?text=¡Hola!%2C%20mucho%20gusto%20🤝%2C%20me%20llamó%20mucho%20la%20atención%20tu%20portafolio%20web%2C%20quiero%20contactarme%20contigo." target="_blank" rel="noopener noreferrer">
+            <h5>+51 948 756 811</h5>
+            <a href="https://wa.me/51948756811?text=¡Hola!%2C%20mucho%20gusto%20🤝%2C%20me%20llamó%20mucho%20la%20atención%20tu%20portafolio%20web%2C%20quiero%20contactarme%20contigo." target="_blank" rel="noopener noreferrer">
               {t('contact.sendMessage')}
             </a>
           </article>
