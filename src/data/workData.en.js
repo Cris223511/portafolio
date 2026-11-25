@@ -12,7 +12,7 @@ const workDataEN = [
         logo: WORK_1,
         shortDescription: "Development of enterprise accounting system with Angular 14 and Spring Boot. Performance optimization by 40% through clean architecture and efficient SQL queries.",
         fullDescription: "I developed a complete enterprise accounting system using Angular 14 on the frontend and Spring Boot on the backend. My main achievement was optimizing system performance by 40% through implementation of more efficient SQL queries and a clean layered architecture (Controller, Service, Repository, Model).\n\nI designed and implemented REST APIs consumed by different system modules, using Spring Data JPA to manage data persistence in MySQL. On the frontend I worked with HttpClient, Observables and RxJS to handle asynchronous requests and data flow between components.\n\nI was an active part of the agile team under Scrum methodology, participating in requirements analysis, data model design, dailies, sprint refinements, reviews and retrospectives. I applied design patterns such as MVC, DAO and DTO, following Clean Code and SOLID principles to ensure system maintainability.\n\nI managed version control with Git and GitHub, working on separate branches for each functionality and performing controlled merges. I prepared detailed technical documentation that facilitated understanding of the architecture and implemented data flows.",
-        technologies: ["Angular 14", "TypeScript", "Spring Boot", "Spring Data JPA", "MySQL", "HTML5", "CSS3", "JavaScript", "Git/GitHub", "Scrum", "MVC/DAO/DTO"]
+        technologies: ["Angular", "TypeScript", "Spring Boot", "Spring Data JPA", "MySQL", "HTML5", "CSS3", "JavaScript", "Git/GitHub", "Scrum", "MVC/DAO/DTO"]
     },
     {
         id: 3,
