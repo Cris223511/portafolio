@@ -41,6 +41,77 @@ const projectsDataEN = [
         image: require('../assets/proyect-12.jpg'),
         gallery: ["subproyects/subproyect_2_1.png", "subproyects/subproyect_2_2.png", "subproyects/subproyect_2_3.png", "subproyects/subproyect_2_4.png", "subproyects/subproyect_2_5.png", "subproyects/subproyect_2_6.png", "subproyects/subproyect_2_7.png", "subproyects/subproyect_2_8.png", "subproyects/subproyect_2_9.png", "subproyects/subproyect_2_10.png", "subproyects/subproyect_2_11.png", "subproyects/subproyect_2_12.png", "subproyects/subproyect_2_13.png", "subproyects/subproyect_2_14.png", "subproyects/subproyect_2_15.png", "subproyects/subproyect_2_16.png", "subproyects/subproyect_2_17.png", "subproyects/subproyect_2_18.png", "subproyects/subproyect_2_19.png"]
     },
+
+    {
+        id: 29,
+        title: 'Wasi - Real Estate Platform with Interactive Map',
+        description: "Cross-platform real estate platform for searching properties for sale and rent in Peru. Users can explore properties on an <strong>interactive map with MapLibre GL</strong>, view detailed listings with photos, prices in soles, user reviews, verification status and route calculation from their current location with estimated times by public transport, bicycle and on foot.<br><br>The web version was developed with <strong>Angular 21</strong> and TypeScript, with responsive design, dark mode, smooth scroll with Lenis and components styled with Bootstrap and Sass. The mobile version was built with <strong>Flutter</strong> and Dart, with state management via Riverpod, navigation with Go Router, API consumption with Dio and local persistence. The backend was developed with pure <strong>Go 1.25</strong> and PostgreSQL as the relational database, with real-time communication via WebSockets. <strong>Supabase</strong> was used for authentication, file storage in buckets and real-time data management.<br><br>The platform allows users to add properties to favorites, compare options, schedule in-person visits, contact the owner or agent, check the local weather and generate PDF documents with the property information through PDFMake. Each property features a photo gallery, detailed description, map location, operation type (rent or sale) and district data.",
+        technologies: {
+            frontend: ["Angular 21", "TypeScript", "Sass", "Bootstrap", "MapLibre GL", "Lenis"],
+            backend: ["Go 1.25", "WebSockets"],
+            databases: ["PostgreSQL", "Supabase"],
+            devops: [],
+            otros: ["Flutter", "Dart", "Riverpod", "Go Router", "Dio", "PDFMake"]
+        },
+        image: require('../assets/proyect-29.jpg'),
+        gallery: ["subproyects/subproyect_29_1.png", "subproyects/subproyect_29_2.png", "subproyects/subproyect_29_3.png", "subproyects/subproyect_29_4.png", "subproyects/subproyect_29_5.png", "subproyects/subproyect_29_6.png", "subproyects/subproyect_29_7.png", "subproyects/subproyect_29_8.png", "subproyects/subproyect_29_11.png", "subproyects/subproyect_29_12.png", "subproyects/subproyect_29_13.png", "subproyects/subproyect_29_14.png", "subproyects/subproyect_29_15.png", "subproyects/subproyect_29_16.png", "subproyects/subproyect_29_17.png", "subproyects/subproyect_29_18.png", "subproyects/subproyect_29_19.png", "subproyects/subproyect_29_20.png", "subproyects/subproyect_29_21.png", "subproyects/subproyect_29_22.png", "subproyects/subproyect_29_23.png", "subproyects/subproyect_29_24.png", "subproyects/subproyect_29_25.png", "subproyects/subproyect_29_26.png", "subproyects/subproyect_29_27.png", "subproyects/subproyect_29_28.png", "subproyects/subproyect_29_29.png", "subproyects/subproyect_29_30.png", "subproyects/subproyect_29_31.png", "subproyects/subproyect_29_32.png", "subproyects/subproyect_29_33.png", "subproyects/subproyect_29_34.png", "subproyects/subproyect_29_35.png"]
+    },
+    {
+        id: 30,
+        title: 'Ya! Pets - Online Pet Store',
+        description: "Online store specialized in pet products with a catalog organized by categories such as food, snacks and treats, toys, accessories, hygiene and grooming, and pharmacy. The platform offers a <strong>monthly subscription plan</strong> for recurring food deliveries with discount, shopping cart with quantity and size management, and a checkout process with payment integration through <strong>Culqi</strong>.<br><br>It was built with <strong>React</strong> (TanStack Start and TanStack Router) and TypeScript, with Tailwind CSS for styling, Radix UI components, Embla Carousel for carousels, Recharts for charts and form validation with Zod and React Hook Form. <strong>Supabase</strong> was used as the backend for user authentication, data storage and file management in buckets. Data export was implemented with the xlsx library.<br><br>The platform features complete authentication (registration, login, password recovery and change, email verification), user profile with order history, favorites system, product search, physical store locations, complaints book, terms and privacy pages, internal admin panel and an integrated chat for customer support. Deployment was done on Vercel.<br><br>Demo: <a href='https://www.yapets.pe/' target='_blank'>yapets.pe</a>",
+        technologies: {
+            frontend: ["React", "TypeScript", "Tailwind CSS", "Radix UI", "Recharts", "Embla Carousel"],
+            backend: ["Supabase"],
+            databases: ["Supabase"],
+            devops: ["Vercel"],
+            otros: ["TanStack Start", "TanStack Router", "Zod", "React Hook Form", "Culqi", "xlsx"]
+        },
+        image: require('../assets/proyect-30.jpg'),
+        gallery: ["subproyects/subproyect_30_1.png", "subproyects/subproyect_30_2.png", "subproyects/subproyect_30_3.png", "subproyects/subproyect_30_4.png", "subproyects/subproyect_30_5.png", "subproyects/subproyect_30_6.png", "subproyects/subproyect_30_7.png", "subproyects/subproyect_30_8.png", "subproyects/subproyect_30_9.png", "subproyects/subproyect_30_10.png", "subproyects/subproyect_30_11.png", "subproyects/subproyect_30_12.png", "subproyects/subproyect_30_13.png", "subproyects/subproyect_30_14.png", "subproyects/subproyect_30_15.png", "subproyects/subproyect_30_16.png", "subproyects/subproyect_30_17.png"]
+    },
+    {
+        id: 31,
+        title: 'Video Editor - Browser-Based Video Editor',
+        description: "Free and open-source video editor that runs entirely in the browser. It allows working with <strong>multiple video layers</strong> on the timeline, adjusting colors with wheels and curves, adding text and shapes, applying censorship that tracks moving objects and exporting the final result at the desired quality with support for 1920x1080, 1080x1080 and 1080x1920 resolutions.<br><br>It was developed with <strong>React</strong> and TypeScript, with Vite as the bundler, Tailwind CSS for styling, Zustand for global state management, Framer Motion for animations, resizable panels with React Resizable Panels and color picker with React Colorful. Video processing was handled with <strong>FFmpeg.wasm</strong> for encoding and decoding directly in the browser, mp4-muxer and mp4box for file packaging and MediaBunny as the composition engine. Audio was processed with RNNoise for noise suppression.<br><br>The platform includes a landing page with project information, an editor section where files are worked on directly, saved project management, dark mode and multi-language support. It supports 21 transitions, 6 simultaneous video layers, 60 fps export and 20 available effects. Deployment was done on Vercel.<br><br>Demo: <a href='https://video-editor-plus.vercel.app/' target='_blank'>video-editor-plus.vercel.app</a>",
+        technologies: {
+            frontend: ["React", "TypeScript", "Tailwind CSS", "Vite", "Framer Motion", "Zustand"],
+            backend: [],
+            databases: [],
+            devops: ["Vercel"],
+            otros: ["FFmpeg.wasm", "mp4-muxer", "mp4box", "RNNoise", "React Resizable Panels", "React Colorful", "Lenis"]
+        },
+        image: require('../assets/proyect-31.jpg'),
+        gallery: ["subproyects/subproyect_31_1.png", "subproyects/subproyect_31_2.png", "subproyects/subproyect_31_3.png", "subproyects/subproyect_31_4.png", "subproyects/subproyect_31_5.png", "subproyects/subproyect_31_6.png", "subproyects/subproyect_31_7.png", "subproyects/subproyect_31_8.png", "subproyects/subproyect_31_9.png", "subproyects/subproyect_31_10.png", "subproyects/subproyect_31_11.png", "subproyects/subproyect_31_12.png", "subproyects/subproyect_31_13.png", "subproyects/subproyect_31_14.png", "subproyects/subproyect_31_15.png"]
+    },
+    {
+        id: 32,
+        title: 'Incluye+ - Social Inclusion Platform for Tumbes',
+        description: "Web platform developed for the <strong>Regional Office for Attention to People with Disabilities (OREDIS)</strong> of the Regional Government of Tumbes. It allows citizens to apply for, renew and check the status of their disability card for free, with in-person and virtual assistance. The system centralizes information about services, benefits, social programs and care centers available in the region for people with disabilities and their families.<br><br>The platform was built with <strong>Angular</strong> and TypeScript on the frontend, with responsive design, dark mode and integrated accessibility features. The backend was developed with <strong>Node.js</strong> and PostgreSQL as the relational database. It was deployed with Docker for service containerization and Netlify for frontend hosting.<br><br>The system includes sections for home, card management (application, renewal and status check), services and benefits catalog, directory of care centers in the region, news and official announcements module, and contact form. According to the platform statistics, over 12,500 cards have been issued, more than 60 programs and benefits are offered, and there are 8 active care centers.<br><br>Demo: <a href='https://oredis.netlify.app/carne' target='_blank'>oredis.netlify.app</a>",
+        technologies: {
+            frontend: ["Angular", "TypeScript", "Sass"],
+            backend: ["Node.js"],
+            databases: ["PostgreSQL"],
+            devops: ["Docker", "Netlify"],
+            otros: []
+        },
+        image: require('../assets/proyect-32.jpg'),
+        gallery: ["subproyects/subproyect_32_1.png", "subproyects/subproyect_32_2.png", "subproyects/subproyect_32_3.png", "subproyects/subproyect_32_4.png", "subproyects/subproyect_32_5.png", "subproyects/subproyect_32_6.png", "subproyects/subproyect_32_7.png", "subproyects/subproyect_32_8.png", "subproyects/subproyect_32_9.png", "subproyects/subproyect_32_10.png", "subproyects/subproyect_32_11.png"]
+    },
+    {
+        id: 33,
+        title: 'Screenshot Plus - Screenshot Tool for Windows',
+        description: "Free and open-source screenshot tool for Windows, distributed as a single portable executable with no installation required. It allows capturing a screen region, the full screen, the active window or a long page through <strong>scroll capture</strong> that automatically stitches each visible portion into a single image, with real-time preview.<br><br>It was developed with <strong>Python 3.10+</strong> and PySide6 for the graphical interface, Pillow for image processing (cropping, stitching and export), mss for native-resolution capture with multi-monitor support, pynput for global keyboard shortcut listening and pywin32 for Windows API access. The portable executable was generated with <strong>PyInstaller</strong>.<br><br>It includes a complete annotation editor with 8 geometric shapes, lines and arrows with configurable styles, freehand brush, text with all system fonts, a tool to hide sensitive information through pixelation or blur, adjustable opacity and multi-selection. It also features a presentation whiteboard for classes and meetings, with live zoom, laser pointer with configurable trail, drawing tools over frozen screen and customizable global shortcuts.<br><br>GitHub: <a href='https://github.com/Cris223511/screenshot-plus' target='_blank'>screenshot-plus</a>",
+        technologies: {
+            frontend: ["Python 3.10+", "PySide6"],
+            backend: [],
+            databases: [],
+            devops: [],
+            otros: ["Pillow", "mss", "pynput", "pywin32", "PyInstaller"]
+        },
+        image: require('../assets/proyect-33.jpg'),
+        gallery: ["subproyects/subproyect_33_1.png", "subproyects/subproyect_33_2.png", "subproyects/subproyect_33_3.png", "subproyects/subproyect_33_4.png", "subproyects/subproyect_33_5.png", "subproyects/subproyect_33_6.png", "subproyects/subproyect_33_7.png", "subproyects/subproyect_33_8.png", "subproyects/subproyect_33_9.png"]
+    },
     {
         id: 14,
         title: 'JobConnect - Job Search Platform',
@@ -142,7 +213,7 @@ const projectsDataEN = [
     {
         id: 25,
         title: "PRISM-PR Review - Semantic Pull Request Analysis",
-        description: "Application integrated with GitHub that performs semantic analysis of Pull Requests before merge. It explains what actually changes in the code, where the risk is and why it matters. It supports over 12 programming languages such as TypeScript, JavaScript, Java, Go, Rust, Dart, Python, Ruby, PHP, Swift, Kotlin and more, and delivers detailed Markdown-formatted reports directly within GitHub.<br><br>The platform offers four analysis types. In security it detects vulnerabilities, hardcoded secrets, SQL injection and XSS. In performance it identifies bottlenecks, memory leaks and inefficient algorithms. In code quality it evaluates code smells, naming conventions and unused code. In metrics it calculates cyclomatic complexity, maintainability index and technical debt. It also includes an interactive \"Try It Live\" section where users can paste code and get real-time analysis with issue results.<br><br>The workflow is straightforward. PRISM is activated on GitHub repositories with one click, a Pull Request is opened as usual and a detailed analysis report is automatically received with risk score and issues categorized by severity. It was built with Clean Architecture principles, LRU cache with TTL for optimized performance and concurrent processing with configurable limits.<br><br>Demo: <a href='https://prisms-app.onrender.com/' target='_blank'>prisms-app.onrender.com</a>",
+        description: "Application integrated with GitHub that performs semantic analysis of Pull Requests before merge. It explains what actually changes in the code, where the risk is and why it matters. It supports over 12 programming languages such as TypeScript, JavaScript, Java, Go, Rust, Dart, Python, Ruby, PHP, Swift, Kotlin and more, and delivers detailed Markdown-formatted reports directly within GitHub.<br><br>The platform offers four analysis types. In security it detects vulnerabilities, hardcoded secrets, SQL injection and XSS. In performance it identifies bottlenecks, memory leaks and inefficient algorithms. In code quality it evaluates code smells, naming conventions and unused code. In metrics it calculates cyclomatic complexity, maintainability index and technical debt. It also includes an interactive \"Try It Live\" section where users can paste code and get real-time analysis with issue results.<br><br>The workflow is straightforward. PRISM is activated on GitHub repositories with one click, a Pull Request is opened as usual and a detailed analysis report is automatically received with risk score and issues categorized by severity. It was built with Clean Architecture principles, LRU cache with TTL for optimized performance and concurrent processing with configurable limits.",
         technologies: {
             frontend: ["HTML5", "CSS3", "JavaScript", "TypeScript"],
             backend: ["Node.js", "Express.js", "TypeScript"],
@@ -198,7 +269,7 @@ const projectsDataEN = [
     {
         id: 19,
         title: 'Provincial Municipality of Tumbes - Institutional Portal',
-        description: "Institutional web portal for the Provincial Municipality of Tumbes that centralizes public management information, news, events, regulations and municipal services for citizens. The municipality had an outdated web portal with a design that made citizen navigation difficult. We offered our web redesign services and were selected to develop a new modern institutional portal that would improve communication between local government and the Tumbes community.<br><br>The new portal presents an intuitive and responsive design with clearly organized sections: municipal management news, event calendar, local regulations and ordinances, projects under development and government programs. A section dedicated to municipality history, current authorities and organizational structure was included, strengthening institutional identity and public management transparency.<br><br>A complaints and suggestions module was implemented that allows citizens to report infrastructure problems, public services or security, as well as send proposals to improve the city. The official announcements space keeps the population informed about important announcements and mayor activities. Integration with social networks like Facebook and Twitter expands information reach and facilitates direct interaction with the community.",
+        description: "Institutional web portal for the Provincial Municipality of Tumbes that centralizes public management information, news, events, regulations and municipal services for citizens. The municipality had an outdated web portal with a design that made citizen navigation difficult. We offered our web redesign services and were selected to develop a new modern institutional portal that would improve communication between local government and the Tumbes community.<br><br>The new portal presents an intuitive and responsive design with clearly organized sections: municipal management news, event calendar, local regulations and ordinances, projects under development and government programs. A section dedicated to municipality history, current authorities and organizational structure was included, strengthening institutional identity and public management transparency.<br><br>A complaints and suggestions module was implemented that allows citizens to report infrastructure problems, public services or security, as well as send proposals to improve the city. The official announcements space keeps the population informed about important announcements and mayor activities. Integration with social networks like Facebook and Twitter expands information reach and facilitates direct interaction with the community.<br><br>Demo: <a href='https://municipalidadtumbes.netlify.app/' target='_blank'>municipalidadtumbes.netlify.app</a>",
         technologies: {
             frontend: ["Angular", "TypeScript"],
             backend: ["Spring Boot", "Spring Security"],
@@ -406,62 +477,6 @@ const projectsDataEN = [
         gallery: [
             "subproyects/subproyect_21_1.png", "subproyects/subproyect_21_2.png", "subproyects/subproyect_21_3.png", "subproyects/subproyect_21_4.png", "subproyects/subproyect_21_5.png", "subproyects/subproyect_21_6.png", "subproyects/subproyect_21_7.png", "subproyects/subproyect_21_8.png", "subproyects/subproyect_21_9.png", "subproyects/subproyect_21_10.png", "subproyects/subproyect_21_11.png", "subproyects/subproyect_21_12.png", "subproyects/subproyect_21_13.png",
         ]
-    },
-    {
-        id: 24,
-        title: "VideoTranscribe - AI Video Transcription Platform",
-        description: "AI-powered video transcription platform developed for Universidad Nacional de Tumbes through the Ministry of Environment. The system allows users to upload video or audio files, paste URLs from YouTube, Vimeo, SoundCloud and Spotify, or record audio directly from the browser. It processes the content through an AI transcription engine and delivers accurate text results with language selection support for Spanish and English.<br><br>The platform follows a guided four-step workflow. First, content is uploaded via file, URL or recording. Then the user selects the specific video segment to transcribe through a visual timeline with start and end time controls, playback speed adjustment and volume control. In the third step, transcription settings are configured with language selection and optional automatic summary generation. Finally, the complete transcription is displayed with options to copy the text or generate an AI-powered summary with key points and general description.<br><br>The summary module breaks down the content into a general description and key points extracted through AI analysis. Users can start a new transcription at any point or continue refining results. The interface includes dark mode toggle, language switcher and responsive design across all devices. It was developed as a practical tool to convert video lectures, meetings and institutional content into searchable and shareable text.",
-        technologies: {
-            frontend: ["Angular 19", "TypeScript", "Sass"],
-            backend: ["Python 3.12"],
-            databases: ["PostgreSQL", "Redis"],
-            devops: ["Docker", "Render"],
-            otros: []
-        },
-        image: require("../assets/proyect-24.jpg"),
-        gallery: ["subproyects/subproyect_24_1.png", "subproyects/subproyect_24_2.png", "subproyects/subproyect_24_3.png", "subproyects/subproyect_24_4.png", "subproyects/subproyect_24_5.png", "subproyects/subproyect_24_6.png", "subproyects/subproyect_24_7.png", "subproyects/subproyect_24_8.png", "subproyects/subproyect_24_9.png", "subproyects/subproyect_24_10.png", "subproyects/subproyect_24_11.png", "subproyects/subproyect_24_12.png", "subproyects/subproyect_24_13.png"]
-    },
-    {
-        id: 25,
-        title: "PRISM-PR Review - Semantic Pull Request Analysis",
-        description: "Application integrated with GitHub that performs semantic analysis of Pull Requests before merge. It explains what actually changes in the code, where the risk is and why it matters. It supports over 12 programming languages such as TypeScript, JavaScript, Java, Go, Rust, Dart, Python, Ruby, PHP, Swift, Kotlin and more, and delivers detailed Markdown-formatted reports directly within GitHub.<br><br>The platform offers four analysis types. In security it detects vulnerabilities, hardcoded secrets, SQL injection and XSS. In performance it identifies bottlenecks, memory leaks and inefficient algorithms. In code quality it evaluates code smells, naming conventions and unused code. In metrics it calculates cyclomatic complexity, maintainability index and technical debt. It also includes an interactive 'Try It Live' section where users can paste code and get real-time analysis with issue results.<br><br>The workflow is straightforward. PRISM is activated on GitHub repositories with one click, a Pull Request is opened as usual and a detailed analysis report is automatically received with risk score and issues categorized by severity. It was built with Clean Architecture principles, LRU cache with TTL for optimized performance and concurrent processing with configurable limits.<br><br>Demo: <a href='https://prisms-app.onrender.com/' target='_blank'>prisms-app.onrender.com</a>",
-        technologies: {
-            frontend: ["HTML5", "CSS3", "JavaScript", "TypeScript"],
-            backend: ["Node.js", "Express.js", "TypeScript"],
-            databases: [],
-            devops: ["Docker", "Render", "GitHub Pages"],
-            otros: ["GitHub API", "GitHub Webhooks", "Vitest"]
-        },
-        image: require("../assets/proyect-25.jpg"),
-        gallery: ["subproyects/subproyect_25_1.png", "subproyects/subproyect_25_2.png", "subproyects/subproyect_25_3.png", "subproyects/subproyect_25_4.png", "subproyects/subproyect_25_5.png", "subproyects/subproyect_25_6.png", "subproyects/subproyect_25_7.png"]
-    },
-    {
-        id: 27,
-        title: "GeoPortal Tumbes - National Geospatial System",
-        description: "Geospatial platform developed for the Tumbes region in coordination with the Ministry of Environment, inspired by the National Georeferenced Data Platform Geo Perú. The system transforms territorial big data into actionable insights and allows users to explore Peruvian territory through an interactive map viewer with support for thematic layers such as departmental boundaries, provincial boundaries, national road network, seismic risk zones, historical events and protected natural areas. The viewer offers three base map types (vector, satellite and topographic) with per-layer opacity controls, drawing tools (markers, lines, polygons), real-time location tracking and dynamic latitude and longitude coordinates.<br><br>The platform features an institutional landing page that showcases the geospatial data catalog with over 1,250 available layers, 450 TB of geospatial data and coverage across all 24 regions of the country, along with a services section and tools for territorial management. The system includes authentication with institutional credentials, email verification through a 6-digit code with a 5-minute expiration timer and code resend option.<br><br>The administrative panel provides a comprehensive dashboard with real-time metrics on active users, published geospatial layers, daily queries and storage usage. It also displays recent system activity, service status (map server, PostGIS database, WMS/WFS services, geoservices API), query charts for the last 7 days and a ranking of the most consulted layers. It was developed as a system focused on natural disaster monitoring through satellite information for the Tumbes region.",
-        technologies: {
-            frontend: ["Angular 18", "TypeScript", "Sass"],
-            backend: ["Java 24", "Spring Boot 3.4"],
-            databases: ["PostgreSQL", "PostGIS"],
-            devops: ["Azure", "On-Premise"],
-            otros: ["OpenLayers", "WMS/WFS"]
-        },
-        image: require("../assets/proyect-27.jpg"),
-        gallery: ["subproyects/subproyect_27_1.png", "subproyects/subproyect_27_2.png", "subproyects/subproyect_27_3.png", "subproyects/subproyect_27_4.png", "subproyects/subproyect_27_5.png", "subproyects/subproyect_27_6.png", "subproyects/subproyect_27_7.png", "subproyects/subproyect_27_8.png", "subproyects/subproyect_27_9.png"]
-    },
-    {
-        id: 26,
-        title: "NEXUS - Digital Design Studio",
-        description: "Informational website for a digital design studio that combines multiple technologies and libraries to deliver an immersive visual experience. Glassmorphism effects, interactive 3D scenes with Three.js, scroll-synchronized animations, dynamic parallax and an asynchronous dependency loading system from CDN with a real progress bar linked to library loading were implemented.<br><br>The site includes portfolio sections with featured projects, service catalog (digital product design, full-stack development, brand strategy, software architecture, artificial intelligence and technical consulting), three-phase work methodology (immersion and strategy, design and prototyping, development and launch), animated statistics counters, horizontal gallery with parallax effect, manifesto text that reveals word by word on scroll, bidirectional infinite marquee and a contact form with glass styles.<br><br>The architecture follows a modular approach based on ES6+ classes where each functionality is encapsulated in its own class. Independent modules were created for the main 3D scene, the mini 3D scenes inside each showcase card, the parallax figures, the parallax gallery, the manifesto text and the statistics animator. Performance was optimized with pixel ratio limited to 2x for WebGL, will-change only on animated elements, native lazy loading on images and IntersectionObserver to trigger animations only when visible. Fully responsive design for desktop, tablet and mobile.<br><br>Demo: <a href='https://cris223511.github.io/nexus-parallax/' target='_blank'>cris223511.github.io/nexus-parallax</a>",
-        technologies: {
-            frontend: ["HTML5", "CSS3", "JavaScript ES6+"],
-            backend: [],
-            databases: [],
-            devops: ["GitHub Pages"],
-            otros: ["Three.js", "Anime.js", "Lenis", "WebGL", "Google Fonts"]
-        },
-        image: require("../assets/proyect-26.jpg"),
-        gallery: ["subproyects/subproyect_26_1.png", "subproyects/subproyect_26_2.png", "subproyects/subproyect_26_3.png", "subproyects/subproyect_26_4.png", "subproyects/subproyect_26_5.png", "subproyects/subproyect_26_6.png", "subproyects/subproyect_26_7.png", "subproyects/subproyect_26_8.png", "subproyects/subproyect_26_9.png", "subproyects/subproyect_26_10.png", "subproyects/subproyect_26_11.png"]
     },
 ];
 

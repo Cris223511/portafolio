@@ -41,6 +41,77 @@ const projectsData = [
         image: require('../assets/proyect-12.jpg'),
         gallery: ["subproyects/subproyect_2_1.png", "subproyects/subproyect_2_2.png", "subproyects/subproyect_2_3.png", "subproyects/subproyect_2_4.png", "subproyects/subproyect_2_5.png", "subproyects/subproyect_2_6.png", "subproyects/subproyect_2_7.png", "subproyects/subproyect_2_8.png", "subproyects/subproyect_2_9.png", "subproyects/subproyect_2_10.png", "subproyects/subproyect_2_11.png", "subproyects/subproyect_2_12.png", "subproyects/subproyect_2_13.png", "subproyects/subproyect_2_14.png", "subproyects/subproyect_2_15.png", "subproyects/subproyect_2_16.png", "subproyects/subproyect_2_17.png", "subproyects/subproyect_2_18.png", "subproyects/subproyect_2_19.png"]
     },
+
+    {
+        id: 29,
+        title: 'Wasi - Plataforma Inmobiliaria con Mapa Interactivo',
+        description: "Plataforma inmobiliaria multiplataforma para buscar propiedades en venta y alquiler en Perú. Los usuarios pueden explorar inmuebles sobre un <strong>mapa interactivo con MapLibre GL</strong>, ver fichas detalladas con fotos, precios en soles, reseñas de otros usuarios, estado de verificación y cálculo de ruta desde su ubicación actual con tiempos estimados en transporte público, bicicleta y a pie.<br><br>La versión web fue desarrollada con <strong>Angular 21</strong> y TypeScript, con diseño responsive, modo oscuro, smooth scroll con Lenis y componentes estilizados con Bootstrap y Sass. La versión móvil fue construida con <strong>Flutter</strong> y Dart, con gestión de estado mediante Riverpod, navegación con Go Router, consumo de APIs con Dio y persistencia local. El backend fue desarrollado con <strong>Go 1.25</strong> puro y PostgreSQL como base de datos relacional, con comunicación en tiempo real mediante WebSockets. Se utilizó <strong>Supabase</strong> para autenticación, almacenamiento de archivos en buckets y gestión de datos en tiempo real.<br><br>La plataforma permite a los usuarios agregar propiedades a favoritos, comparar opciones, agendar visitas presenciales, contactar al propietario o agente, consultar el clima de la zona y generar documentos PDF con la información del inmueble mediante PDFMake. Cada propiedad cuenta con galería de fotos, descripción detallada, ubicación en el mapa, tipo de operación (alquiler o venta) y datos del distrito.",
+        technologies: {
+            frontend: ["Angular 21", "TypeScript", "Sass", "Bootstrap", "MapLibre GL", "Lenis"],
+            backend: ["Go 1.25", "WebSockets"],
+            databases: ["PostgreSQL", "Supabase"],
+            devops: [],
+            otros: ["Flutter", "Dart", "Riverpod", "Go Router", "Dio", "PDFMake"]
+        },
+        image: require('../assets/proyect-29.jpg'),
+        gallery: ["subproyects/subproyect_29_1.png", "subproyects/subproyect_29_2.png", "subproyects/subproyect_29_3.png", "subproyects/subproyect_29_4.png", "subproyects/subproyect_29_5.png", "subproyects/subproyect_29_6.png", "subproyects/subproyect_29_7.png", "subproyects/subproyect_29_8.png", "subproyects/subproyect_29_11.png", "subproyects/subproyect_29_12.png", "subproyects/subproyect_29_13.png", "subproyects/subproyect_29_14.png", "subproyects/subproyect_29_15.png", "subproyects/subproyect_29_16.png", "subproyects/subproyect_29_17.png", "subproyects/subproyect_29_18.png", "subproyects/subproyect_29_19.png", "subproyects/subproyect_29_20.png", "subproyects/subproyect_29_21.png", "subproyects/subproyect_29_22.png", "subproyects/subproyect_29_23.png", "subproyects/subproyect_29_24.png", "subproyects/subproyect_29_25.png", "subproyects/subproyect_29_26.png", "subproyects/subproyect_29_27.png", "subproyects/subproyect_29_28.png", "subproyects/subproyect_29_29.png", "subproyects/subproyect_29_30.png", "subproyects/subproyect_29_31.png", "subproyects/subproyect_29_32.png", "subproyects/subproyect_29_33.png", "subproyects/subproyect_29_34.png", "subproyects/subproyect_29_35.png"]
+    },
+    {
+        id: 30,
+        title: 'Ya! Pets - Tienda de Mascotas en Línea',
+        description: "Tienda en línea especializada en productos para mascotas con catálogo organizado por categorías como alimento, snacks y premios, juguetes, accesorios, higiene y perfumería, y farmacia. La plataforma ofrece un <strong>plan de suscripción mensual</strong> para entregas recurrentes de alimento con descuento, carrito de compras con gestión de cantidades y tallas, y un proceso de checkout con integración de pagos mediante <strong>Culqi</strong>.<br><br>Se construyó con <strong>React</strong> (TanStack Start y TanStack Router) y TypeScript, con Tailwind CSS para los estilos, componentes de Radix UI, carrusel con Embla Carousel, gráficos con Recharts y validación de formularios con Zod y React Hook Form. <strong>Supabase</strong> se utilizó como backend para autenticación de usuarios, almacenamiento de datos y gestión de archivos en buckets. La exportación de datos se implementó con la librería xlsx.<br><br>La plataforma cuenta con autenticación completa (registro, login, recuperación y cambio de clave, verificación por correo electrónico), perfil de usuario con historial de pedidos, sistema de favoritos, buscador de productos, sección de tiendas físicas, libro de reclamaciones, páginas de términos y privacidad, panel de administración interno y un chat integrado para atención al cliente. El despliegue se realizó en Vercel.<br><br>Demo: <a href='https://www.yapets.pe/' target='_blank'>yapets.pe</a>",
+        technologies: {
+            frontend: ["React", "TypeScript", "Tailwind CSS", "Radix UI", "Recharts", "Embla Carousel"],
+            backend: ["Supabase"],
+            databases: ["Supabase"],
+            devops: ["Vercel"],
+            otros: ["TanStack Start", "TanStack Router", "Zod", "React Hook Form", "Culqi", "xlsx"]
+        },
+        image: require('../assets/proyect-30.jpg'),
+        gallery: ["subproyects/subproyect_30_1.png", "subproyects/subproyect_30_2.png", "subproyects/subproyect_30_3.png", "subproyects/subproyect_30_4.png", "subproyects/subproyect_30_5.png", "subproyects/subproyect_30_6.png", "subproyects/subproyect_30_7.png", "subproyects/subproyect_30_8.png", "subproyects/subproyect_30_9.png", "subproyects/subproyect_30_10.png", "subproyects/subproyect_30_11.png", "subproyects/subproyect_30_12.png", "subproyects/subproyect_30_13.png", "subproyects/subproyect_30_14.png", "subproyects/subproyect_30_15.png", "subproyects/subproyect_30_16.png", "subproyects/subproyect_30_17.png"]
+    },
+    {
+        id: 31,
+        title: 'Video Editor - Editor de Video en el Navegador',
+        description: "Editor de video gratuito y de código abierto que funciona completamente dentro del navegador. Permite trabajar con <strong>múltiples niveles de video</strong> en la línea de tiempo, ajustar colores con ruedas y curvas, agregar texto y figuras, aplicar censura que sigue al objeto en movimiento y exportar el resultado final a la calidad deseada con soporte para resoluciones de 1920x1080, 1080x1080 y 1080x1920.<br><br>Se desarrolló con <strong>React</strong> y TypeScript, con Vite como bundler, Tailwind CSS para los estilos, Zustand para la gestión de estado global, Framer Motion para las animaciones, paneles redimensionables con React Resizable Panels y selector de color con React Colorful. El procesamiento de video se realizó con <strong>FFmpeg.wasm</strong> para la codificación y decodificación directamente en el navegador, mp4-muxer y mp4box para el empaquetado de archivos y MediaBunny como motor de composición. El audio se procesó con RNNoise para supresión de ruido.<br><br>La plataforma incluye una landing page con información del proyecto, sección de editor donde se trabaja directamente con los archivos, gestión de proyectos guardados, modo oscuro y soporte multiidioma. Soporta 21 transiciones, 6 niveles de video simultáneos, exportación a 60 fps y 20 efectos disponibles. El despliegue se realizó en Vercel.<br><br>Demo: <a href='https://video-editor-plus.vercel.app/' target='_blank'>video-editor-plus.vercel.app</a>",
+        technologies: {
+            frontend: ["React", "TypeScript", "Tailwind CSS", "Vite", "Framer Motion", "Zustand"],
+            backend: [],
+            databases: [],
+            devops: ["Vercel"],
+            otros: ["FFmpeg.wasm", "mp4-muxer", "mp4box", "RNNoise", "React Resizable Panels", "React Colorful", "Lenis"]
+        },
+        image: require('../assets/proyect-31.jpg'),
+        gallery: ["subproyects/subproyect_31_1.png", "subproyects/subproyect_31_2.png", "subproyects/subproyect_31_3.png", "subproyects/subproyect_31_4.png", "subproyects/subproyect_31_5.png", "subproyects/subproyect_31_6.png", "subproyects/subproyect_31_7.png", "subproyects/subproyect_31_8.png", "subproyects/subproyect_31_9.png", "subproyects/subproyect_31_10.png", "subproyects/subproyect_31_11.png", "subproyects/subproyect_31_12.png", "subproyects/subproyect_31_13.png", "subproyects/subproyect_31_14.png", "subproyects/subproyect_31_15.png"]
+    },
+    {
+        id: 32,
+        title: 'Incluye+ - Plataforma de Inclusión Social para Tumbes',
+        description: "Plataforma web desarrollada para la <strong>Oficina Regional de Atención a las Personas con Discapacidad (OREDIS)</strong> del Gobierno Regional de Tumbes. Permite a los ciudadanos solicitar, renovar y consultar el estado de su carné de discapacidad de forma gratuita, con atención presencial y virtual. El sistema centraliza información sobre los servicios, beneficios, programas sociales y centros de atención disponibles en la región para personas con discapacidad y sus familias.<br><br>La plataforma fue construida con <strong>Angular</strong> y TypeScript en el frontend, con diseño responsive, modo oscuro y funcionalidades de accesibilidad integradas. El backend fue desarrollado con <strong>Node.js</strong> y PostgreSQL como base de datos relacional. Se desplegó con Docker para la contenización de servicios y Netlify para el hosting del frontend.<br><br>El sistema cuenta con secciones de inicio, gestión de carnés (solicitud, renovación y consulta de estado del trámite), catálogo de servicios y beneficios, directorio de centros de atención en la región, módulo de noticias y comunicados oficiales, y formulario de contacto. Según las estadísticas de la plataforma se han emitido más de 12,500 carnés, se ofrecen más de 60 programas y beneficios, y se cuenta con 8 centros de atención activos.<br><br>Demo: <a href='https://oredis.netlify.app/carne' target='_blank'>oredis.netlify.app</a>",
+        technologies: {
+            frontend: ["Angular", "TypeScript", "Sass"],
+            backend: ["Node.js"],
+            databases: ["PostgreSQL"],
+            devops: ["Docker", "Netlify"],
+            otros: []
+        },
+        image: require('../assets/proyect-32.jpg'),
+        gallery: ["subproyects/subproyect_32_1.png", "subproyects/subproyect_32_2.png", "subproyects/subproyect_32_3.png", "subproyects/subproyect_32_4.png", "subproyects/subproyect_32_5.png", "subproyects/subproyect_32_6.png", "subproyects/subproyect_32_7.png", "subproyects/subproyect_32_8.png", "subproyects/subproyect_32_9.png", "subproyects/subproyect_32_10.png", "subproyects/subproyect_32_11.png"]
+    },
+    {
+        id: 33,
+        title: 'Screenshot Plus - Herramienta de Capturas de Pantalla',
+        description: "Herramienta de capturas de pantalla para Windows, gratuita y de código abierto, distribuida como un único ejecutable portable sin instalación. Permite capturar una región de la pantalla, la pantalla completa, la ventana activa o una página larga mediante <strong>captura con desplazamiento (scroll)</strong> que une automáticamente cada porción visible en una sola imagen, con vista previa en tiempo real.<br><br>Se desarrolló con <strong>Python 3.10+</strong> y PySide6 para la interfaz gráfica, Pillow para el procesamiento de imágenes (recortes, unión de tramos y exportación), mss para la captura a resolución nativa con soporte multimonitor, pynput para la escucha de atajos de teclado globales y pywin32 para el acceso a la API de Windows. La generación del ejecutable portable se realizó con <strong>PyInstaller</strong>.<br><br>Incluye un editor de anotaciones completo con 8 formas geométricas, líneas y flechas con estilos configurables, pincel de trazo libre, texto con todas las tipografías del sistema, herramienta para ocultar información sensible mediante pixelado o difuminado, opacidad regulable y selección múltiple. También cuenta con una pizarra de presentación para clases y reuniones, con zoom en vivo, puntero láser con estela configurable, herramientas de dibujo sobre pantalla congelada y atajos globales personalizables.<br><br>GitHub: <a href='https://github.com/Cris223511/screenshot-plus' target='_blank'>screenshot-plus</a>",
+        technologies: {
+            frontend: ["Python 3.10+", "PySide6"],
+            backend: [],
+            databases: [],
+            devops: [],
+            otros: ["Pillow", "mss", "pynput", "pywin32", "PyInstaller"]
+        },
+        image: require('../assets/proyect-33.jpg'),
+        gallery: ["subproyects/subproyect_33_1.png", "subproyects/subproyect_33_2.png", "subproyects/subproyect_33_3.png", "subproyects/subproyect_33_4.png", "subproyects/subproyect_33_5.png", "subproyects/subproyect_33_6.png", "subproyects/subproyect_33_7.png", "subproyects/subproyect_33_8.png", "subproyects/subproyect_33_9.png"]
+    },
     {
         id: 14,
         title: 'JobConnect - Plataforma de Búsqueda de Empleo',
@@ -142,7 +213,7 @@ const projectsData = [
     {
         id: 25,
         title: "PRISM-PR Review - Análisis Semántico de Pull Requests",
-        description: "Aplicación integrada con GitHub que realiza análisis semántico de Pull Requests antes del merge. Explica qué cambia realmente en el código, dónde está el riesgo y por qué importa. Soporta más de 12 lenguajes de programación como TypeScript, JavaScript, Java, Go, Rust, Dart, Python, Ruby, PHP, Swift, Kotlin y más, y entrega reportes detallados en formato Markdown directamente dentro de GitHub.<br><br>La plataforma ofrece cuatro tipos de análisis. En seguridad detecta vulnerabilidades, secretos hardcodeados, SQL injection y XSS. En rendimiento identifica cuellos de botella, memory leaks y algoritmos ineficientes. En calidad de código evalúa code smells, convenciones de nombres y código no utilizado. En métricas calcula complejidad ciclomática, índice de mantenibilidad y deuda técnica. También incluye una sección interactiva \"Try It Live\" donde los usuarios pueden pegar código y obtener análisis en tiempo real con los resultados de issues encontrados.<br><br>El flujo de trabajo es sencillo. Se activa PRISM en los repositorios de GitHub con un clic, se abre un Pull Request como de costumbre y se recibe automáticamente un reporte de análisis detallado con puntuación de riesgo y problemas categorizados por severidad. Se construyó con principios de Arquitectura Limpia, caché LRU con TTL para rendimiento optimizado y procesamiento concurrente con límites configurables.<br><br>Demo: <a href='https://prisms-app.onrender.com/' target='_blank'>prisms-app.onrender.com</a>",
+        description: "Aplicación integrada con GitHub que realiza análisis semántico de Pull Requests antes del merge. Explica qué cambia realmente en el código, dónde está el riesgo y por qué importa. Soporta más de 12 lenguajes de programación como TypeScript, JavaScript, Java, Go, Rust, Dart, Python, Ruby, PHP, Swift, Kotlin y más, y entrega reportes detallados en formato Markdown directamente dentro de GitHub.<br><br>La plataforma ofrece cuatro tipos de análisis. En seguridad detecta vulnerabilidades, secretos hardcodeados, SQL injection y XSS. En rendimiento identifica cuellos de botella, memory leaks y algoritmos ineficientes. En calidad de código evalúa code smells, convenciones de nombres y código no utilizado. En métricas calcula complejidad ciclomática, índice de mantenibilidad y deuda técnica. También incluye una sección interactiva \"Try It Live\" donde los usuarios pueden pegar código y obtener análisis en tiempo real con los resultados de issues encontrados.<br><br>El flujo de trabajo es sencillo. Se activa PRISM en los repositorios de GitHub con un clic, se abre un Pull Request como de costumbre y se recibe automáticamente un reporte de análisis detallado con puntuación de riesgo y problemas categorizados por severidad. Se construyó con principios de Arquitectura Limpia, caché LRU con TTL para rendimiento optimizado y procesamiento concurrente con límites configurables.",
         technologies: {
             frontend: ["HTML5", "CSS3", "JavaScript", "TypeScript"],
             backend: ["Node.js", "Express.js", "TypeScript"],
@@ -198,7 +269,7 @@ const projectsData = [
     {
         id: 19,
         title: 'Municipalidad Provincial de Tumbes - Portal Institucional',
-        description: "Portal web institucional para la Municipalidad Provincial de Tumbes que centraliza información de gestión pública, noticias, eventos, normativas y servicios municipales para la ciudadanía. La municipalidad contaba con un portal web desactualizado y con un diseño que dificultaba la navegación de los ciudadanos. Ofrecimos nuestros servicios de rediseño web y fuimos seleccionados para desarrollar un nuevo portal institucional moderno que mejorara la comunicación entre el gobierno local y la comunidad tumbesina.<br><br>El nuevo portal presenta un diseño intuitivo y responsive con secciones claramente organizadas: noticias de la gestión municipal, calendario de eventos, normativas y ordenanzas locales, proyectos en desarrollo y programas gubernamentales. Se incluyó una sección dedicada a la historia del municipio, autoridades actuales y estructura organizacional, fortaleciendo la identidad institucional y la transparencia de la gestión pública.<br><br>Se implementó un módulo de denuncias y sugerencias que permite a los ciudadanos reportar problemas de infraestructura, servicios públicos o seguridad, así como enviar propuestas para mejorar la ciudad. El espacio de comunicados oficiales mantiene informada a la población sobre anuncios importantes y actividades del alcalde. La integración con redes sociales como Facebook y Twitter amplía el alcance de la información y facilita la interacción directa con la comunidad.",
+        description: "Portal web institucional para la Municipalidad Provincial de Tumbes que centraliza información de gestión pública, noticias, eventos, normativas y servicios municipales para la ciudadanía. La municipalidad contaba con un portal web desactualizado y con un diseño que dificultaba la navegación de los ciudadanos. Ofrecimos nuestros servicios de rediseño web y fuimos seleccionados para desarrollar un nuevo portal institucional moderno que mejorara la comunicación entre el gobierno local y la comunidad tumbesina.<br><br>El nuevo portal presenta un diseño intuitivo y responsive con secciones claramente organizadas: noticias de la gestión municipal, calendario de eventos, normativas y ordenanzas locales, proyectos en desarrollo y programas gubernamentales. Se incluyó una sección dedicada a la historia del municipio, autoridades actuales y estructura organizacional, fortaleciendo la identidad institucional y la transparencia de la gestión pública.<br><br>Se implementó un módulo de denuncias y sugerencias que permite a los ciudadanos reportar problemas de infraestructura, servicios públicos o seguridad, así como enviar propuestas para mejorar la ciudad. El espacio de comunicados oficiales mantiene informada a la población sobre anuncios importantes y actividades del alcalde. La integración con redes sociales como Facebook y Twitter amplía el alcance de la información y facilita la interacción directa con la comunidad.<br><br>Demo: <a href='https://municipalidadtumbes.netlify.app/' target='_blank'>municipalidadtumbes.netlify.app</a>",
         technologies: {
             frontend: ["Angular", "TypeScript"],
             backend: ["Spring Boot", "Spring Security"],
@@ -406,62 +477,6 @@ const projectsData = [
         gallery: [
             "subproyects/subproyect_21_1.png", "subproyects/subproyect_21_2.png", "subproyects/subproyect_21_3.png", "subproyects/subproyect_21_4.png", "subproyects/subproyect_21_5.png", "subproyects/subproyect_21_6.png", "subproyects/subproyect_21_7.png", "subproyects/subproyect_21_8.png", "subproyects/subproyect_21_9.png", "subproyects/subproyect_21_10.png", "subproyects/subproyect_21_11.png", "subproyects/subproyect_21_12.png", "subproyects/subproyect_21_13.png",
         ]
-    },
-    {
-        id: 24,
-        title: "VideoTranscribe - Plataforma de Transcripción de Video con IA",
-        description: "Plataforma de transcripción de video impulsada por inteligencia artificial desarrollada por encargo para la Universidad Nacional de Tumbes a través del Ministerio del Ambiente. El sistema permite a los usuarios subir archivos de video o audio, pegar URLs de YouTube, Vimeo, SoundCloud y Spotify, o grabar audio directamente desde el navegador. Procesa el contenido a través de un motor de transcripción con IA y entrega resultados de texto precisos con soporte de selección de idioma para español e inglés.<br><br>La plataforma sigue un flujo guiado de cuatro pasos. Primero se sube el contenido ya sea por archivo, URL o grabación. Luego se selecciona el segmento específico del video a transcribir mediante una línea de tiempo visual con controles de tiempo de inicio y fin, ajuste de velocidad de reproducción y control de volumen. En el tercer paso se configuran los ajustes de transcripción con selección de idioma y generación opcional de resumen automático. Finalmente se visualiza la transcripción completa con opciones para copiar el texto o generar un resumen impulsado por IA con puntos clave y descripción general.<br><br>El módulo de resumen desglosa el contenido en una descripción general y puntos clave extraídos mediante análisis de IA. Los usuarios pueden iniciar una nueva transcripción en cualquier momento o seguir refinando resultados. La interfaz incluye modo oscuro, selector de idioma y diseño responsivo en todos los dispositivos. Se desarrolló como herramienta práctica para convertir clases en video, reuniones y contenido institucional en texto buscable y compartible.",
-        technologies: {
-            frontend: ["Angular 19", "TypeScript", "Sass"],
-            backend: ["Python 3.12"],
-            databases: ["PostgreSQL", "Redis"],
-            devops: ["Docker", "Render"],
-            otros: []
-        },
-        image: require("../assets/proyect-24.jpg"),
-        gallery: ["subproyects/subproyect_24_1.png", "subproyects/subproyect_24_2.png", "subproyects/subproyect_24_3.png", "subproyects/subproyect_24_4.png", "subproyects/subproyect_24_5.png", "subproyects/subproyect_24_6.png", "subproyects/subproyect_24_7.png", "subproyects/subproyect_24_8.png", "subproyects/subproyect_24_9.png", "subproyects/subproyect_24_10.png", "subproyects/subproyect_24_11.png", "subproyects/subproyect_24_12.png", "subproyects/subproyect_24_13.png"]
-    },
-    {
-        id: 25,
-        title: "PRISM-PR Review - Análisis Semántico de Pull Requests",
-        description: "Aplicación integrada con GitHub que realiza análisis semántico de Pull Requests antes del merge. Explica qué cambia realmente en el código, dónde está el riesgo y por qué importa. Soporta más de 12 lenguajes de programación como TypeScript, JavaScript, Java, Go, Rust, Dart, Python, Ruby, PHP, Swift, Kotlin y más, y entrega reportes detallados en formato Markdown directamente dentro de GitHub.<br><br>La plataforma ofrece cuatro tipos de análisis. En seguridad detecta vulnerabilidades, secretos hardcodeados, SQL injection y XSS. En rendimiento identifica cuellos de botella, memory leaks y algoritmos ineficientes. En calidad de código evalúa code smells, convenciones de nombres y código no utilizado. En métricas calcula complejidad ciclomática, índice de mantenibilidad y deuda técnica. También incluye una sección interactiva 'Try It Live' donde los usuarios pueden pegar código y obtener análisis en tiempo real con los resultados de issues encontrados.<br><br>El flujo de trabajo es sencillo. Se activa PRISM en los repositorios de GitHub con un clic, se abre un Pull Request como de costumbre y se recibe automáticamente un reporte de análisis detallado con puntuación de riesgo y problemas categorizados por severidad. Se construyó con principios de Arquitectura Limpia, caché LRU con TTL para rendimiento optimizado y procesamiento concurrente con límites configurables.<br><br>Demo: <a href='https://prisms-app.onrender.com/' target='_blank'>prisms-app.onrender.com</a>",
-        technologies: {
-            frontend: ["HTML5", "CSS3", "JavaScript", "TypeScript"],
-            backend: ["Node.js", "Express.js", "TypeScript"],
-            databases: [],
-            devops: ["Docker", "Render", "GitHub Pages"],
-            otros: ["GitHub API", "GitHub Webhooks", "Vitest"]
-        },
-        image: require("../assets/proyect-25.jpg"),
-        gallery: ["subproyects/subproyect_25_1.png", "subproyects/subproyect_25_2.png", "subproyects/subproyect_25_3.png", "subproyects/subproyect_25_4.png", "subproyects/subproyect_25_5.png", "subproyects/subproyect_25_6.png", "subproyects/subproyect_25_7.png"]
-    },
-    {
-        id: 27,
-        title: "GeoPortal Tumbes - Sistema Nacional Geoespacial",
-        description: "Plataforma geoespacial desarrollada para la región de Tumbes en coordinación con el Ministerio del Ambiente, inspirada en la Plataforma Nacional de Datos Georreferenciados Geo Perú. El sistema transforma big data territorial en insights accionables y permite explorar el territorio peruano mediante un visor de mapas interactivo con soporte para capas temáticas como límites departamentales, límites provinciales, red vial nacional, zonas de riesgo sísmico, eventos históricos y áreas naturales protegidas. El visor ofrece tres tipos de mapa base (vector, satélite y topográfico) con controles de opacidad por capa, herramientas de dibujo (marcadores, líneas, polígonos), ubicación en tiempo real y coordenadas dinámicas de latitud y longitud.<br><br>La plataforma cuenta con una landing page institucional que presenta el catálogo de datos geoespaciales con más de 1,250 capas disponibles, 450 TB de datos geoespaciales y cobertura en las 24 regiones del país, además de una sección de servicios y herramientas para la gestión territorial. El sistema incluye autenticación con credenciales institucionales, verificación de correo electrónico mediante código de 6 dígitos con temporizador de expiración de 5 minutos y opción de reenvío de código.<br><br>El panel administrativo ofrece un dashboard completo con métricas en tiempo real sobre usuarios activos, capas geoespaciales publicadas, consultas diarias y almacenamiento utilizado. También muestra actividad reciente del sistema, estado de los servicios (servidor de mapas, base de datos PostGIS, servicios WMS/WFS, API de geoservicios), gráficas de consultas de los últimos 7 días y ranking de las capas más consultadas. Se desarrolló como un sistema enfocado en monitoreo de desastres naturales mediante información satelital para la región de Tumbes.",
-        technologies: {
-            frontend: ["Angular 18", "TypeScript", "Sass"],
-            backend: ["Java 24", "Spring Boot 3.4"],
-            databases: ["PostgreSQL", "PostGIS"],
-            devops: ["Azure", "On-Premise"],
-            otros: ["OpenLayers", "WMS/WFS"]
-        },
-        image: require("../assets/proyect-27.jpg"),
-        gallery: ["subproyects/subproyect_27_1.png", "subproyects/subproyect_27_2.png", "subproyects/subproyect_27_3.png", "subproyects/subproyect_27_4.png", "subproyects/subproyect_27_5.png", "subproyects/subproyect_27_6.png", "subproyects/subproyect_27_7.png", "subproyects/subproyect_27_8.png", "subproyects/subproyect_27_9.png"]
-    },
-    {
-        id: 26,
-        title: "NEXUS - Estudio de Diseño Digital",
-        description: "Página web informativa de un estudio de diseño digital que combina múltiples tecnologías y librerías para lograr una experiencia visual inmersiva. Se implementaron efectos de glassmorphism, escenas 3D interactivas con Three.js, animaciones sincronizadas con el scroll, parallax dinámico y un sistema de carga asíncrona de dependencias desde CDN con barra de progreso real vinculada a la carga de las librerías.<br><br>El sitio incluye secciones de portafolio con proyectos destacados, catálogo de servicios (diseño de producto digital, desarrollo full-stack, estrategia de marca, arquitectura de software, inteligencia artificial y consultoría técnica), metodología de trabajo en tres fases (inmersión y estrategia, diseño y prototipado, desarrollo y lanzamiento), contadores animados de estadísticas, galería horizontal con efecto parallax, texto de manifiesto que se revela palabra por palabra al hacer scroll, marquee infinito bidireccional y formulario de contacto con estilos glass.<br><br>La arquitectura sigue un enfoque modular basado en clases ES6+ donde cada funcionalidad está encapsulada en su propia clase. Se crearon módulos independientes para la escena 3D principal, las mini escenas 3D dentro de cada card del showcase, las figuras parallax, la galería parallax, el texto manifiesto y el animador de estadísticas. Se optimizó el rendimiento con pixel ratio limitado a 2x para WebGL, will-change solo en elementos animados, lazy loading nativo en imágenes e IntersectionObserver para activar animaciones únicamente cuando son visibles. Diseño completamente responsive para desktop, tablet y móvil.<br><br>Demo: <a href='https://cris223511.github.io/nexus-parallax/' target='_blank'>cris223511.github.io/nexus-parallax</a>",
-        technologies: {
-            frontend: ["HTML5", "CSS3", "JavaScript ES6+"],
-            backend: [],
-            databases: [],
-            devops: ["GitHub Pages"],
-            otros: ["Three.js", "Anime.js", "Lenis", "WebGL", "Google Fonts"]
-        },
-        image: require("../assets/proyect-26.jpg"),
-        gallery: ["subproyects/subproyect_26_1.png", "subproyects/subproyect_26_2.png", "subproyects/subproyect_26_3.png", "subproyects/subproyect_26_4.png", "subproyects/subproyect_26_5.png", "subproyects/subproyect_26_6.png", "subproyects/subproyect_26_7.png", "subproyects/subproyect_26_8.png", "subproyects/subproyect_26_9.png", "subproyects/subproyect_26_10.png", "subproyects/subproyect_26_11.png"]
     },
 ];
 
