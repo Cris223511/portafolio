@@ -83,6 +83,21 @@ const projectsData = [
         image: require('../assets/proyect-31.jpg'),
         gallery: ["subproyects/subproyect_31_1.png", "subproyects/subproyect_31_2.png", "subproyects/subproyect_31_3.png", "subproyects/subproyect_31_4.png", "subproyects/subproyect_31_5.png", "subproyects/subproyect_31_6.png", "subproyects/subproyect_31_7.png", "subproyects/subproyect_31_8.png", "subproyects/subproyect_31_9.png", "subproyects/subproyect_31_10.png", "subproyects/subproyect_31_11.png", "subproyects/subproyect_31_12.png", "subproyects/subproyect_31_13.png", "subproyects/subproyect_31_14.png", "subproyects/subproyect_31_15.png"]
     },
+
+    {
+        id: 34,
+        title: 'Squeezo - Compresor de Imagenes en el Navegador',
+        description: "Compresor de imagenes gratuito y de codigo abierto que funciona completamente en el navegador, sin subir archivos a ningun servidor. Permite arrastrar imagenes sueltas, carpetas completas o archivos .zip de hasta 1000 imagenes, previsualizarlas en un arbol con miniaturas y descargar el resultado comprimido con las mismas dimensiones y calidad visual.<br><br>Se desarrollo con <strong>React 18</strong> y TypeScript, con Vite como bundler y Tailwind CSS para los estilos con soporte de tema claro y oscuro. La compresion se realiza con <strong>jSquash</strong> (MozJPEG, OxiPNG, WebP, AVIF compilados a WebAssembly), SVGO para vectores SVG y Gifsicle para GIF animados. El procesamiento se ejecuta en paralelo mediante <strong>Web Workers</strong> para no bloquear la interfaz. El manejo de archivos ZIP se implemento con fflate para lectura y creacion sin cargar todo en memoria.<br><br>La aplicacion soporta JPG, PNG, WebP, AVIF, GIF (animados incluidos), SVG y BMP, con soporte opcional para TIFF y HEIC segun el navegador. Ofrece tres niveles de compresion (recomendado, calidad alta y maxima compresion), conversion entre formatos, comparador visual antes y despues, descarga individual o en ZIP con la estructura de carpetas original, persistencia de sesion con cookies configurables y soporte multiidioma (espanol e ingles). El despliegue se realizo en Vercel con una funcion serverless conectada a Upstash Redis para un contador global de imagenes comprimidas.<br><br>Demo: <a href='https://squeezo-six.vercel.app' target='_blank'>squeezo-six.vercel.app</a>",
+        technologies: {
+            frontend: ["React", "TypeScript", "Tailwind CSS", "Vite"],
+            backend: [],
+            databases: [],
+            devops: ["Vercel"],
+            otros: ["jSquash", "WebAssembly", "Web Workers", "SVGO", "Gifsicle", "fflate", "Zustand", "Lenis", "Upstash Redis"]
+        },
+        image: require('../assets/proyect-34.jpg'),
+        gallery: ["subproyects/subproyect_34_1.png", "subproyects/subproyect_34_2.png", "subproyects/subproyect_34_3.png", "subproyects/subproyect_34_4.png", "subproyects/subproyect_34_5.png", "subproyects/subproyect_34_6.png", "subproyects/subproyect_34_7.png", "subproyects/subproyect_34_8.png", "subproyects/subproyect_34_9.png", "subproyects/subproyect_34_10.png", "subproyects/subproyect_34_11.png", "subproyects/subproyect_34_12.png", "subproyects/subproyect_34_13.png", "subproyects/subproyect_34_14.png", "subproyects/subproyect_34_15.png", "subproyects/subproyect_34_16.png", "subproyects/subproyect_34_17.png", "subproyects/subproyect_34_18.png"]
+    },
     {
         id: 14,
         title: 'JobConnect - Plataforma de Búsqueda de Empleo',
