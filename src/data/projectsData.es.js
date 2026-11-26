@@ -1,5 +1,6 @@
 const projectsData = [
-    {
+
+export default projectsData;    {
         id: 0,
         title: "App USIL - Herramientas Digitales para la Vida Universitaria",
         description: "Plataforma digital integral para estudiantes universitarios con bloc de notas, calendario de actividades, calculadora de promedios, zona de entretenimiento, blogs y chat en tiempo real. Desarrollada en 2025 como iniciativa personal para ofrecer herramientas complementarias a los estudiantes de la Universidad San Ignacio de Loyola.<br><br>La plataforma integra múltiples módulos: bloc de notas para apuntes rápidos, calendario de actividades para organizar tareas, calculadora de promedios que permite simular calificaciones, zona de juegos ligeros para momentos de descanso, espacio de blogs donde los estudiantes pueden compartir experiencias y un chat en tiempo real para interactuar con otros usuarios de la comunidad.<br><br>El desarrollo comenzó en marzo de 2025 y continúa en evolución constante. Cada actualización se basa en observaciones reales y retroalimentación de usuarios, ajustando detalles y añadiendo funcionalidades que mejoren la experiencia. Más allá de su funcionamiento técnico, esta aplicación representa una propuesta concreta para resolver necesidades reales dentro del entorno universitario actual, priorizando la utilidad, cercanía y simplicidad desde el primer uso.<br><br>Demo: <a href='https://appusil.com' target='_blank'>appusil.com</a>",
@@ -40,77 +41,6 @@ const projectsData = [
         },
         image: require('../assets/proyect-12.jpg'),
         gallery: ["subproyects/subproyect_2_1.png", "subproyects/subproyect_2_2.png", "subproyects/subproyect_2_3.png", "subproyects/subproyect_2_4.png", "subproyects/subproyect_2_5.png", "subproyects/subproyect_2_6.png", "subproyects/subproyect_2_7.png", "subproyects/subproyect_2_8.png", "subproyects/subproyect_2_9.png", "subproyects/subproyect_2_10.png", "subproyects/subproyect_2_11.png", "subproyects/subproyect_2_12.png", "subproyects/subproyect_2_13.png", "subproyects/subproyect_2_14.png", "subproyects/subproyect_2_15.png", "subproyects/subproyect_2_16.png", "subproyects/subproyect_2_17.png", "subproyects/subproyect_2_18.png", "subproyects/subproyect_2_19.png"]
-    },
-
-    {
-        id: 29,
-        title: 'Wasi - Plataforma Inmobiliaria con Mapa Interactivo',
-        description: "Plataforma inmobiliaria multiplataforma para buscar propiedades en venta y alquiler en Perú. Los usuarios pueden explorar inmuebles sobre un <strong>mapa interactivo con MapLibre GL</strong>, ver fichas detalladas con fotos, precios en soles, reseñas de otros usuarios, estado de verificación y cálculo de ruta desde su ubicación actual con tiempos estimados en transporte público, bicicleta y a pie.<br><br>La versión web fue desarrollada con <strong>Angular 21</strong> y TypeScript, con diseño responsive, modo oscuro, smooth scroll con Lenis y componentes estilizados con Bootstrap y Sass. La versión móvil fue construida con <strong>Flutter</strong> y Dart, con gestión de estado mediante Riverpod, navegación con Go Router, consumo de APIs con Dio y persistencia local. El backend fue desarrollado con <strong>Go 1.25</strong> puro y PostgreSQL como base de datos relacional, con comunicación en tiempo real mediante WebSockets. Se utilizó <strong>Supabase</strong> para autenticación, almacenamiento de archivos en buckets y gestión de datos en tiempo real.<br><br>La plataforma permite a los usuarios agregar propiedades a favoritos, comparar opciones, agendar visitas presenciales, contactar al propietario o agente, consultar el clima de la zona y generar documentos PDF con la información del inmueble mediante PDFMake. Cada propiedad cuenta con galería de fotos, descripción detallada, ubicación en el mapa, tipo de operación (alquiler o venta) y datos del distrito.",
-        technologies: {
-            frontend: ["Angular", "TypeScript", "Sass", "Bootstrap", "MapLibre GL", "Lenis"],
-            backend: ["Go 1.25", "WebSockets"],
-            databases: ["PostgreSQL", "Supabase"],
-            devops: [],
-            otros: ["Flutter", "Dart", "Riverpod", "Go Router", "Dio", "PDFMake"]
-        },
-        image: require('../assets/proyect-29.jpg'),
-        gallery: ["subproyects/subproyect_29_1.png", "subproyects/subproyect_29_2.png", "subproyects/subproyect_29_3.png", "subproyects/subproyect_29_4.png", "subproyects/subproyect_29_5.png", "subproyects/subproyect_29_6.png", "subproyects/subproyect_29_7.png", "subproyects/subproyect_29_8.png", "subproyects/subproyect_29_11.png", "subproyects/subproyect_29_12.png", "subproyects/subproyect_29_13.png", "subproyects/subproyect_29_14.png", "subproyects/subproyect_29_15.png", "subproyects/subproyect_29_16.png", "subproyects/subproyect_29_17.png", "subproyects/subproyect_29_18.png", "subproyects/subproyect_29_19.png", "subproyects/subproyect_29_20.png", "subproyects/subproyect_29_21.png", "subproyects/subproyect_29_22.png", "subproyects/subproyect_29_23.png", "subproyects/subproyect_29_24.png", "subproyects/subproyect_29_25.png", "subproyects/subproyect_29_26.png", "subproyects/subproyect_29_27.png", "subproyects/subproyect_29_28.png", "subproyects/subproyect_29_29.png", "subproyects/subproyect_29_30.png", "subproyects/subproyect_29_31.png", "subproyects/subproyect_29_32.png", "subproyects/subproyect_29_33.png", "subproyects/subproyect_29_34.png", "subproyects/subproyect_29_35.png"]
-    },
-    {
-        id: 30,
-        title: 'Ya! Pets - Tienda de Mascotas en Línea',
-        description: "Tienda en línea especializada en productos para mascotas con catálogo organizado por categorías como alimento, snacks y premios, juguetes, accesorios, higiene y perfumería, y farmacia. La plataforma ofrece un <strong>plan de suscripción mensual</strong> para entregas recurrentes de alimento con descuento, carrito de compras con gestión de cantidades y tallas, y un proceso de checkout con integración de pagos mediante <strong>Culqi</strong>.<br><br>Se construyó con <strong>React</strong> (TanStack Start y TanStack Router) y TypeScript, con Tailwind CSS para los estilos, componentes de Radix UI, carrusel con Embla Carousel, gráficos con Recharts y validación de formularios con Zod y React Hook Form. <strong>Supabase</strong> se utilizó como backend para autenticación de usuarios, almacenamiento de datos y gestión de archivos en buckets. La exportación de datos se implementó con la librería xlsx.<br><br>La plataforma cuenta con autenticación completa (registro, login, recuperación y cambio de clave, verificación por correo electrónico), perfil de usuario con historial de pedidos, sistema de favoritos, buscador de productos, sección de tiendas físicas, libro de reclamaciones, páginas de términos y privacidad, panel de administración interno y un chat integrado para atención al cliente. El despliegue se realizó en Vercel.<br><br>Demo: <a href='https://www.yapets.pe/' target='_blank'>yapets.pe</a>",
-        technologies: {
-            frontend: ["React", "TypeScript", "Tailwind CSS", "Radix UI", "Recharts", "Embla Carousel"],
-            backend: ["Supabase"],
-            databases: ["Supabase"],
-            devops: ["Vercel"],
-            otros: ["TanStack Start", "TanStack Router", "Zod", "React Hook Form", "Culqi", "xlsx"]
-        },
-        image: require('../assets/proyect-30.jpg'),
-        gallery: ["subproyects/subproyect_30_1.png", "subproyects/subproyect_30_2.png", "subproyects/subproyect_30_3.png", "subproyects/subproyect_30_4.png", "subproyects/subproyect_30_5.png", "subproyects/subproyect_30_6.png", "subproyects/subproyect_30_7.png", "subproyects/subproyect_30_8.png", "subproyects/subproyect_30_9.png", "subproyects/subproyect_30_10.png", "subproyects/subproyect_30_11.png", "subproyects/subproyect_30_12.png", "subproyects/subproyect_30_13.png", "subproyects/subproyect_30_14.png", "subproyects/subproyect_30_15.png", "subproyects/subproyect_30_16.png", "subproyects/subproyect_30_17.png"]
-    },
-    {
-        id: 31,
-        title: 'Video Editor - Editor de Video en el Navegador',
-        description: "Editor de video gratuito y de código abierto que funciona completamente dentro del navegador. Permite trabajar con <strong>múltiples niveles de video</strong> en la línea de tiempo, ajustar colores con ruedas y curvas, agregar texto y figuras, aplicar censura que sigue al objeto en movimiento y exportar el resultado final a la calidad deseada con soporte para resoluciones de 1920x1080, 1080x1080 y 1080x1920.<br><br>Se desarrolló con <strong>React</strong> y TypeScript, con Vite como bundler, Tailwind CSS para los estilos, Zustand para la gestión de estado global, Framer Motion para las animaciones, paneles redimensionables con React Resizable Panels y selector de color con React Colorful. El procesamiento de video se realizó con <strong>FFmpeg.wasm</strong> para la codificación y decodificación directamente en el navegador, mp4-muxer y mp4box para el empaquetado de archivos y MediaBunny como motor de composición. El audio se procesó con RNNoise para supresión de ruido.<br><br>La plataforma incluye una landing page con información del proyecto, sección de editor donde se trabaja directamente con los archivos, gestión de proyectos guardados, modo oscuro y soporte multiidioma. Soporta 21 transiciones, 6 niveles de video simultáneos, exportación a 60 fps y 20 efectos disponibles. El despliegue se realizó en Vercel.<br><br>Demo: <a href='https://video-editor-plus.vercel.app/' target='_blank'>video-editor-plus.vercel.app</a>",
-        technologies: {
-            frontend: ["React", "TypeScript", "Tailwind CSS", "Vite", "Framer Motion", "Zustand"],
-            backend: [],
-            databases: [],
-            devops: ["Vercel"],
-            otros: ["FFmpeg.wasm", "mp4-muxer", "mp4box", "RNNoise", "React Resizable Panels", "React Colorful", "Lenis"]
-        },
-        image: require('../assets/proyect-31.jpg'),
-        gallery: ["subproyects/subproyect_31_1.png", "subproyects/subproyect_31_2.png", "subproyects/subproyect_31_3.png", "subproyects/subproyect_31_4.png", "subproyects/subproyect_31_5.png", "subproyects/subproyect_31_6.png", "subproyects/subproyect_31_7.png", "subproyects/subproyect_31_8.png", "subproyects/subproyect_31_9.png", "subproyects/subproyect_31_10.png", "subproyects/subproyect_31_11.png", "subproyects/subproyect_31_12.png", "subproyects/subproyect_31_13.png", "subproyects/subproyect_31_14.png", "subproyects/subproyect_31_15.png"]
-    },
-    {
-        id: 32,
-        title: 'Incluye+ - Plataforma de Inclusión Social para Tumbes',
-        description: "Plataforma web desarrollada para la <strong>Oficina Regional de Atención a las Personas con Discapacidad (OREDIS)</strong> del Gobierno Regional de Tumbes. Permite a los ciudadanos solicitar, renovar y consultar el estado de su carné de discapacidad de forma gratuita, con atención presencial y virtual. El sistema centraliza información sobre los servicios, beneficios, programas sociales y centros de atención disponibles en la región para personas con discapacidad y sus familias.<br><br>La plataforma fue construida con <strong>Angular</strong> y TypeScript en el frontend, con diseño responsive, modo oscuro y funcionalidades de accesibilidad integradas. El backend fue desarrollado con <strong>Node.js</strong> y PostgreSQL como base de datos relacional. Se desplegó con Docker para la contenización de servicios y Netlify para el hosting del frontend.<br><br>El sistema cuenta con secciones de inicio, gestión de carnés (solicitud, renovación y consulta de estado del trámite), catálogo de servicios y beneficios, directorio de centros de atención en la región, módulo de noticias y comunicados oficiales, y formulario de contacto. Según las estadísticas de la plataforma se han emitido más de 12,500 carnés, se ofrecen más de 60 programas y beneficios, y se cuenta con 8 centros de atención activos.<br><br>Demo: <a href='https://oredis.netlify.app/carne' target='_blank'>oredis.netlify.app</a>",
-        technologies: {
-            frontend: ["Angular", "TypeScript", "Sass"],
-            backend: ["Node.js"],
-            databases: ["PostgreSQL"],
-            devops: ["Docker", "Netlify"],
-            otros: []
-        },
-        image: require('../assets/proyect-32.jpg'),
-        gallery: ["subproyects/subproyect_32_1.png", "subproyects/subproyect_32_2.png", "subproyects/subproyect_32_3.png", "subproyects/subproyect_32_4.png", "subproyects/subproyect_32_5.png", "subproyects/subproyect_32_6.png", "subproyects/subproyect_32_7.png", "subproyects/subproyect_32_8.png", "subproyects/subproyect_32_9.png", "subproyects/subproyect_32_10.png", "subproyects/subproyect_32_11.png"]
-    },
-    {
-        id: 33,
-        title: 'Screenshot Plus - Herramienta de Capturas de Pantalla',
-        description: "Herramienta de capturas de pantalla para Windows, gratuita y de código abierto, distribuida como un único ejecutable portable sin instalación. Permite capturar una región de la pantalla, la pantalla completa, la ventana activa o una página larga mediante <strong>captura con desplazamiento (scroll)</strong> que une automáticamente cada porción visible en una sola imagen, con vista previa en tiempo real.<br><br>Se desarrolló con <strong>Python 3.10+</strong> y PySide6 para la interfaz gráfica, Pillow para el procesamiento de imágenes (recortes, unión de tramos y exportación), mss para la captura a resolución nativa con soporte multimonitor, pynput para la escucha de atajos de teclado globales y pywin32 para el acceso a la API de Windows. La generación del ejecutable portable se realizó con <strong>PyInstaller</strong>.<br><br>Incluye un editor de anotaciones completo con 8 formas geométricas, líneas y flechas con estilos configurables, pincel de trazo libre, texto con todas las tipografías del sistema, herramienta para ocultar información sensible mediante pixelado o difuminado, opacidad regulable y selección múltiple. También cuenta con una pizarra de presentación para clases y reuniones, con zoom en vivo, puntero láser con estela configurable, herramientas de dibujo sobre pantalla congelada y atajos globales personalizables.<br><br>GitHub: <a href='https://github.com/Cris223511/screenshot-plus' target='_blank'>screenshot-plus</a>",
-        technologies: {
-            frontend: ["Python 3.10+", "PySide6"],
-            backend: [],
-            databases: [],
-            devops: [],
-            otros: ["Pillow", "mss", "pynput", "pywin32", "PyInstaller"]
-        },
-        image: require('../assets/proyect-33.jpg'),
-        gallery: ["subproyects/subproyect_33_1.png", "subproyects/subproyect_33_2.png", "subproyects/subproyect_33_3.png", "subproyects/subproyect_33_4.png", "subproyects/subproyect_33_5.png", "subproyects/subproyect_33_6.png", "subproyects/subproyect_33_7.png", "subproyects/subproyect_33_8.png", "subproyects/subproyect_33_9.png"]
     },
     {
         id: 14,
@@ -181,6 +111,76 @@ const projectsData = [
         },
         image: require('../assets/proyect-23.jpg'),
         gallery: ["subproyects/subproyect_23_1.png", "subproyects/subproyect_23_2.png", "subproyects/subproyect_23_3.png", "subproyects/subproyect_23_4.png", "subproyects/subproyect_23_5.png"]
+    },
+    {
+        id: 29,
+        title: 'Wasi - Plataforma Inmobiliaria con Mapa Interactivo',
+        description: "Plataforma inmobiliaria multiplataforma para buscar propiedades en venta y alquiler en Perú. Los usuarios pueden explorar inmuebles sobre un <strong>mapa interactivo con MapLibre GL</strong>, ver fichas detalladas con fotos, precios en soles, reseñas de otros usuarios, estado de verificación y cálculo de ruta desde su ubicación actual con tiempos estimados en transporte público, bicicleta y a pie.<br><br>La versión web fue desarrollada con <strong>Angular 21</strong> y TypeScript, con diseño responsive, modo oscuro, smooth scroll con Lenis y componentes estilizados con Bootstrap y Sass. La versión móvil fue construida con <strong>Flutter</strong> y Dart, con gestión de estado mediante Riverpod, navegación con Go Router, consumo de APIs con Dio y persistencia local. El backend fue desarrollado con <strong>Go 1.25</strong> puro y PostgreSQL como base de datos relacional, con comunicación en tiempo real mediante WebSockets. Se utilizó <strong>Supabase</strong> para autenticación, almacenamiento de archivos en buckets y gestión de datos en tiempo real.<br><br>La plataforma permite a los usuarios agregar propiedades a favoritos, comparar opciones, agendar visitas presenciales, contactar al propietario o agente, consultar el clima de la zona y generar documentos PDF con la información del inmueble mediante PDFMake. Cada propiedad cuenta con galería de fotos, descripción detallada, ubicación en el mapa, tipo de operación (alquiler o venta) y datos del distrito.",
+        technologies: {
+            frontend: ["Angular", "TypeScript", "Sass", "Bootstrap", "MapLibre GL", "Lenis"],
+            backend: ["Go 1.25", "WebSockets"],
+            databases: ["PostgreSQL", "Supabase"],
+            devops: [],
+            otros: ["Flutter", "Dart", "Riverpod", "Go Router", "Dio", "PDFMake"]
+        },
+        image: require('../assets/proyect-29.jpg'),
+        gallery: ["subproyects/subproyect_29_1.png", "subproyects/subproyect_29_2.png", "subproyects/subproyect_29_3.png", "subproyects/subproyect_29_4.png", "subproyects/subproyect_29_5.png", "subproyects/subproyect_29_6.png", "subproyects/subproyect_29_7.png", "subproyects/subproyect_29_8.png", "subproyects/subproyect_29_11.png", "subproyects/subproyect_29_12.png", "subproyects/subproyect_29_13.png", "subproyects/subproyect_29_14.png", "subproyects/subproyect_29_15.png", "subproyects/subproyect_29_16.png", "subproyects/subproyect_29_17.png", "subproyects/subproyect_29_18.png", "subproyects/subproyect_29_19.png", "subproyects/subproyect_29_20.png", "subproyects/subproyect_29_21.png", "subproyects/subproyect_29_22.png", "subproyects/subproyect_29_23.png", "subproyects/subproyect_29_24.png", "subproyects/subproyect_29_25.png", "subproyects/subproyect_29_26.png", "subproyects/subproyect_29_27.png", "subproyects/subproyect_29_28.png", "subproyects/subproyect_29_29.png", "subproyects/subproyect_29_30.png", "subproyects/subproyect_29_31.png", "subproyects/subproyect_29_32.png", "subproyects/subproyect_29_33.png", "subproyects/subproyect_29_34.png", "subproyects/subproyect_29_35.png"]
+    },
+    {
+        id: 30,
+        title: 'Ya! Pets - Tienda de Mascotas en Línea',
+        description: "Tienda en línea especializada en productos para mascotas con catálogo organizado por categorías como alimento, snacks y premios, juguetes, accesorios, higiene y perfumería, y farmacia. La plataforma ofrece un <strong>plan de suscripción mensual</strong> para entregas recurrentes de alimento con descuento, carrito de compras con gestión de cantidades y tallas, y un proceso de checkout con integración de pagos mediante <strong>Culqi</strong>.<br><br>Se construyó con <strong>React</strong> (TanStack Start y TanStack Router) y TypeScript, con Tailwind CSS para los estilos, componentes de Radix UI, carrusel con Embla Carousel, gráficos con Recharts y validación de formularios con Zod y React Hook Form. <strong>Supabase</strong> se utilizó como backend para autenticación de usuarios, almacenamiento de datos y gestión de archivos en buckets. La exportación de datos se implementó con la librería xlsx.<br><br>La plataforma cuenta con autenticación completa (registro, login, recuperación y cambio de clave, verificación por correo electrónico), perfil de usuario con historial de pedidos, sistema de favoritos, buscador de productos, sección de tiendas físicas, libro de reclamaciones, páginas de términos y privacidad, panel de administración interno y un chat integrado para atención al cliente. El despliegue se realizó en Vercel.<br><br>Demo: <a href='https://www.yapets.pe/' target='_blank'>yapets.pe</a>",
+        technologies: {
+            frontend: ["React", "TypeScript", "Tailwind CSS", "Radix UI", "Recharts", "Embla Carousel"],
+            backend: ["Supabase"],
+            databases: ["Supabase"],
+            devops: ["Vercel"],
+            otros: ["TanStack Start", "TanStack Router", "Zod", "React Hook Form", "Culqi", "xlsx"]
+        },
+        image: require('../assets/proyect-30.jpg'),
+        gallery: ["subproyects/subproyect_30_1.png", "subproyects/subproyect_30_2.png", "subproyects/subproyect_30_3.png", "subproyects/subproyect_30_4.png", "subproyects/subproyect_30_5.png", "subproyects/subproyect_30_6.png", "subproyects/subproyect_30_7.png", "subproyects/subproyect_30_8.png", "subproyects/subproyect_30_9.png", "subproyects/subproyect_30_10.png", "subproyects/subproyect_30_11.png", "subproyects/subproyect_30_12.png", "subproyects/subproyect_30_13.png", "subproyects/subproyect_30_14.png", "subproyects/subproyect_30_15.png", "subproyects/subproyect_30_16.png", "subproyects/subproyect_30_17.png"]
+    },
+    {
+        id: 31,
+        title: 'Video Editor - Editor de Video en el Navegador',
+        description: "Editor de video gratuito y de código abierto que funciona completamente dentro del navegador. Permite trabajar con <strong>múltiples niveles de video</strong> en la línea de tiempo, ajustar colores con ruedas y curvas, agregar texto y figuras, aplicar censura que sigue al objeto en movimiento y exportar el resultado final a la calidad deseada con soporte para resoluciones de 1920x1080, 1080x1080 y 1080x1920.<br><br>Se desarrolló con <strong>React</strong> y TypeScript, con Vite como bundler, Tailwind CSS para los estilos, Zustand para la gestión de estado global, Framer Motion para las animaciones, paneles redimensionables con React Resizable Panels y selector de color con React Colorful. El procesamiento de video se realizó con <strong>FFmpeg.wasm</strong> para la codificación y decodificación directamente en el navegador, mp4-muxer y mp4box para el empaquetado de archivos y MediaBunny como motor de composición. El audio se procesó con RNNoise para supresión de ruido.<br><br>La plataforma incluye una landing page con información del proyecto, sección de editor donde se trabaja directamente con los archivos, gestión de proyectos guardados, modo oscuro y soporte multiidioma. Soporta 21 transiciones, 6 niveles de video simultáneos, exportación a 60 fps y 20 efectos disponibles. El despliegue se realizó en Vercel.<br><br>Demo: <a href='https://video-editor-plus.vercel.app/' target='_blank'>video-editor-plus.vercel.app</a>",
+        technologies: {
+            frontend: ["React", "TypeScript", "Tailwind CSS", "Vite", "Framer Motion", "Zustand"],
+            backend: [],
+            databases: [],
+            devops: ["Vercel"],
+            otros: ["FFmpeg.wasm", "mp4-muxer", "mp4box", "RNNoise", "React Resizable Panels", "React Colorful", "Lenis"]
+        },
+        image: require('../assets/proyect-31.jpg'),
+        gallery: ["subproyects/subproyect_31_1.png", "subproyects/subproyect_31_2.png", "subproyects/subproyect_31_3.png", "subproyects/subproyect_31_4.png", "subproyects/subproyect_31_5.png", "subproyects/subproyect_31_6.png", "subproyects/subproyect_31_7.png", "subproyects/subproyect_31_8.png", "subproyects/subproyect_31_9.png", "subproyects/subproyect_31_10.png", "subproyects/subproyect_31_11.png", "subproyects/subproyect_31_12.png", "subproyects/subproyect_31_13.png", "subproyects/subproyect_31_14.png", "subproyects/subproyect_31_15.png"]
+    },
+    {
+        id: 32,
+        title: 'Incluye+ - Plataforma de Inclusión Social para Tumbes',
+        description: "Plataforma web desarrollada para la <strong>Oficina Regional de Atención a las Personas con Discapacidad (OREDIS)</strong> del Gobierno Regional de Tumbes. Permite a los ciudadanos solicitar, renovar y consultar el estado de su carné de discapacidad de forma gratuita, con atención presencial y virtual. El sistema centraliza información sobre los servicios, beneficios, programas sociales y centros de atención disponibles en la región para personas con discapacidad y sus familias.<br><br>La plataforma fue construida con <strong>Angular</strong> y TypeScript en el frontend, con diseño responsive, modo oscuro y funcionalidades de accesibilidad integradas. El backend fue desarrollado con <strong>Node.js</strong> y PostgreSQL como base de datos relacional. Se desplegó con Docker para la contenización de servicios y Netlify para el hosting del frontend.<br><br>El sistema cuenta con secciones de inicio, gestión de carnés (solicitud, renovación y consulta de estado del trámite), catálogo de servicios y beneficios, directorio de centros de atención en la región, módulo de noticias y comunicados oficiales, y formulario de contacto. Según las estadísticas de la plataforma se han emitido más de 12,500 carnés, se ofrecen más de 60 programas y beneficios, y se cuenta con 8 centros de atención activos.<br><br>Demo: <a href='https://oredis.netlify.app/carne' target='_blank'>oredis.netlify.app</a>",
+        technologies: {
+            frontend: ["Angular", "TypeScript", "Sass"],
+            backend: ["Node.js"],
+            databases: ["PostgreSQL"],
+            devops: ["Docker", "Netlify"],
+            otros: []
+        },
+        image: require('../assets/proyect-32.jpg'),
+        gallery: ["subproyects/subproyect_32_1.png", "subproyects/subproyect_32_2.png", "subproyects/subproyect_32_3.png", "subproyects/subproyect_32_4.png", "subproyects/subproyect_32_5.png", "subproyects/subproyect_32_6.png", "subproyects/subproyect_32_7.png", "subproyects/subproyect_32_8.png", "subproyects/subproyect_32_9.png", "subproyects/subproyect_32_10.png", "subproyects/subproyect_32_11.png"]
+    },
+    {
+        id: 33,
+        title: 'Screenshot Plus - Herramienta de Capturas de Pantalla',
+        description: "Herramienta de capturas de pantalla para Windows, gratuita y de código abierto, distribuida como un único ejecutable portable sin instalación. Permite capturar una región de la pantalla, la pantalla completa, la ventana activa o una página larga mediante <strong>captura con desplazamiento (scroll)</strong> que une automáticamente cada porción visible en una sola imagen, con vista previa en tiempo real.<br><br>Se desarrolló con <strong>Python 3.10+</strong> y PySide6 para la interfaz gráfica, Pillow para el procesamiento de imágenes (recortes, unión de tramos y exportación), mss para la captura a resolución nativa con soporte multimonitor, pynput para la escucha de atajos de teclado globales y pywin32 para el acceso a la API de Windows. La generación del ejecutable portable se realizó con <strong>PyInstaller</strong>.<br><br>Incluye un editor de anotaciones completo con 8 formas geométricas, líneas y flechas con estilos configurables, pincel de trazo libre, texto con todas las tipografías del sistema, herramienta para ocultar información sensible mediante pixelado o difuminado, opacidad regulable y selección múltiple. También cuenta con una pizarra de presentación para clases y reuniones, con zoom en vivo, puntero láser con estela configurable, herramientas de dibujo sobre pantalla congelada y atajos globales personalizables.<br><br>GitHub: <a href='https://github.com/Cris223511/screenshot-plus' target='_blank'>screenshot-plus</a>",
+        technologies: {
+            frontend: ["Python 3.10+", "PySide6"],
+            backend: [],
+            databases: [],
+            devops: [],
+            otros: ["Pillow", "mss", "pynput", "pywin32", "PyInstaller"]
+        },
+        image: require('../assets/proyect-33.jpg'),
+        gallery: ["subproyects/subproyect_33_1.png", "subproyects/subproyect_33_2.png", "subproyects/subproyect_33_3.png", "subproyects/subproyect_33_4.png", "subproyects/subproyect_33_5.png", "subproyects/subproyect_33_6.png", "subproyects/subproyect_33_7.png", "subproyects/subproyect_33_8.png", "subproyects/subproyect_33_9.png"]
     },
     {
         id: 22,
@@ -479,5 +479,3 @@ const projectsData = [
         ]
     },
 ];
-
-export default projectsData;
