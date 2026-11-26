@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portafolio/static/css/main.f605b0ea.css",
-    "main.js": "/portafolio/static/js/main.7354be06.js",
-    "static/media/logo-template.ai": "/portafolio/static/media/logo-template.1acf969a0bde30645dad.ai",
+    "main.js": "/portafolio/static/js/main.6be15f9f.js",
+    "static/media/logo-template.ai": "/portafolio/static/media/logo-template.8f626c6bcf9ebd3ef81d.ai",
     "static/media/subproyect_2_9.png": "/portafolio/static/media/subproyect_2_9.0a47d451b8fdbf348d8f.png",
     "static/media/subproyect_12_8.png": "/portafolio/static/media/subproyect_12_8.533b8edd711b01b3e9f2.png",
     "static/media/subproyect_2_10.png": "/portafolio/static/media/subproyect_2_10.f94b481fceef87eb680b.png",
@@ -545,8 +545,8 @@
     "static/media/subproyect_28_1.png": "/portafolio/static/media/subproyect_28_1.c81b290f8a834555f139.png",
     "static/media/proyect-33.jpg": "/portafolio/static/media/proyect-33.6e2a97108c49e8016475.jpg",
     "static/media/proyect-28.jpeg": "/portafolio/static/media/proyect-28.8f8c85eeb840cc8fadbd.jpeg",
+    "static/media/proyect-31.jpg": "/portafolio/static/media/proyect-31.42f7d1d6708824224815.jpg",
     "static/media/conference_05.jpg": "/portafolio/static/media/conference_05.269c07d2e14ce254a51b.jpg",
-    "static/media/proyect-31.jpg": "/portafolio/static/media/proyect-31.f4a6ce348904224a4e22.jpg",
     "static/media/educacion4.jpeg": "/portafolio/static/media/educacion4.8bb5ebcf182e49fd5abe.jpeg",
     "static/media/proyect-22.jpg": "/portafolio/static/media/proyect-22.929af296561a41536be2.jpg",
     "static/media/proyect-30.jpg": "/portafolio/static/media/proyect-30.a073c774a7d544c33e11.jpg",
@@ -567,6 +567,6 @@
   },
   "entrypoints": [
     "static/css/main.f605b0ea.css",
-    "static/js/main.7354be06.js"
+    "static/js/main.6be15f9f.js"
   ]
 }
