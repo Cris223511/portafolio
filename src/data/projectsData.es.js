@@ -1,6 +1,6 @@
 const projectsData = [
 
-export default projectsData;    {
+    {
         id: 0,
         title: "App USIL - Herramientas Digitales para la Vida Universitaria",
         description: "Plataforma digital integral para estudiantes universitarios con bloc de notas, calendario de actividades, calculadora de promedios, zona de entretenimiento, blogs y chat en tiempo real. Desarrollada en 2025 como iniciativa personal para ofrecer herramientas complementarias a los estudiantes de la Universidad San Ignacio de Loyola.<br><br>La plataforma integra múltiples módulos: bloc de notas para apuntes rápidos, calendario de actividades para organizar tareas, calculadora de promedios que permite simular calificaciones, zona de juegos ligeros para momentos de descanso, espacio de blogs donde los estudiantes pueden compartir experiencias y un chat en tiempo real para interactuar con otros usuarios de la comunidad.<br><br>El desarrollo comenzó en marzo de 2025 y continúa en evolución constante. Cada actualización se basa en observaciones reales y retroalimentación de usuarios, ajustando detalles y añadiendo funcionalidades que mejoren la experiencia. Más allá de su funcionamiento técnico, esta aplicación representa una propuesta concreta para resolver necesidades reales dentro del entorno universitario actual, priorizando la utilidad, cercanía y simplicidad desde el primer uso.<br><br>Demo: <a href='https://appusil.com' target='_blank'>appusil.com</a>",
@@ -479,3 +479,5 @@ export default projectsData;    {
         ]
     },
 ];
+
+export default projectsData;
